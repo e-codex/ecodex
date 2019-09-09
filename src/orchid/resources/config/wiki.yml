@@ -9,12 +9,12 @@ defaultConfig:
 
 sections:
   'ecodex':
-    - key: eCodex
+      key: eCodex
       title: 'eCodex'
       createPdf: true
 
   'connector':
-    - key: 'connector'
+      key: 'connector'
       title: 'Domibus Connector'
 
 
