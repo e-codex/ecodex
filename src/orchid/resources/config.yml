@@ -1,0 +1,60 @@
+site:
+  about:
+    siteName: 'e-Codex'
+    subtitle: 'e-Codex technical documentation'
+    siteDescription: 'This site contains technical documentation of the e-Codex Components'
+    avatar: '/assets/media/eCodex_Logo.png'
+
+theme:
+  useSidebarSearch: true
+#  primaryColor: '#7E80CF'
+#  bannerColor: '#444444'
+#  linkColor: '#7E80CF'
+  menu:
+    - type: 'page'
+      title: 'Home'
+      url: '/'
+    - type: 'wiki'
+    # - type: 'taxonomy'
+    #   taxonomyType: 'categories'
+    #   includeTerms: true
+    #   termsAtRoot: true
+    # - type: 'page'
+    #   title: 'About'
+    #   itemId: 'Author One'
+    # - type: "pages"
+    #   atRoot: true
+#  #sidebar:
+#    - type: Sitemap
+#    - type: recentPosts
+#      limit: 3
+#      category: gallery
+#      noWrapper: true
+#      template:
+#        - 'includes/postPreview_mini'
+#    - type: recentPosts
+#      limit: 5
+#      category: personal
+#      noWrapper: true
+#      template:
+#        - 'includes/postPreview_list'
+  extraCss:
+    - 'assets/css/extraCss.scss'
+    - 'assets/ecodex/css/ecodex.scss'
+    - 'assets/css/pygments.scss'
+  extraJs:
+    - 'assets/js/extraJs.js'
+
+#services:
+#  generators:
+#    externalIndices:
+#      - 'https://orchid.netlify.com/meta/all.index.json'
+
+
+# allPages:
+#   components:
+#     - type: 'pageContent'
+
+
+indices:
+  enablePageIndices: true

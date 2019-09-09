@@ -1,0 +1,12 @@
+{% extends 'layouts/trianglifyBase' %}
+
+{% block baseJumbotron %}
+
+    {{ 'assets/ecodex/media/e-CODEX_home_1500-2.jpg'|asset }}
+
+    <div class="bs-docs-masthead" id="jumbotron" style="background-image: url(&quot;{{ 'assets/ecodex/media/e-CODEX_home_1500-2.jpg'|asset }}&quot;);" >
+        <div class="container">
+            <h1 class="home-title">{{- page.title -}}</h1>
+        </div>
+    </div>
+{% endblock %}

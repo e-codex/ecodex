@@ -1,0 +1,20 @@
+defaultConfig:
+  title: 'Wiki'
+  createPdf: true
+  menu:
+    - type: 'separator'
+      title: 'In This Page'
+      order: 100
+
+
+sections:
+  'ecodex':
+    - key: eCodex
+      title: 'eCodex'
+      createPdf: true
+
+  'connector':
+    - key: 'connector'
+      title: 'Domibus Connector'
+
+

@@ -1,0 +1,23 @@
+
+.navbar {
+  background-color: RGB(235, 233, 233);
+  color: RGB(32, 57, 109);
+}
+
+
+
+
+
+#jumbotron {
+  //calling assets function does not work here!
+  //background-image: url("{{ 'assets/ecodex/media/e-CODEX_home_1500-2.jpg'|asset }}");
+  background-color: RGB(235, 233, 233);
+}
+
+//.bs-docs-masthead {
+//
+//  .banner {
+//    background-color: RGB(235, 233, 233);
+//  }
+//
+//}
