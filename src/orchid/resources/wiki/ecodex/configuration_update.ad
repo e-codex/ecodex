@@ -96,9 +96,9 @@ The following code-block contains an **example** Apache 2way-SSL-Configration.
     
   
 ```
-<VirtualHost _default_:4443>
+<VirtualHost _default_:443>
   SSLEngine on
-  ServerName localhost:4443
+  ServerName localhost:443
   SSLCertificateFile "${SRVROOT}/conf/ssl/server.crt"
   SSLCertificateKeyFile "${SRVROOT}/conf/ssl/server.key"    
   # The following Parameter holds all trusted client certificates (2) 
@@ -114,9 +114,12 @@ The following code-block contains an **example** Apache 2way-SSL-Configration.
     Require all granted
 	</Directory>
 
+  #always protect the whole v-host to avoid post-handshake authentication!
+  SSLVerifyClient Require
+
 
   <Location "/domibus/services/msh" >
-    SSLVerifyClient Require
+
     ProxyPass <gateway>/domibus/services/msh
     ProxyPassReverse <gateway>/domibus/services/msh    
   </Location>
@@ -210,7 +213,7 @@ Currently it is not possible to update the trusted-connector certificates within
 be replaced. To do this copy the file (f) to
 
  <connector_tomcat>/conf/connector/keystores/trusted_connectors.jks
- 
+
 And make sure that the connector property [connector.security.trust-store.path] points to that location!
 The following block contains an excerpt of the connector configuration with the relevant properties.
   
