@@ -119,7 +119,6 @@ The following code-block contains an **example** Apache 2way-SSL-Configration.
 
 
   <Location "/domibus/services/msh" >
-
     ProxyPass <gateway>/domibus/services/msh
     ProxyPassReverse <gateway>/domibus/services/msh    
   </Location>
