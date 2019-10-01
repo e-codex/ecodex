@@ -9,7 +9,7 @@ sittin' right 'tween this here title 'n header metadata
 :description: description of an example e-Codex environment Setup
 :library: Asciidoctor
 :stylesheet: asciidoc.css
-:imagesdir: ../../assets/media/images/
+:imagesdir: ../../../assets/media/images/
 
 
 The following setup describes an example setup of how the e-codex components can be installed.

@@ -1,14 +1,11 @@
 Configuration Update of e-Codex Environment
 ===========================================
-////
-Big ol' comment
 
-sittin' right 'tween this here title 'n header metadata
-////
+
 :description: descripton of how to upload configuration
 :library: Asciidoctor
 :stylesheet: asciidoc.css
-:imagesdir: ../../assets/media/images/
+:imagesdir: ../../../assets/media/images/
  
 The e-Codex environment establishes the connection betweent the access points (usually domibus gateway) over https connections.
 For this purpose multiple configuration parameters are necessary.

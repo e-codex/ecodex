@@ -1,0 +1,127 @@
+Security of e-Codex
+===================
+
+////
+Big ol' comment
+
+sittin' right 'tween this here title 'n header metadata
+////
+:description: Security design of e-Codex
+:library: Asciidoctor
+:stylesheet: asciidoc.css
+:imagesdir: ../../../assets/media/images/
+
+
+Overview of the e-Codex Components
+
+ * Country A
+    ** Gateway
+    ** Connector
+ * Country B
+    ** Gateway
+    ** Connector
+ * CMT
+ * Certificate Authority
+
+
+== Security Features
+
+ * Messages are only transported between 2 Domains
+ * Decentralized infrastructure - one compromised node only affects communication with this node
+ * Seperated infrastructures for certificate management and configuration management
+ * The IP-Addresses of the partners are known
+
+
+== Attacking e-Codex / e-Delivery
+
+The following text would give a brief overview of angle of attacks at the whole e-Codex infrastructure.
+
+=== Scenario 1 - Hijacking  an access point.
+
+ This is not really a design problem of e-Codex. Because the participants are
+responsible for their own infrastructure and security. But the problem will only affect the communication
+from and to this member state.
+
+=== Scenario 2 - Hijacking the CMT
+
+The CMT is responsible for distributing the configuration. The configuration contains all the used
+certificates and IP-Adresses. So an evil party would have the possibility to modify the p-Modes and
+certificates of an access-point and this would enable the evil party to intercept the data traffic.
+
+In this example the CMT distributes a configuration where Party A and Party B would get an P-Mode
+configuratoin and sets of certificates where a Party B' would act as an transparent proxy.
+
+Party A <-> Party B' <-> Party B
+
+This scenario is prevented by the usage of an 2nd party the Certificate Authority. All certificates
+within the e-Codex domain must be issued by this CA. So it would be very hard for Party B' to
+also get an valid e-Codex Certificate.
+
+NOTE: An additional security feature would be if the configuration is signed by the party administrator
+before it is going to be uploaded to the CMT.
+
+=== Scenario 3 - Hijacking of the CA
+
+If the CA is hijacked it would be possible for the attackers to issue valid e-Codex certificates. But
+still the certificates must also be part of the distributed configuration so also the evil issued
+certificates must become part of the by the CMT distributed configuration. So also the CMT
+must be compromised.
+
+== Conclusion
+
+The effort to perform an man-in-the-middle attack would be high. Especially if the whole network should be
+overtaken. In this case 2 seperate infrastructures must be captured. The CMT and the Certificate Authority.
+
+Most likely is the sceneario that a single access point is attacked. To prevent this the access-points
+should monitor the current by the CMT distributed configuration and check them against ther own current
+configuration. Also the public available lists of issued certificates should be checked on a regulary
+basis by the access-point administrator.
+
+
+== Attacking an single Access-Point
+
+Not only attacks on the whole network are possible. Also the single access-points can be valuable targets.
+Currently the e-Codex network is by design public available (through the internet). This gives
+the network a lot of flexibility but also makes it vulnerable to all kind of security threats.
+
+=== IP Whitelist
+
+As a first layer of hindering unpleasent guests the CMT is also distributing with the configuration
+a list of IP-Addresses. So it is very easy task to simple block the traffic from all IP-Addresses which
+are not within this Whitelist.
+
+=== TLS Client authentication
+
+The next level is the access to the gateway. The AS4 gateway is a simple Webservice. Within the e-Codex
+network it is possible to enable certificate based TLS-Client authentication. So only clients which
+do have a certificate signed by the RootCA and part of the distributed configuration are granted access
+to the webservice.
+
+=== TLS Encryption / Server Authentication
+
+As TLS Client authentication is used also the webserver must be authenticated to the client. For this purpose
+also certificates are used. This certificates also has to be signed by the RootCA. (Currently the
+domibus gateway does not support that the webserver certificate itself has to exists in the trusted
+webservers store).
+The whole communication between the gateway and the webserver is TLS encrypted!
+
+(TODO: define TLS level + at least used Algorithms - TLS1.3)
+
+=== AS4 Message encryption
+
+The over the opened HTTPs channel transported message has been signed and encrpyted by the sending gateway.
+Also the gateway is doing a sender and recipient certificate validation. So a corrupt webserver will not be
+sufficient to read the message content.
+
+=== Connector Message signature
+
+The over e-Delivery transported e-Codex messages and evidences are signed by the connector. So any modification
+on the gateway or between the two connectors would be detected by receiving connector.
+
+
+
+
+
+
+
+

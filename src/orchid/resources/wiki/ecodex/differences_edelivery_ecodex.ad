@@ -9,7 +9,7 @@ sittin' right 'tween this here title 'n header metadata
 :description: A text about the differences between e-Delivery and e-Codex
 :library: Asciidoctor
 :stylesheet: asciidoc.css
-:imagesdir: ../../assets/media/images/
+:imagesdir: ../../../assets/media/images/
 
 
 
@@ -17,7 +17,7 @@ To be disappointing at the first written line. There are no differences! E-deliv
 using e-Delivery to transport the e-Codex messages between two access points.
 
 
-= The features of e-Delivery
+== The features of e-Delivery
 
  * Utilizes AS4 messaging standard
  * Ensures message transport between two access-points
@@ -32,7 +32,7 @@ using e-Delivery to transport the e-Codex messages between two access points.
 image::e_delivery_flyer.png[]
 https://ec.europa.eu/cefdigital/wiki/download/attachments/82773424/20180912_eDelivery_Flyer.pdf?version=1&modificationDate=1537358787680&api=v2
 
-= The requirements of e-Codex
+== The requirements of e-Codex
 
 E-Delivery does a lot of things and is put to good use in a lot of projects. But for e-Codex there have been additional
 requirements.
