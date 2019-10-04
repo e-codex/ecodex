@@ -1,5 +1,5 @@
-Security of e-Codex
-===================
+e-Codex attack scenarios
+========================
 
 ////
 Big ol' comment
@@ -38,7 +38,7 @@ The following text would give a brief overview of angle of attacks at the whole 
 
 === Scenario 1 - Hijacking  an access point.
 
- This is not really a design problem of e-Codex. Because the participants are
+This is not really a design problem of e-Codex. Because the participants are
 responsible for their own infrastructure and security. But the problem will only affect the communication
 from and to this member state.
 

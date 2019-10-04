@@ -209,7 +209,7 @@
                             <configuration>
                                 <type>runtime</type>
                                 <properties>
-                                    <cargo.hostname>172.18.96.155</cargo.hostname>
+                                    <cargo.hostname>172.18.96.154</cargo.hostname>
                                     <cargo.protocol>http</cargo.protocol>
                                     <cargo.servlet.port>8080</cargo.servlet.port>
                                     <cargo.remote.username>jenkins-deploy</cargo.remote.username>

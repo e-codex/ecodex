@@ -83,7 +83,14 @@ image:ecodex_sample_configuration_package.png[]
 
 The jks format is the default keystore format in java. The PEM-Format on the other side is used within apache webservers. It
 contains the certificates Base64 encoded in a text file.
-  
+
+
+== Configuration Update Overview
+
+.Configuration update overview
+image:ecodex_ConfigurationUpdate.png[]
+
+
   
 == Update Webserver Configuration
   
