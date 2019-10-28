@@ -87,6 +87,15 @@ contains the certificates Base64 encoded in a text file.
 
 == Configuration Update Overview
 
+The following files needs to be copied or uploaded:
+
+ * trusted_https_clients.pem (c) must be copied to the Webserver
+ * trusted_gateways.jks (e) must be uploaded via the domibus UI into the domibus gw
+ * domibus-configuration-<country>.xml (h) must be uploaded via the domibus UI into the domibus gw
+ * trusted_https_servers.jks (b) must be copied into the domibus conf keystores folder
+ * trusted_connectors.jks (f) must be copied into the domibus connector keystores folder
+ * domibus-configuration-<country>.xml (h) **must also** be uploaded via the admin UI into the domibus **connector**
+
 .Configuration update overview
 image:ecodex_ConfigurationUpdate.png[]
 
@@ -146,7 +155,7 @@ Sometimes also an update of the security policy may be necessary.
 IMPORTANT: This description only gives a brief overview. For more details consult the gateway administration guide!
    
   
-=== Update Gateway Client Configuration
+=== Update Gateway Client Configuration | trusted_https_servers.jks (b)
   
 If a webserver certificate changes the trusted_https_servers.jks must be copied to the location configured
 within the clientauthentication.xml file. The file is usually located under
