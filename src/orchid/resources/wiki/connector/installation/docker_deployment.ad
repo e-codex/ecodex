@@ -1,0 +1,10 @@
+DEPLOY WITH DOCKER
+==================
+
+For some users it might be interesting to deploy the domibus connector within an
+container environment.
+
+Currently there is no ready to use docker container deployed in any docker registry.
+So you have to build the docker container by yourself. Since the connector is already
+available as spring-boot application the workload of this is reduced to a minimum.
+

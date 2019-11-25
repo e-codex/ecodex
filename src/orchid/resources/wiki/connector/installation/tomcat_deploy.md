@@ -3,11 +3,10 @@ DEPLOY ON TOMCAT
 
 The suggested way to deploy the application on an tomcat server is to define a new context which
 
- * configures a datasource
  * loads the application
  * set some parameters for the application
 
-The delivered zip contains a example application context, which has been tested on windows 7 with tomcat 7 & 8.0
+The delivered zip contains a example application context, which has been tested on windows 7, centos 7 with tomcat 8.5.x
 
 For further information consult the tomcat documentation: [https://tomcat.apache.org/tomcat-7.0-doc/config/context.html#Defining_a_context](https://tomcat.apache.org/tomcat-7.0-doc/config/context.html#Defining_a_context)
 
@@ -15,7 +14,9 @@ For further information consult the tomcat documentation: [https://tomcat.apache
 
 The deployment has been tested on following tomcat versions:
 
- * Apache Tomcat/8.5.23 on Windows 7
+ * Apache Tomcat/8.5.x on Windows 7, AdoptJDK 8
+ * Apache Tomcat/8.5.x on IBM AIX, Java 8
+ * Apache Tomcat/8.5.x on Centos, Java 8
  
 
 ### Step-by-Step
@@ -96,18 +97,6 @@ Execute the following commands on the database:
     create user connector identified by 'password';
     grant all privileges on connector.* to connector;   
     
-Execute the databaseInitializer:
-
->You can find the domibusConnectorDatabaseInitializer.jar in the folder database-scripts/databaseInitializer
-
-    java -jar domibusConnectorDatabaseInitializer.jar \
-        --changeLogFile=db/changelog/install/initial-4.0.xml \
-        --driver=com.mysql.jdbc.Driver \
-        --url=jdbc:mysql://localhost/connector \
-        --username=connector \
-        --password=password \        
-        upgrade
-          
 After that your database is ready to use. Continue configuring and deploying the connector war.          
           
 
@@ -128,20 +117,11 @@ Replace the databaseUrl, driverClass, eg. accordingly to your database settings:
 
 ```$xml
 <Context docBase="/opt/domibus/connectorWebApp.war">  
-    <Parameter  name="spring.datasource.jndi-name" 
-             value="jdbc/domibusWebConnectorDS" override="false" />
-    <Parameter  name="spring.config.location" 
+
+    <Parameter name="spring.config.location" 
                value="/etc/opt/domibus/config" 
                override="false" />  
-    <Resource name="jdbc/domibusWebConnectorDS" auth="Container"
-         type="javax.sql.DataSource" 
-         driverClassName="com.mysql.jdbc.Driver"
-         url="jdbc:mysql://localhost/connector"
-         username="connector" 
-         password="password" 
-         maxActive="20" 
-         maxIdle="10"
-         maxWait="-1"/>   
+ 
 </Context>
 ```
 
@@ -149,4 +129,4 @@ Copy the application example properties to /opt/domibus/config
 
     cp application.properties /opt/domibus/config 
 
-Configure the application properties according to your needs. Especially the security stores [Configuring Trust- and Keystores](certificates.html).
+Configure the application properties according to your needs. Especially the security stores [Configuring Trust- and Keystores](../key_and_trust_stores/).
