@@ -11,8 +11,8 @@
             <includes>
                 <include>**/*</include>
             </includes>
-            <directory>${project.basedir}/target/docs/orchid/</directory>
-            <outputDirectory>./</outputDirectory>
+            <directory>target/docs/orchid</directory>
+            <outputDirectory>page</outputDirectory>
         </fileSet>
     </fileSets>
 
