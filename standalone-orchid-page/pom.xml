@@ -52,7 +52,7 @@
                             <goal>unpack</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory>target/classes/public/</outputDirectory>
+                            <outputDirectory>target/classes/</outputDirectory>
                             <artifactItems>
                                 <artifactItem>
                                     <overWrite>true</overWrite>

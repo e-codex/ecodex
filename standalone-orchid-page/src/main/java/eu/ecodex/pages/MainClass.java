@@ -19,7 +19,7 @@ public class MainClass {
         // and no handlers, meaning all requests will result
         // in a 404 response
         ResourceHandler resHandler = new ResourceHandler();
-        resHandler.setBaseResource(Resource.newClassPathResource("/public"));
+        resHandler.setBaseResource(Resource.newClassPathResource("/page"));
         server.setHandler(resHandler);
 
         return server;
