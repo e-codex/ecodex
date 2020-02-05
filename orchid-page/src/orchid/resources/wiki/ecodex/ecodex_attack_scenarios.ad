@@ -11,6 +11,8 @@ sittin' right 'tween this here title 'n header metadata
 :stylesheet: asciidoc.css
 :imagesdir: ../../../assets/media/images/
 
+This document should provide a brief overview of possible attack scenarios
+on the e-Codex system.
 
 Overview of the e-Codex Components
 
@@ -26,7 +28,8 @@ Overview of the e-Codex Components
 
 == Security Features
 
- * Messages are only transported between 2 Domains
+ * Messages are only transported between 2 Domains (no 3rd party can read or even
+tell a message has been transported)
  * Decentralized infrastructure - one compromised node only affects communication with this node
  * Seperated infrastructures for certificate management and configuration management
  * The IP-Addresses of the partners are known

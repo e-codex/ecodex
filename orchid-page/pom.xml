@@ -16,7 +16,7 @@
 
     <properties>
         <orchid.version>0.17.5</orchid.version>
-        <!--<orchid.theme>OrchidBsDoc</orchid.theme>-->
+        <orchid.theme>OrchidBsDoc</orchid.theme>
     </properties>
 
     <dependencies>
@@ -51,7 +51,9 @@
 
                 <configuration>
                     <!-- Theme is required -->
+<!--                    <theme>FutureImperfect</theme>-->
                     <theme>BsDoc</theme>
+<!--                    <theme>Editorial</theme>-->
 
                     <!-- The following properties are optional -->
                     <version>${project.version}</version>
