@@ -106,12 +106,8 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.JavaEden:Eden:0.4.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.JavaEden:American-Bible-Society-Client:0.5.0" level="project" />
     <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidDiagrams:0.17.5" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: net.sourceforge.plantuml:plantuml:1.2019.6" level="project" />
     <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidSyntaxHighlighter:0.17.5" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.python:jython-standalone:2.7.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.pygments:pygments:2.4.2" level="project" />
     <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidWritersBlocks:0.17.5" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.atteo:evo-inflector:1.2.2" level="project" />
     <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidChangelog:0.17.5" level="project" />
     <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidForms:0.17.5" level="project" />
     <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidGroovydoc:0.17.5" level="project" />

@@ -49,6 +49,11 @@ theme:
 #  generators:
 #    externalIndices:
 #      - 'https://orchid.netlify.com/meta/all.index.json'
+#services:
+#  publications:
+#    stages:
+#        - type: 'githubPages'
+#          username:
 
 
 # allPages:

@@ -103,31 +103,61 @@
                         </configuration>
                     </plugin>
 
-                    <!--<plugin>-->
-                        <!--<groupId>org.apache.maven.plugins</groupId>-->
-                        <!--<artifactId>maven-war-plugin</artifactId>-->
-                        <!--<version>3.2.3</version>-->
-                        <!--<configuration>-->
-                            <!--&lt;!&ndash;<warName>${project.artifactId}.war</warName>&ndash;&gt;-->
-                            <!--<primaryArtifact>false</primaryArtifact>-->
-                            <!--<failOnMissingWebXml>false</failOnMissingWebXml>-->
-                            <!--<webResources>-->
-                                <!--<resource>-->
-                                    <!--&lt;!&ndash; this is relative to the pom.xml directory &ndash;&gt;-->
-                                    <!--<directory>target/docs/orchid</directory>-->
-                                <!--</resource>-->
-                            <!--</webResources>-->
-                        <!--</configuration>-->
-                        <!--<executions>-->
-                            <!--<execution>-->
-                                <!--<id>build-war</id>-->
-                                <!--<goals>-->
-                                    <!--<goal>war</goal>-->
-                                <!--</goals>-->
-                                <!--<phase>package</phase>-->
-                            <!--</execution>-->
-                        <!--</executions>-->
-                    <!--</plugin>-->
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>deployOnGitHub</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <artifactId>maven-deploy-plugin</artifactId>
+                        <configuration>
+                            <!-- skip when deployOnQS activated -->
+                            <skip>true</skip>
+                        </configuration>
+                    </plugin>
+
+                    <!-- Add the official Orchid Gradle plugin so you can use Orchid with the custom DSL -->
+                    <plugin>
+                        <groupId>io.github.javaeden.orchid</groupId>
+                        <artifactId>orchid-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>build-orchid</id>
+                                <phase>prepare-package</phase>
+                                <goals>
+                                    <goal>build</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                        <configuration>
+                            <baseUrl>/e-codex/ecodex/</baseUrl>
+                        </configuration>
+                    </plugin>
+
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-scm-publish-plugin</artifactId>
+                        <version>3.0.0</version>
+                        <configuration>
+                            <content>${project.build.directory}/docs/orchid/</content><!-- mono-module doesn't require site:stage -->
+                            <pubScmUrl>scm:git:https://github.com/e-codex/ecodex.git</pubScmUrl>
+                            <scmBranch>gh-pages</scmBranch>
+                        </configuration>
+                        <executions>
+                            <execution>
+                                <id>scm-publish</id>
+                                <phase>deploy</phase><!-- deploy site with maven-scm-publish-plugin -->
+                                <goals>
+                                    <goal>publish-scm</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+
+
+
                 </plugins>
             </build>
         </profile>
