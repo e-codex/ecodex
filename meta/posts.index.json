@@ -1,0 +1,242 @@
+{
+  "ownKey": "posts",
+  "childrenPages": {
+    "category2": {
+      "ownKey": "category2",
+      "childrenPages": {"2018": {
+        "ownKey": "2018",
+        "childrenPages": {"1": {
+          "ownKey": "1",
+          "childrenPages": {
+            "1": {
+              "ownKey": "1",
+              "childrenPages": {"example-post": {
+                "ownKey": "example-post",
+                "ownPages": [{
+                  "reference": {
+                    "path": "category2/2018/1/1",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category2/2018/1/1/example-post"
+                  },
+                  "next": {
+                    "path": "category2/2018/1/2",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post-2/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category2/2018/1/2/example-post-2"
+                  },
+                  "description": "",
+                  "title": "Example Post Category 2",
+                  "content": "<p>Example Post in Category 2<\/p>\n"
+                }]
+              }}
+            },
+            "2": {
+              "ownKey": "2",
+              "childrenPages": {"example-post-2": {
+                "ownKey": "example-post-2",
+                "ownPages": [{
+                  "reference": {
+                    "path": "category2/2018/1/2",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post-2/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category2/2018/1/2/example-post-2"
+                  },
+                  "next": {
+                    "path": "category2/2018/1/3",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post-3/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category2/2018/1/3/example-post-3"
+                  },
+                  "previous": {
+                    "path": "category2/2018/1/1",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category2/2018/1/1/example-post"
+                  },
+                  "description": "",
+                  "title": "Example Post Category 2",
+                  "content": "<p>Example Post in Category 2<\/p>\n"
+                }]
+              }}
+            },
+            "3": {
+              "ownKey": "3",
+              "childrenPages": {"example-post-3": {
+                "ownKey": "example-post-3",
+                "ownPages": [{
+                  "reference": {
+                    "path": "category2/2018/1/3",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post-3/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category2/2018/1/3/example-post-3"
+                  },
+                  "previous": {
+                    "path": "category2/2018/1/2",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post-2/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category2/2018/1/2/example-post-2"
+                  },
+                  "description": "",
+                  "title": "Example Post Category 2",
+                  "content": "<p>Example Post in Category 2<\/p>\n"
+                }]
+              }}
+            }
+          }
+        }}
+      }}
+    },
+    "category1": {
+      "ownKey": "category1",
+      "childrenPages": {"2018": {
+        "ownKey": "2018",
+        "childrenPages": {"1": {
+          "ownKey": "1",
+          "childrenPages": {
+            "1": {
+              "ownKey": "1",
+              "childrenPages": {"example-post": {
+                "ownKey": "example-post",
+                "ownPages": [{
+                  "reference": {
+                    "path": "category1/2018/1/1",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category1/2018/1/1/example-post"
+                  },
+                  "next": {
+                    "path": "category1/2018/1/2",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post-2/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category1/2018/1/2/example-post-2"
+                  },
+                  "description": "",
+                  "title": "Example Post Category 1",
+                  "content": "<p>Example Post in Category 1<\/p>\n"
+                }]
+              }}
+            },
+            "2": {
+              "ownKey": "2",
+              "childrenPages": {"example-post-2": {
+                "ownKey": "example-post-2",
+                "ownPages": [{
+                  "reference": {
+                    "path": "category1/2018/1/2",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post-2/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category1/2018/1/2/example-post-2"
+                  },
+                  "next": {
+                    "path": "category1/2018/1/3",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post-3/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category1/2018/1/3/example-post-3"
+                  },
+                  "previous": {
+                    "path": "category1/2018/1/1",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category1/2018/1/1/example-post"
+                  },
+                  "description": "",
+                  "title": "Example Post Category 1",
+                  "content": "<p>Example Post in Category 1<\/p>\n"
+                }]
+              }}
+            },
+            "3": {
+              "ownKey": "3",
+              "childrenPages": {"example-post-3": {
+                "ownKey": "example-post-3",
+                "ownPages": [{
+                  "reference": {
+                    "path": "category1/2018/1/3",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post-3/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category1/2018/1/3/example-post-3"
+                  },
+                  "previous": {
+                    "path": "category1/2018/1/2",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post-2/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category1/2018/1/2/example-post-2"
+                  },
+                  "description": "",
+                  "title": "Example Post Category 1",
+                  "content": "<p>Example Post in Category 1<\/p>\n"
+                }]
+              }}
+            }
+          }
+        }}
+      }}
+    },
+    "authors": {
+      "ownKey": "authors",
+      "childrenPages": {
+        "author-one": {
+          "ownKey": "author-one",
+          "ownPages": [{
+            "reference": {
+              "path": "authors",
+              "baseUrl": "/e-codex/ecodex",
+              "fileName": "author-one/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "/e-codex/ecodex/authors/author-one"
+            },
+            "description": "",
+            "title": "Author One",
+            "content": ""
+          }]
+        },
+        "author-two": {
+          "ownKey": "author-two",
+          "ownPages": [{
+            "reference": {
+              "path": "authors",
+              "baseUrl": "/e-codex/ecodex",
+              "fileName": "author-two/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "/e-codex/ecodex/authors/author-two"
+            },
+            "description": "",
+            "title": "Author Two",
+            "content": ""
+          }]
+        }
+      }
+    }
+  }
+}

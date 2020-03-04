@@ -1,0 +1,19 @@
+{
+  "reference": {
+    "path": "authors",
+    "baseUrl": "/e-codex/ecodex",
+    "fileName": "author-one/",
+    "extension": "html",
+    "usePrettyUrl": true,
+    "link": "/e-codex/ecodex/authors/author-one"
+  },
+  "data": {
+    "name": "Author One",
+    "avatar": "/assets/images/avatar.jpg",
+    "title": "Author One",
+    "email": "cjbrooks12@gmail.com"
+  },
+  "description": "",
+  "title": "Author One",
+  "content": ""
+}

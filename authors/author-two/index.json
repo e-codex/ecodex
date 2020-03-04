@@ -1,0 +1,14 @@
+{
+  "reference": {
+    "path": "authors",
+    "baseUrl": "/e-codex/ecodex",
+    "fileName": "author-two/",
+    "extension": "html",
+    "usePrettyUrl": true,
+    "link": "/e-codex/ecodex/authors/author-two"
+  },
+  "data": {},
+  "description": "",
+  "title": "Author Two",
+  "content": ""
+}

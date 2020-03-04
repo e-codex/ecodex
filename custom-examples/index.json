@@ -1,0 +1,14 @@
+{
+  "reference": {
+    "path": "",
+    "baseUrl": "/e-codex/ecodex",
+    "fileName": "custom-examples",
+    "extension": "html",
+    "usePrettyUrl": true,
+    "link": "/e-codex/ecodex/custom-examples"
+  },
+  "data": {"title": "Examples - Custom"},
+  "description": "",
+  "title": "Examples - Custom",
+  "content": "<div class=\"paragraph\">\n<p>Below is an example tag that replaces all occurrances of <code>Orchid<\/code> with <code>site.about.siteName<\/code> (which is\ne-Codex). This tag was created just for this site, and is included as a \"private plugin\" for Orchid.\nThis page also demonstrates how pages can be rendered with the Asciidoctor format, and use Front Matter with TOML\ninstead of YAML.<\/p>\n<\/div>\n<hr>\n<div class=\"paragraph\">\n<p>Orchid is a wonderful new Static Site Generator designed to be easy to use, while being highly extensible and incredibly\npowerful. Orchid consists of a core framework which provides the structure for extensibility, and numerous official\nplugins that give you the freedom to make your Orchid site perfectly unique. As Orchid is designed to replace Javadocs,\nJekyll, Gitbook, Hugo, and just about any other static site generator out there, many of these plugins are designed with\na content model that closely matches that of these other frameworks, but being a part of the larger Orchid ecosystem,\nprovides all benefits that come in addition to those models that the core Orchid frameworks gives us for free, while all\nbeing rendered in one single, beautiful theme.<\/p>\n<\/div>\n<hr>"
+}

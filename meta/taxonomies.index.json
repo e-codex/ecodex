@@ -1,0 +1,128 @@
+{
+  "ownKey": "taxonomies",
+  "childrenPages": {
+    "categories": {
+      "ownKey": "categories",
+      "childrenPages": {
+        "category2": {
+          "ownKey": "category2",
+          "ownPages": [{
+            "reference": {
+              "path": "categories/category2",
+              "baseUrl": "/e-codex/ecodex",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "/e-codex/ecodex/categories/category2",
+              "title": "Category 2"
+            },
+            "description": "",
+            "title": "Category 2",
+            "content": ""
+          }]
+        },
+        "category1": {
+          "ownKey": "category1",
+          "ownPages": [{
+            "reference": {
+              "path": "categories/category1",
+              "baseUrl": "/e-codex/ecodex",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "/e-codex/ecodex/categories/category1",
+              "title": "Category 1"
+            },
+            "description": "",
+            "title": "Category 1",
+            "content": ""
+          }]
+        }
+      },
+      "ownPages": [{
+        "reference": {
+          "path": "categories",
+          "baseUrl": "/e-codex/ecodex",
+          "fileName": "/",
+          "extension": "html",
+          "usePrettyUrl": true,
+          "link": "/e-codex/ecodex/categories",
+          "title": "Categories"
+        },
+        "description": "",
+        "title": "Categories",
+        "content": ""
+      }]
+    },
+    "tags": {
+      "ownKey": "tags",
+      "childrenPages": {
+        "one": {
+          "ownKey": "one",
+          "ownPages": [{
+            "reference": {
+              "path": "tags/one",
+              "baseUrl": "/e-codex/ecodex",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "/e-codex/ecodex/tags/one",
+              "title": "One"
+            },
+            "description": "",
+            "title": "One",
+            "content": ""
+          }]
+        },
+        "three": {
+          "ownKey": "three",
+          "ownPages": [{
+            "reference": {
+              "path": "tags/three",
+              "baseUrl": "/e-codex/ecodex",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "/e-codex/ecodex/tags/three",
+              "title": "Three"
+            },
+            "description": "",
+            "title": "Three",
+            "content": ""
+          }]
+        },
+        "two": {
+          "ownKey": "two",
+          "ownPages": [{
+            "reference": {
+              "path": "tags/two",
+              "baseUrl": "/e-codex/ecodex",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "/e-codex/ecodex/tags/two",
+              "title": "Two"
+            },
+            "description": "",
+            "title": "Two",
+            "content": ""
+          }]
+        }
+      },
+      "ownPages": [{
+        "reference": {
+          "path": "tags",
+          "baseUrl": "/e-codex/ecodex",
+          "fileName": "/",
+          "extension": "html",
+          "usePrettyUrl": true,
+          "link": "/e-codex/ecodex/tags",
+          "title": "Tags"
+        },
+        "description": "",
+        "title": "Tags",
+        "content": ""
+      }]
+    }
+  }
+}

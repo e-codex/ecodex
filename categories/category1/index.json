@@ -1,0 +1,15 @@
+{
+  "reference": {
+    "path": "categories/category1",
+    "baseUrl": "/e-codex/ecodex",
+    "fileName": "/",
+    "extension": "html",
+    "usePrettyUrl": true,
+    "link": "/e-codex/ecodex/categories/category1",
+    "title": "Category 1"
+  },
+  "data": {},
+  "description": "",
+  "title": "Category 1",
+  "content": ""
+}

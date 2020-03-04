@@ -1,0 +1,22 @@
+{
+  "reference": {
+    "path": "wiki/connector",
+    "baseUrl": "/e-codex/ecodex",
+    "fileName": "evidence",
+    "extension": "html",
+    "usePrettyUrl": true,
+    "link": "/e-codex/ecodex/wiki/connector/evidence"
+  },
+  "next": {
+    "path": "wiki/connector",
+    "baseUrl": "/e-codex/ecodex",
+    "fileName": "modules_description",
+    "extension": "html",
+    "usePrettyUrl": true,
+    "link": "/e-codex/ecodex/wiki/connector/modules_description"
+  },
+  "data": {},
+  "description": "",
+  "title": "Evidence",
+  "content": "<h1 id=\"evidence\">Evidence<\/h1>\n<p>The evidence in the connector context is the proof that a message has been delivered, rejected or not delivered.\nSee also: <a href=\"http://www.etsi.org/deliver/etsi_ts/102600_102699/10264002/02.02.01_60/ts_10264002v020201p.pdf\">PDF ETSI REM<\/a><\/p>\n<p>Following evidences are used by the connector/e-codex:<\/p>\n<ul>\n<li>SUBMISSION_ACCEPTANCE: The initial business message has been successfully submitted to the Gateway<\/li>\n<li>SUBMISSION_REJECTION: The connector was not able to submit the message to the Gateway, due the message is invalid, the asic-container could not be created, ...<\/li>\n<li>TODO: add missing evidences...and link them to the sequence diagramm<\/li>\n<\/ul>\n"
+}

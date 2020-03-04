@@ -1,0 +1,733 @@
+{
+  "ownKey": "internal",
+  "childrenPages": {
+    "custom-examples": {
+      "ownKey": "custom-examples",
+      "ownPages": [{
+        "reference": {
+          "path": "",
+          "baseUrl": "/e-codex/ecodex",
+          "fileName": "custom-examples",
+          "extension": "html",
+          "usePrettyUrl": true,
+          "link": "/e-codex/ecodex/custom-examples"
+        },
+        "description": "",
+        "title": "Examples - Custom",
+        "content": "<div class=\"paragraph\">\n<p>Below is an example tag that replaces all occurrances of <code>Orchid<\/code> with <code>site.about.siteName<\/code> (which is\ne-Codex). This tag was created just for this site, and is included as a \"private plugin\" for Orchid.\nThis page also demonstrates how pages can be rendered with the Asciidoctor format, and use Front Matter with TOML\ninstead of YAML.<\/p>\n<\/div>\n<hr>\n<div class=\"paragraph\">\n<p>Orchid is a wonderful new Static Site Generator designed to be easy to use, while being highly extensible and incredibly\npowerful. Orchid consists of a core framework which provides the structure for extensibility, and numerous official\nplugins that give you the freedom to make your Orchid site perfectly unique. As Orchid is designed to replace Javadocs,\nJekyll, Gitbook, Hugo, and just about any other static site generator out there, many of these plugins are designed with\na content model that closely matches that of these other frameworks, but being a part of the larger Orchid ecosystem,\nprovides all benefits that come in addition to those models that the core Orchid frameworks gives us for free, while all\nbeing rendered in one single, beautiful theme.<\/p>\n<\/div>\n<hr>"
+      }]
+    },
+    "category2": {
+      "ownKey": "category2",
+      "childrenPages": {"2018": {
+        "ownKey": "2018",
+        "childrenPages": {"1": {
+          "ownKey": "1",
+          "childrenPages": {
+            "1": {
+              "ownKey": "1",
+              "childrenPages": {"example-post": {
+                "ownKey": "example-post",
+                "ownPages": [{
+                  "reference": {
+                    "path": "category2/2018/1/1",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category2/2018/1/1/example-post"
+                  },
+                  "next": {
+                    "path": "category2/2018/1/2",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post-2/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category2/2018/1/2/example-post-2"
+                  },
+                  "description": "",
+                  "title": "Example Post Category 2",
+                  "content": "<p>Example Post in Category 2<\/p>\n"
+                }]
+              }}
+            },
+            "2": {
+              "ownKey": "2",
+              "childrenPages": {"example-post-2": {
+                "ownKey": "example-post-2",
+                "ownPages": [{
+                  "reference": {
+                    "path": "category2/2018/1/2",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post-2/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category2/2018/1/2/example-post-2"
+                  },
+                  "next": {
+                    "path": "category2/2018/1/3",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post-3/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category2/2018/1/3/example-post-3"
+                  },
+                  "previous": {
+                    "path": "category2/2018/1/1",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category2/2018/1/1/example-post"
+                  },
+                  "description": "",
+                  "title": "Example Post Category 2",
+                  "content": "<p>Example Post in Category 2<\/p>\n"
+                }]
+              }}
+            },
+            "3": {
+              "ownKey": "3",
+              "childrenPages": {"example-post-3": {
+                "ownKey": "example-post-3",
+                "ownPages": [{
+                  "reference": {
+                    "path": "category2/2018/1/3",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post-3/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category2/2018/1/3/example-post-3"
+                  },
+                  "previous": {
+                    "path": "category2/2018/1/2",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post-2/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category2/2018/1/2/example-post-2"
+                  },
+                  "description": "",
+                  "title": "Example Post Category 2",
+                  "content": "<p>Example Post in Category 2<\/p>\n"
+                }]
+              }}
+            }
+          }
+        }}
+      }}
+    },
+    "programming-examples": {
+      "ownKey": "programming-examples",
+      "ownPages": [{
+        "reference": {
+          "path": "",
+          "baseUrl": "/e-codex/ecodex",
+          "fileName": "programming-examples",
+          "extension": "html",
+          "usePrettyUrl": true,
+          "link": "/e-codex/ecodex/programming-examples"
+        },
+        "description": "",
+        "title": "Examples - Programming",
+        "content": "<h3 id=\"syntax-highlighting-with-pygments\">Syntax Highlighting with Pygments<\/h3>\n<pre><code class=\"language-pebble\">{% highlight language=&quot;java&quot; %}\n    public abstract class OrchidGenerator extends Prioritized implements OptionsHolder {\n        \n        protected final String key;\n    \n        protected final OrchidContext context;\n    \n        @Inject\n        public OrchidGenerator(OrchidContext context, String key, int priority) {\n            super(priority);\n            this.key = key;\n            this.context = context;\n        }\n    \n        /**\n         * A callback to build the index of content this OrchidGenerator intends to create.\n         *\n         * @return a list of pages that will be built by this generator\n         */\n        public abstract List&lt;? extends OrchidPage&gt; startIndexing();\n    \n        /**\n         * A callback to begin generating content. The index is fully built and should not be changed at this time. The\n         * list of pages returned by `startIndexing` is passed back in as an argument to the method.\n         *\n         * @param pages the pages to render\n         */\n        public abstract void startGeneration(Stream&lt;? extends OrchidPage&gt; pages);\n    }\n{% endhighlight %}\n\n<\/code><\/pre>\n<div class=\"highlight\"><pre><span><\/span><a name=\"line-1\"><\/a><span class=\"lineno\">&nbsp;1&nbsp;<\/span><span class=\"kd\">public<\/span>&nbsp;<span class=\"kd\">abstract<\/span>&nbsp;<span class=\"kd\">class<\/span>&nbsp;<span class=\"nc\">OrchidGenerator<\/span>&nbsp;<span class=\"kd\">extends<\/span>&nbsp;<span class=\"n\">Prioritized<\/span>&nbsp;<span class=\"kd\">implements<\/span>&nbsp;<span class=\"n\">OptionsHolder<\/span>&nbsp;<span class=\"o\">{<\/span><br><a name=\"line-2\"><\/a><span class=\"lineno\">&nbsp;2&nbsp;<\/span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><a name=\"line-3\"><\/a><span class=\"lineno\">&nbsp;3&nbsp;<\/span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"kd\">protected<\/span>&nbsp;<span class=\"kd\">final<\/span>&nbsp;<span class=\"n\">String<\/span>&nbsp;<span class=\"n\">key<\/span><span class=\"o\">;<\/span><br><a name=\"line-4\"><\/a><span class=\"lineno\">&nbsp;4&nbsp;<\/span>&nbsp;&nbsp;&nbsp;&nbsp;<br><a name=\"line-5\"><\/a><span class=\"lineno\">&nbsp;5&nbsp;<\/span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"kd\">protected<\/span>&nbsp;<span class=\"kd\">final<\/span>&nbsp;<span class=\"n\">OrchidContext<\/span>&nbsp;<span class=\"n\">context<\/span><span class=\"o\">;<\/span><br><a name=\"line-6\"><\/a><span class=\"lineno\">&nbsp;6&nbsp;<\/span>&nbsp;&nbsp;&nbsp;&nbsp;<br><a name=\"line-7\"><\/a><span class=\"lineno\">&nbsp;7&nbsp;<\/span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"nd\">@Inject<\/span><br><a name=\"line-8\"><\/a><span class=\"lineno\">&nbsp;8&nbsp;<\/span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"kd\">public<\/span>&nbsp;<span class=\"nf\">OrchidGenerator<\/span><span class=\"o\">(<\/span><span class=\"n\">OrchidContext<\/span>&nbsp;<span class=\"n\">context<\/span><span class=\"o\">,<\/span>&nbsp;<span class=\"n\">String<\/span>&nbsp;<span class=\"n\">key<\/span><span class=\"o\">,<\/span>&nbsp;<span class=\"kt\">int<\/span>&nbsp;<span class=\"n\">priority<\/span><span class=\"o\">)<\/span>&nbsp;<span class=\"o\">{<\/span><br><a name=\"line-9\"><\/a><span class=\"lineno\">&nbsp;9&nbsp;<\/span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"kd\">super<\/span><span class=\"o\">(<\/span><span class=\"n\">priority<\/span><span class=\"o\">);<\/span><br><a name=\"line-10\"><\/a><span class=\"lineno\">10&nbsp;<\/span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"k\">this<\/span><span class=\"o\">.<\/span><span class=\"na\">key<\/span>&nbsp;<span class=\"o\">=<\/span>&nbsp;<span class=\"n\">key<\/span><span class=\"o\">;<\/span><br><a name=\"line-11\"><\/a><span class=\"lineno\">11&nbsp;<\/span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"k\">this<\/span><span class=\"o\">.<\/span><span class=\"na\">context<\/span>&nbsp;<span class=\"o\">=<\/span>&nbsp;<span class=\"n\">context<\/span><span class=\"o\">;<\/span><br><a name=\"line-12\"><\/a><span class=\"lineno\">12&nbsp;<\/span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"o\">}<\/span><br><a name=\"line-13\"><\/a><span class=\"lineno\">13&nbsp;<\/span>&nbsp;&nbsp;&nbsp;&nbsp;<br><a name=\"line-14\"><\/a><span class=\"lineno\">14&nbsp;<\/span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"cm\">/**<\/span><br><a name=\"line-15\"><\/a><span class=\"lineno\">15&nbsp;<\/span><span class=\"cm\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;A&nbsp;callback&nbsp;to&nbsp;build&nbsp;the&nbsp;index&nbsp;of&nbsp;content&nbsp;this&nbsp;OrchidGenerator&nbsp;intends&nbsp;to&nbsp;create.<\/span><br><a name=\"line-16\"><\/a><span class=\"lineno\">16&nbsp;<\/span><span class=\"cm\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*<\/span><br><a name=\"line-17\"><\/a><span class=\"lineno\">17&nbsp;<\/span><span class=\"cm\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;@return&nbsp;a&nbsp;list&nbsp;of&nbsp;pages&nbsp;that&nbsp;will&nbsp;be&nbsp;built&nbsp;by&nbsp;this&nbsp;generator<\/span><br><a name=\"line-18\"><\/a><span class=\"lineno\">18&nbsp;<\/span><span class=\"cm\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/<\/span><br><a name=\"line-19\"><\/a><span class=\"lineno\">19&nbsp;<\/span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"kd\">public<\/span>&nbsp;<span class=\"kd\">abstract<\/span>&nbsp;<span class=\"n\">List<\/span><span class=\"o\">&lt;?<\/span>&nbsp;<span class=\"kd\">extends<\/span>&nbsp;<span class=\"n\">OrchidPage<\/span><span class=\"o\">&gt;<\/span>&nbsp;<span class=\"nf\">startIndexing<\/span><span class=\"o\">();<\/span><br><a name=\"line-20\"><\/a><span class=\"lineno\">20&nbsp;<\/span>&nbsp;&nbsp;&nbsp;&nbsp;<br><a name=\"line-21\"><\/a><span class=\"lineno\">21&nbsp;<\/span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"cm\">/**<\/span><br><a name=\"line-22\"><\/a><span class=\"lineno\">22&nbsp;<\/span><span class=\"cm\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;A&nbsp;callback&nbsp;to&nbsp;begin&nbsp;generating&nbsp;content.&nbsp;The&nbsp;index&nbsp;is&nbsp;fully&nbsp;built&nbsp;and&nbsp;should&nbsp;not&nbsp;be&nbsp;changed&nbsp;at&nbsp;this&nbsp;time.&nbsp;The<\/span><br><a name=\"line-23\"><\/a><span class=\"lineno\">23&nbsp;<\/span><span class=\"cm\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;list&nbsp;of&nbsp;pages&nbsp;returned&nbsp;by&nbsp;`startIndexing`&nbsp;is&nbsp;passed&nbsp;back&nbsp;in&nbsp;as&nbsp;an&nbsp;argument&nbsp;to&nbsp;the&nbsp;method.<\/span><br><a name=\"line-24\"><\/a><span class=\"lineno\">24&nbsp;<\/span><span class=\"cm\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*<\/span><br><a name=\"line-25\"><\/a><span class=\"lineno\">25&nbsp;<\/span><span class=\"cm\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;@param&nbsp;pages&nbsp;the&nbsp;pages&nbsp;to&nbsp;render<\/span><br><a name=\"line-26\"><\/a><span class=\"lineno\">26&nbsp;<\/span><span class=\"cm\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/<\/span><br><a name=\"line-27\"><\/a><span class=\"lineno\">27&nbsp;<\/span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"kd\">public<\/span>&nbsp;<span class=\"kd\">abstract<\/span>&nbsp;<span class=\"kt\">void<\/span>&nbsp;<span class=\"nf\">startGeneration<\/span><span class=\"o\">(<\/span><span class=\"n\">Stream<\/span><span class=\"o\">&lt;?<\/span>&nbsp;<span class=\"kd\">extends<\/span>&nbsp;<span class=\"n\">OrchidPage<\/span><span class=\"o\">&gt;<\/span>&nbsp;<span class=\"n\">pages<\/span><span class=\"o\">);<\/span><br><a name=\"line-28\"><\/a><span class=\"lineno\">28&nbsp;<\/span>&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"o\">}<\/span><br><\/pre><\/div><br>\n<hr />\n<h3 id=\"embed-github-gist\">Embed Github Gist<\/h3>\n<pre><code class=\"language-pebble\">{% gist user=&quot;cjbrooks12&quot; id=&quot;83a11f066388c9fe905ee1bab47ecca8&quot; %}\n\n<\/code><\/pre>\n<script src=\"https://gist.github.com/cjbrooks12/83a11f066388c9fe905ee1bab47ecca8.js\"><\/script>\n<hr />\n"
+      }]
+    },
+    "category1": {
+      "ownKey": "category1",
+      "childrenPages": {"2018": {
+        "ownKey": "2018",
+        "childrenPages": {"1": {
+          "ownKey": "1",
+          "childrenPages": {
+            "1": {
+              "ownKey": "1",
+              "childrenPages": {"example-post": {
+                "ownKey": "example-post",
+                "ownPages": [{
+                  "reference": {
+                    "path": "category1/2018/1/1",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category1/2018/1/1/example-post"
+                  },
+                  "next": {
+                    "path": "category1/2018/1/2",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post-2/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category1/2018/1/2/example-post-2"
+                  },
+                  "description": "",
+                  "title": "Example Post Category 1",
+                  "content": "<p>Example Post in Category 1<\/p>\n"
+                }]
+              }}
+            },
+            "2": {
+              "ownKey": "2",
+              "childrenPages": {"example-post-2": {
+                "ownKey": "example-post-2",
+                "ownPages": [{
+                  "reference": {
+                    "path": "category1/2018/1/2",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post-2/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category1/2018/1/2/example-post-2"
+                  },
+                  "next": {
+                    "path": "category1/2018/1/3",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post-3/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category1/2018/1/3/example-post-3"
+                  },
+                  "previous": {
+                    "path": "category1/2018/1/1",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category1/2018/1/1/example-post"
+                  },
+                  "description": "",
+                  "title": "Example Post Category 1",
+                  "content": "<p>Example Post in Category 1<\/p>\n"
+                }]
+              }}
+            },
+            "3": {
+              "ownKey": "3",
+              "childrenPages": {"example-post-3": {
+                "ownKey": "example-post-3",
+                "ownPages": [{
+                  "reference": {
+                    "path": "category1/2018/1/3",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post-3/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category1/2018/1/3/example-post-3"
+                  },
+                  "previous": {
+                    "path": "category1/2018/1/2",
+                    "baseUrl": "/e-codex/ecodex",
+                    "fileName": "example-post-2/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/e-codex/ecodex/category1/2018/1/2/example-post-2"
+                  },
+                  "description": "",
+                  "title": "Example Post Category 1",
+                  "content": "<p>Example Post in Category 1<\/p>\n"
+                }]
+              }}
+            }
+          }
+        }}
+      }}
+    },
+    "wiki": {
+      "ownKey": "wiki",
+      "childrenPages": {
+        "connector": {
+          "ownKey": "connector",
+          "childrenPages": {
+            "evidence": {
+              "ownKey": "evidence",
+              "ownPages": [{
+                "reference": {
+                  "path": "wiki/connector",
+                  "baseUrl": "/e-codex/ecodex",
+                  "fileName": "evidence",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "/e-codex/ecodex/wiki/connector/evidence"
+                },
+                "next": {
+                  "path": "wiki/connector",
+                  "baseUrl": "/e-codex/ecodex",
+                  "fileName": "modules_description",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "/e-codex/ecodex/wiki/connector/modules_description"
+                },
+                "description": "",
+                "title": "Evidence",
+                "content": "<h1 id=\"evidence\">Evidence<\/h1>\n<p>The evidence in the connector context is the proof that a message has been delivered, rejected or not delivered.\nSee also: <a href=\"http://www.etsi.org/deliver/etsi_ts/102600_102699/10264002/02.02.01_60/ts_10264002v020201p.pdf\">PDF ETSI REM<\/a><\/p>\n<p>Following evidences are used by the connector/e-codex:<\/p>\n<ul>\n<li>SUBMISSION_ACCEPTANCE: The initial business message has been successfully submitted to the Gateway<\/li>\n<li>SUBMISSION_REJECTION: The connector was not able to submit the message to the Gateway, due the message is invalid, the asic-container could not be created, ...<\/li>\n<li>TODO: add missing evidences...and link them to the sequence diagramm<\/li>\n<\/ul>\n"
+              }]
+            },
+            "modules_description": {
+              "ownKey": "modules_description",
+              "ownPages": [{
+                "reference": {
+                  "path": "wiki/connector",
+                  "baseUrl": "/e-codex/ecodex",
+                  "fileName": "modules_description",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "/e-codex/ecodex/wiki/connector/modules_description"
+                },
+                "next": {
+                  "path": "wiki/connector",
+                  "baseUrl": "/e-codex/ecodex",
+                  "fileName": "use_cases",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "/e-codex/ecodex/wiki/connector/use_cases"
+                },
+                "previous": {
+                  "path": "wiki/connector",
+                  "baseUrl": "/e-codex/ecodex",
+                  "fileName": "evidence",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "/e-codex/ecodex/wiki/connector/evidence"
+                },
+                "description": "",
+                "title": "Modules",
+                "content": "<h1 id=\"domibus-web-connector-40\">Domibus Web Connector 4.0<\/h1>\n<h2 id=\"module-description\">Module description<\/h2>\n<p>The project contains multiple maven modules. The following list gives a short introduction about these modules.<\/p>\n<table>\n<thead>\n<tr><th>Module<\/th><th>Description<\/th><\/tr>\n<\/thead>\n<tbody>\n<tr><td>domibusConnectorTest<\/td><td>Contains multiple child modules related to testing<\/td><\/tr>\n<tr><td>domibusConnectorTest/domibusConnectorStarter<\/td><td>Contains multiple child modules with different starting configurations<\/td><\/tr>\n<tr><td>domibusConnectorTest/domibusConnectorStarter/domibusConnectorOnlyStarter<\/td><td>Starts only the connector without webAppModule, also packaged als spring boot .jar application. Starts its own tomcat and embedded database. Also uses coded reload and is used for development. Also used to have a environment for client development<\/td><\/tr>\n<\/tbody>\n<\/table>\n"
+              }]
+            },
+            "use_cases": {
+              "ownKey": "use_cases",
+              "ownPages": [{
+                "reference": {
+                  "path": "wiki/connector",
+                  "baseUrl": "/e-codex/ecodex",
+                  "fileName": "use_cases",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "/e-codex/ecodex/wiki/connector/use_cases"
+                },
+                "previous": {
+                  "path": "wiki/connector",
+                  "baseUrl": "/e-codex/ecodex",
+                  "fileName": "modules_description",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "/e-codex/ecodex/wiki/connector/modules_description"
+                },
+                "description": "",
+                "title": "Use Cases",
+                "content": "<h1 id=\"architecture-overview\">Architecture Overview<\/h1>\n<h2 id=\"use-cases\">Use Cases<\/h2>\n<p>The main responsibiliy of the connector is:<\/p>\n<ul>\n<li>Taking messages from Gateway and submitting it to the correct backend client.<\/li>\n<li>Generating the evidences<\/li>\n<li>Handling of the asic-s Container (Extracting, Constructing, Validating)<\/li>\n<\/ul>\n<p><img src=\"images/domibusConnector-use-cases.gif\" alt=\"alt text\" /><\/p>\n"
+              }]
+            }
+          },
+          "ownPages": [
+            {
+              "reference": {
+                "path": "wiki",
+                "baseUrl": "/e-codex/ecodex",
+                "fileName": "connector",
+                "extension": "html",
+                "usePrettyUrl": true,
+                "link": "/e-codex/ecodex/wiki/connector"
+              },
+              "description": "",
+              "title": "Domibus   Connector",
+              "content": "<html>\n <head><\/head>\n <body>\n  <ul> \n   <li><a href=\"/e-codex/ecodex/wiki/connector/evidence\">Evidence<\/a><\/li> \n   <li><a href=\"/e-codex/ecodex/wiki/connector/modules_description\">Modules<\/a><\/li> \n   <li><a href=\"/e-codex/ecodex/wiki/connector/use_cases\">Use Cases<\/a><\/li> \n  <\/ul> \n <\/body>\n<\/html>\n"
+            },
+            {
+              "reference": {
+                "path": "wiki/connector",
+                "baseUrl": "/e-codex/ecodex",
+                "fileName": "book",
+                "extension": "pdf",
+                "usePrettyUrl": false,
+                "link": "/e-codex/ecodex/wiki/connector/book.pdf"
+              },
+              "description": "",
+              "title": "Domibus Connector Book",
+              "content": ""
+            }
+          ]
+        },
+        "ecodex": {
+          "ownKey": "ecodex",
+          "childrenPages": {
+            "ecodex_protocol": {
+              "ownKey": "ecodex_protocol",
+              "ownPages": [{
+                "reference": {
+                  "path": "wiki/ecodex",
+                  "baseUrl": "/e-codex/ecodex",
+                  "fileName": "ecodex_protocol",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "/e-codex/ecodex/wiki/ecodex/ecodex_protocol"
+                },
+                "next": {
+                  "path": "wiki/ecodex",
+                  "baseUrl": "/e-codex/ecodex",
+                  "fileName": "example_deployment",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "/e-codex/ecodex/wiki/ecodex/example_deployment"
+                },
+                "description": "",
+                "title": "e-Codex Protocol specification",
+                "content": "<div class=\"sect1\">\n<h2 id=\"_abstract\">Abstract<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>e-Codex is a collection of different protocols and standards and is tying them together.\nOne of the main goals of e-Codex is the secure and and traceable transport of digital documents.\nFor this purpose e-Codex is built on top of AS4.<\/p>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_specifications_of_requirements\">Specifications of Requirements<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>The key words \"MUST\", \"MUST NOT\", \"REQUIRED\", \"SHALL\", \"SHALL NOT\",\n\"SHOULD\", \"SHOULD NOT\", \"RECOMMENDED\", \"MAY\", and \"OPTIONAL\" in this\ndocument are to be interpreted as described in [RFC2119].<\/p>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_status_of_this_document\">Status of this document<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>This document is currently work in progress and should describe e-Codex in a detailed fashion to\nhelp other developers to implement it.<\/p>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_copyright_notice\">Copyright Notice<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>This document is released under the EUPL license, but only the e-Codex consortium is allowed to\npublish new releases of the e-Codex standard! So any modifications must change the document title so\nit&#8217;s clear that it is not an official version.<\/p>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_introduction\">Introduction<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>Within the judicial domain it becomes more likely that cases are international. A lot of countries\nalready have national systems to manage and trace digital received documents. But this systems\nare unable to communicate with each other in a cross border manner. E-Codex is offering an approach\nto address the technical problems which are occuring in transporting documents digitally between\ndifferent systems.<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>The judicially domain as an urgent need to always proove the authenticity of a document and\nalso proove when the document has entered the disposal area of a specific authority.<\/p>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_message_flow\">Message Flow<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>The e-Codex message flow is business case driven. Multiple business messages related to each other\nshould grouped by the usage of the same conversationId. The conversationId must be a generic key\nand must not contain any sensible information.<\/p>\n<\/div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>sending system<\/p>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>SUBMISSION_ACCEPTANCE should be created if the message is considered valid<\/p>\n<\/li>\n<li>\n<p>SUBMISSION_REJECTION should be created if the message is not a valid e-Codex or contains any information which makes it obvious for\nthe sending system that this message will not be accepted by the receiving system.<\/p>\n<\/li>\n<li>\n<p>RELAY_REMMD_FAILURE should be created if the configured timeout was reached and no evidence of the type RELAY_REMMD_ACCEPTANCE,\nDELIVERY_ACCEPTANCE, DELIVERY_REJECTION, RETRIEVAL_ACCEPTANCE, RETRIEVAL_REJECTION has been received.<\/p>\n<\/li>\n<\/ul>\n<\/div>\n<\/li>\n<li>\n<p>receiving system<\/p>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>RELAY_REMMD_ACCEPTANCE should be created if the message is received at the new domain and can be processed and passed to the\nnext relaying system or target system.<\/p>\n<\/li>\n<li>\n<p>RELAY_REMMD_REJECTION should be created if the message cannot be processed or passed to the next relaying system or target system.<\/p>\n<\/li>\n<li>\n<p>DELIVERY should be created if the message was successfully passed to the target system. The DELIVERY_ACCEPTANCE should\nbe generated accordingly to the national law when the message has been legally passed to the receiving authority.\nThe usage and meaning of the DELIVERY should be defined within the business case.<\/p>\n<\/li>\n<li>\n<p>NON_DELIVERY should be created if the message cannot be passed to the target system, authority, or even when the\nacceptance of the message is denied due formal reasons. The usage and meaning of the NON_DELIVERY should be\ndefined within the business case.<\/p>\n<\/li>\n<li>\n<p>RETRIEVAL may be created if the message has been seen by the processing system, user, human, The usage and meaning of the RETRIEVAL\nshould be defined within the business case.<\/p>\n<\/li>\n<li>\n<p>NON_RETRIEVAL may be created if the message has not been seen by the processing system, user human within a given time period.\nThe usage and meaning of the NON_RETRIEVAL should be defined within the business case.<\/p>\n<\/li>\n<\/ul>\n<\/div>\n<\/li>\n<\/ul>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_asic_s_container_format\">Asic-S Container Format<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>As the content is packaged into the ASIC-S container. The ASIC-S container format itself is described\nat <a href=\"http://www.etsi.org/deliver/etsi_ts/103100_103199/103174/02.02.01_60/ts_103174v020201p.pdf\" class=\"bare\">http://www.etsi.org/deliver/etsi_ts/103100_103199/103174/02.02.01_60/ts_103174v020201p.pdf<\/a><\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>The following documents are part of the ASIC-S container:<\/p>\n<\/div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>A business document of any name.<\/p>\n<\/li>\n<li>\n<p>Attachments<\/p>\n<\/li>\n<\/ul>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_token_xml_format\">Token.xml format<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>The token must be generated by the sending e-Codex system. It must be signed with a certificate which\nis valid in the e-codex environment.<\/p>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_evidences\">Evidences<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>To track the message during the way through the different systems the message processing points\nmust generate ETSI-REM evidences. The evidences are always generated and processed in the xml-format.<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>TODO: describe evidences in more detail, link the ETSI document.<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>The following evidences must be supported by an e-Codex system. The messages are\ndistinguished in the good case and the error or fault case. For the different cases\nthe evidences are named differently in UPPER-CASE letters according to the following list:<\/p>\n<\/div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>SubmissionAcceptanceRejection<\/p>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>SUBMISSION_ACCEPTANCE<\/p>\n<\/li>\n<li>\n<p>SUBMISSION_REJECTION<\/p>\n<\/li>\n<\/ul>\n<\/div>\n<\/li>\n<li>\n<p>RelayToREMMDAcceptanceRejection<\/p>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>RELAY_REMMD_ACCEPTANCE<\/p>\n<\/li>\n<li>\n<p>RELAY_REMMD_REJECTION<\/p>\n<\/li>\n<\/ul>\n<\/div>\n<\/li>\n<li>\n<p>RelayToREMMDFailure<\/p>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>RELAY_REMMD_FAILURE<\/p>\n<\/li>\n<\/ul>\n<\/div>\n<\/li>\n<li>\n<p>DeliveryNonDeliveryToRecipient<\/p>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>DELIVERY<\/p>\n<\/li>\n<li>\n<p>NON_DELIVERY<\/p>\n<\/li>\n<\/ul>\n<\/div>\n<\/li>\n<li>\n<p>RetrievalNonRetrievalByRecipient<\/p>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>RETRIEVAL<\/p>\n<\/li>\n<li>\n<p>NON_RETRIEVAL<\/p>\n<\/li>\n<\/ul>\n<\/div>\n<\/li>\n<\/ul>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_evidences_handling\">Evidences handling<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>A message with an SUBMISSION_REJECTION should not leave the sending system. If a message with an SUBMISSION_REJECTION\nis received by an receiving system the system must ignore it. Any following messages or\nevidences to this message must be ignored.<\/p>\n<\/div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note<\/div>\n<\/td>\n<td class=\"content\">\nThis means that the receiving system must track at least the message metadata and evidences itself to be able to track the assocation between the messages.\n<\/td>\n<\/tr>\n<\/table>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_as4_message_formatstructure\">AS4 Message Format/Structure<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>Within e-Codex the messages are exchanged over AS4. The e-Codex messages are transported\nwith the e-SENS AS4 profile. <a href=\"https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/e-SENS+AS4+-+1.12\" class=\"bare\">https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/e-SENS+AS4+-+1.12<\/a><\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>The exchanged messages must have additionally to the e-SENS profile attributes the following structure:<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>The message properties finalRecipient and originalSender must be set.<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>There are 2 types of messages. The evidence messages and the business message.<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>The business message must follow the following rules:<\/p>\n<\/div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>The message must have a payload with the name <em>messageContent<\/em> this content is the business xml and must\nhave the mimeType <em>text/xml<\/em><\/p>\n<\/li>\n<li>\n<p>The message must have a payload with the name <em>container-signed-xades-baseline-b.asics<\/em> this content is the\nASIC-S container it must have the mimeType <em>application/vnd.etsi.asic-s+zip<\/em> and it must be a valid ASIC-S\ne-Codex container.<\/p>\n<\/li>\n<li>\n<p>The message must have a payload with the name <em>Token.xml<\/em> this content must be a valid e-Codex Token.xml\nand must have the mimeType <em>text/xml<\/em><\/p>\n<\/li>\n<li>\n<p>The message should have a payload with the name SUBMISSION_ACCEPTANCE this content\nis a evidence of the type SUBMISSION_ACCEPTANCE with the mimeType <em>text/xml<\/em>.<\/p>\n<\/li>\n<\/ul>\n<\/div>\n<div class=\"paragraph\">\n<p>The confirmationMessage must follow the following rules:<\/p>\n<\/div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>The message must have a payload with the name of the evidence [see evidence chapter]<\/p>\n<\/li>\n<li>\n<p>The AS4 property refToMessageId must be set to the business message ebmsId the evidence was generated for.<\/p>\n<\/li>\n<li>\n<p>The confirmation message must contain only one evidence<\/p>\n<\/li>\n<\/ul>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_certificates\">Certificates<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>Within an e-Codex environment multiple certificates are used. For a valid e-Certificate in an e-Codex environment\nthe certificate must comply to following rules. Any references to CRL or OCSP protocol links or future\nX509 protocols must be reachable within the e-Codex environment. So is the e-Codex system running over a public\nnetwork then the references must also be resolvable over this network.<\/p>\n<\/div>\n<\/div>\n<\/div>"
+              }]
+            },
+            "configuration_update": {
+              "ownKey": "configuration_update",
+              "ownPages": [{
+                "reference": {
+                  "path": "wiki/ecodex",
+                  "baseUrl": "/e-codex/ecodex",
+                  "fileName": "configuration_update",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "/e-codex/ecodex/wiki/ecodex/configuration_update"
+                },
+                "next": {
+                  "path": "wiki/ecodex",
+                  "baseUrl": "/e-codex/ecodex",
+                  "fileName": "differences_edelivery_ecodex",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "/e-codex/ecodex/wiki/ecodex/differences_edelivery_ecodex"
+                },
+                "previous": {
+                  "path": "wiki/ecodex",
+                  "baseUrl": "/e-codex/ecodex",
+                  "fileName": "example_deployment",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "/e-codex/ecodex/wiki/ecodex/example_deployment"
+                },
+                "description": "",
+                "title": "Configuration Update",
+                "content": "<div id=\"preamble\">\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>The e-Codex environment establishes the connection betweent the access points (usually domibus gateway) over https connections.\nFor this purpose multiple configuration parameters are necessary.<\/p>\n<\/div>\n<table class=\"tableblock frame-all grid-all stretch\">\n<caption class=\"title\">Table 1. Table Configuration Parameters<\/caption>\n<colgroup>\n<col style=\"width: 50%;\">\n<col style=\"width: 50%;\">\n<\/colgroup>\n<thead>\n<tr>\n<th class=\"tableblock halign-left valign-top\">Configuration Item<\/th>\n<th class=\"tableblock halign-left valign-top\">Description<\/th>\n<\/tr>\n<\/thead>\n<tbody>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Access-Point URL<\/p><\/td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">The https address where the Gateway is reachable.&lt;br&gt; eg: <a href=\"https://ecodexgw.example.com/domibus/services/msh\" class=\"bare\">https://ecodexgw.example.com/domibus/services/msh<\/a><\/p><\/td>\n<\/tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Incoming IP-Addresses<\/p><\/td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">IP-Addresses which are used for incoming traffic. This would enable your e-Codex partners to only allow traffic to this IP-Adresses<\/p><\/td>\n<\/tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Outgoing IP-Addresses<\/p><\/td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">IP-Addresses which the connection is made from. This will help your partners to only allow this specific ips to access thier webserver. Its mostly for a security reason to block unwanted access<\/p><\/td>\n<\/tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">TLS/SSL Webserver-Server certificate (1)<\/p><\/td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">As the Request are sent over HTTPS the webserver needs a Certificate. An alias name of the certificate must match the domain name. The whole certificate-chain must be shared with your e-Codex partners. The certificate is used by the server to authenticate itself. The webserver client (the gateway, when it is sending a message) is validating this certificate.<\/p><\/td>\n<\/tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">TLS/SSL Webserver-Client certificate (2)<\/p><\/td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Not only the server needs to authenticate itself, also the client is required to authenticate itself at the webserver<\/p><\/td>\n<\/tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Access-Point/Gateway Certificate     (3)<\/p><\/td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">The by the gateway sent messages are being signed. For this purpose the gateway needs a certificate. This certficiate must be distributed to the other partners to ensure trust and also to enable the other gateways to encrypt the message, when sent to your gateway.<\/p><\/td>\n<\/tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Connector/e-Codex Certificate        (4)<\/p><\/td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">The by the connector generated ASIC-S Container and evidences are also signed. For this purpose the connector also needs a certificate. This certificate must also be shared with your partners to ensure trust<\/p><\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<div class=\"paragraph\">\n<p>All these configuration parameters can be configured on the CMT. The CMT is able to merge all this configurations together\nand generate a package for each e-Codex member. After this step the package must be downloaded and the\nconfiguration of each member has to be updated.<\/p>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_example_configuration_package\">Example Configuration Package<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<div class=\"title\">Example Configuration Package<\/div>\n<p><span class=\"image\"><img src=\"../../../assets/media/images/ecodex_sample_configuration_package.png\" alt=\"ecodex sample configuration package\"><\/span><\/p>\n<\/div>\n<table class=\"tableblock frame-all grid-all stretch\">\n<caption class=\"title\">Table 2. Table Distributed Configuration Files<\/caption>\n<colgroup>\n<col style=\"width: 50%;\">\n<col style=\"width: 50%;\">\n<\/colgroup>\n<thead>\n<tr>\n<th class=\"tableblock halign-left valign-top\">Name<\/th>\n<th class=\"tableblock halign-left valign-top\">Description<\/th>\n<\/tr>\n<\/thead>\n<tbody>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">trusted_https_servers.pem      (a)<\/p><\/td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">The certificate chains of all trusted webservers (1) in the pem-format.<\/p><\/td>\n<\/tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">trusted_https_servers.jks      (b)<\/p><\/td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">The certificate chains fo all trusted webserver  (1) in java key store format.<\/p><\/td>\n<\/tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">trusted_https_clients.pem      (c)<\/p><\/td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">The certificate chains of all trusted webserver (2) clients in pem-format.<\/p><\/td>\n<\/tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">trusted_https_clients.jks      (d)<\/p><\/td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">The certificate chains of all trusted webserver (2) clients in jks-format<\/p><\/td>\n<\/tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">trusted_gateways.jks           (e)<\/p><\/td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">The certificate chains of all trusted gateways (3)<\/p><\/td>\n<\/tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">trusted_connectors.jks         (f)<\/p><\/td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">The certificate chains of all trusted connectors (4)<\/p><\/td>\n<\/tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">eDeliveryAS4Policy.xml         (g)<\/p><\/td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">This file contains the ws-security-policy and defines which encryption and signature algorithms are allowed between 2 access-points. It also defines if 2-way TLS/SSL encryption/authentication is required or optional.<\/p><\/td>\n<\/tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">domibus-configuration-&lt;country&gt;.xml  (h)<\/p><\/td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">This file contains the p-Mode configuration. The p-modes are defining the connection parameters between two access-points. Within the p-Modes also the securityPolicy is referenced. They also define which message types are allowed.<\/p><\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_jks_vs_pem_format\">JKS vs. PEM-Format<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>The jks format is the default keystore format in java. The PEM-Format on the other side is used within apache webservers. It\ncontains the certificates Base64 encoded in a text file.<\/p>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_configuration_update_overview\">Configuration Update Overview<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>The following files needs to be copied or uploaded:<\/p>\n<\/div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>trusted_https_clients.pem (c) must be copied to the Webserver<\/p>\n<\/li>\n<li>\n<p>trusted_gateways.jks (e) must be uploaded via the domibus UI into the domibus gw<\/p>\n<\/li>\n<li>\n<p>domibus-configuration-&lt;country&gt;.xml (h) must be uploaded via the domibus UI into the domibus gw<\/p>\n<\/li>\n<li>\n<p>trusted_https_servers.jks (b) must be copied into the domibus conf keystores folder<\/p>\n<\/li>\n<li>\n<p>trusted_connectors.jks (f) must be copied into the domibus connector keystores folder<\/p>\n<\/li>\n<li>\n<p>domibus-configuration-&lt;country&gt;.xml (h) <strong>must also<\/strong> be uploaded via the admin UI into the domibus <strong>connector<\/strong><\/p>\n<\/li>\n<\/ul>\n<\/div>\n<div class=\"paragraph\">\n<div class=\"title\">Configuration update overview<\/div>\n<p><span class=\"image\"><img src=\"../../../assets/media/images/ecodex_ConfigurationUpdate.png\" alt=\"ecodex ConfigurationUpdate\"><\/span><\/p>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_update_webserver_configuration\">Update Webserver Configuration<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>If 2way-ssl is enabled the webserver is doing the client authentication. So the webserver configuration needs to be updated.\nIf you are using the example configuration, the trusted_https_clients.pem file must be copied into the apache configuration.\nThe following code-block contains an <strong>example<\/strong> Apache 2way-SSL-Configration.<\/p>\n<\/div>\n<div class=\"listingblock\">\n<div class=\"content\">\n<pre class=\"highlight\"><code>&lt;VirtualHost _default_:443&gt;\n  SSLEngine on\n  ServerName localhost:443\n  SSLCertificateFile \"${SRVROOT}/conf/ssl/server.crt\"\n  SSLCertificateKeyFile \"${SRVROOT}/conf/ssl/server.key\"\n  # The following Parameter holds all trusted client certificates (2)\n  # (and thier parent certificates) in pem-format.\n  SSLCACertificateFile \"${SRVROOT}/conf/ssl/trusted_clients.pem\"\n  DocumentRoot \"${SRVROOT}/htdocs\"\n\n\tCustomLog \"${SRVROOT}/logs/ssl_request.log\" \\\n          \"%t %h %{SSL_PROTOCOL}x %{SSL_CIPHER}x \\\"%r\\\" %b\"\n\t&lt;Directory \"${SRVROOT}/htdocs\"&gt;\n\t\tOptions Indexes Includes FollowSymLinks\n\t\tAllowOverride AuthConfig Limit FileInfo\n    Require all granted\n\t&lt;/Directory&gt;\n\n  #always protect the whole v-host to avoid post-handshake authentication!\n  SSLVerifyClient Require\n\n\n  &lt;Location \"/domibus/services/msh\" &gt;\n    ProxyPass &lt;gateway&gt;/domibus/services/msh\n    ProxyPassReverse &lt;gateway&gt;/domibus/services/msh\n  &lt;/Location&gt;\n\n\n&lt;/virtualhost&gt;<\/code><\/pre>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_update_gateway_configuration\">Update Gateway Configuration<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>The gateway needs to be updated on 3 places:<\/p>\n<\/div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>The trusted webserver certificates (file (b))<\/p>\n<\/li>\n<li>\n<p>The trusted gateway certificates (file (e))<\/p>\n<\/li>\n<li>\n<p>The p-Modes itself (file (h))<\/p>\n<\/li>\n<\/ul>\n<\/div>\n<div class=\"paragraph\">\n<p>Sometimes also an update of the security policy may be necessary.<\/p>\n<\/div>\n<div class=\"admonitionblock important\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Important<\/div>\n<\/td>\n<td class=\"content\">\nThis description only gives a brief overview. For more details consult the gateway administration guide!\n<\/td>\n<\/tr>\n<\/table>\n<\/div>\n<div class=\"sect2\">\n<h3 id=\"_update_gateway_client_configuration_trusted_https_servers_jks_b\">Update Gateway Client Configuration | trusted_https_servers.jks (b)<\/h3>\n<div class=\"paragraph\">\n<p>If a webserver certificate changes the trusted_https_servers.jks must be copied to the location configured\nwithin the clientauthentication.xml file. The file is usually located under<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>&lt;domibus_tomcat&gt;/conf/domibus/clientauthentication.xml<\/p>\n<\/div>\n<div class=\"listingblock\">\n<div class=\"content\">\n<pre class=\"highlight\"><code class=\"language-$xml\" data-lang=\"$xml\">&lt;http-conf:tlsClientParameters disableCNCheck=\"true\" secureSocketProtocol=\"TLSv1.2\"\n  xmlns:http-conf=\"http://cxf.apache.org/transports/http/configuration\"\n  xmlns:security=\"http://cxf.apache.org/configuration/security\"&gt;\n\n  &lt;security:trustManagers&gt;\n    &lt;!-- the following line contains the store which holds all trusted\n    webserver certificates (file (b)) and thier parent certificates --&gt;\n    &lt;security:keyStore type=\"JKS\"\n        password=\"changeit\"\n        file=\"${domibus.config.location}/keystores/trusted_https_servers.jks\"\n    /&gt;\n  &lt;/security:trustManagers&gt;\n  &lt;security:keyManagers keyPassword=\"12345\"&gt;\n  &lt;!-- this key store contains the web client private key,\n  the public certificate is distributed with\n  the trusted_https_clients store  --&gt;\n    &lt;security:keyStore\n        type=\"JKS\"\n        password=\"12345\"\n        file=\"${domibus.config.location}/keystores/https_client_keystore.jks\"\n    /&gt;\n  &lt;/security:keyManagers&gt;\n&lt;/http-conf:tlsClientParameters&gt;<\/code><\/pre>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect2\">\n<h3 id=\"_update_trusted_gateways_configuration\">Update Trusted Gateways Configuration<\/h3>\n<div class=\"paragraph\">\n<p>The gateway certificates are updated by uploading the trusted_gateways.jks (file (e)) into the domibus gateway.\nThis can be done with the admin ui. A restart is not required.<\/p>\n<\/div>\n<div class=\"imageblock\">\n<div class=\"content\">\n<img src=\"../../../assets/media/images/screenshot_gateway_truststore_upload.png\" alt=\"screenshot gateway truststore upload\">\n<\/div>\n<div class=\"title\">Figure 1. Upload Truststore<\/div>\n<\/div>\n<\/div>\n<div class=\"sect2\">\n<h3 id=\"_update_p_modes\">Update p-Modes<\/h3>\n<div class=\"paragraph\">\n<p>The p-Modes can also be updated by uploading the new p-modes file with the admin-ui. A restart is not required.<\/p>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_update_connector_configuration\">Update Connector Configuration<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>Within the connector the following parameters must be updated:<\/p>\n<\/div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>p-Modes (connector: 4.0, 4.1)<\/p>\n<\/li>\n<li>\n<p>trusted connector certificates<\/p>\n<\/li>\n<\/ul>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_update_connector_p_modes_configuration\">Update Connector p-Modes Configuration<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>The connector (4.0, 4.1) also requires the upload of the p-Modes. This can be done with the connector admin ui.\nLog into the admin ui and upload the p-Modes file.<\/p>\n<\/div>\n<div class=\"imageblock\">\n<div class=\"content\">\n<img src=\"../../../assets/media/images/screenshot_update_connector_p_modes.png\" alt=\"p-modes connector upload\">\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_update_trusted_connectors_certificates\">Update Trusted Connectors Certificates<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>Currently it is not possible to update the trusted-connector certificates within the admin-ui. The keystore has to\nbe replaced. To do this copy the file (f) to<\/p>\n<\/div>\n<div class=\"literalblock\">\n<div class=\"content\">\n<pre>&lt;connector_tomcat&gt;/conf/connector/keystores/trusted_connectors.jks<\/pre>\n<\/div>\n<\/div>\n<div class=\"paragraph\">\n<p>And make sure that the connector property [connector.security.trust-store.path] points to that location!\nThe following block contains an excerpt of the connector configuration with the relevant properties.<\/p>\n<\/div>\n<div class=\"listingblock\">\n<div class=\"content\">\n<pre class=\"highlight\"><code>#############################  connector truststore  #############################\n\n# Holds all public keys of partners to validate\n# sent and received ASIC-S containers against.\n#\n\nconnector.security.trust-store.path=file:./conf/connector/keystores/trusted_connectors.jks\nconnector.security.trust-store.password=changeit<\/code><\/pre>\n<\/div>\n<\/div>\n<\/div>\n<\/div>"
+              }]
+            },
+            "ecodex_attack_scenarios": {
+              "ownKey": "ecodex_attack_scenarios",
+              "ownPages": [{
+                "reference": {
+                  "path": "wiki/ecodex",
+                  "baseUrl": "/e-codex/ecodex",
+                  "fileName": "ecodex_attack_scenarios",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "/e-codex/ecodex/wiki/ecodex/ecodex_attack_scenarios"
+                },
+                "previous": {
+                  "path": "wiki/ecodex",
+                  "baseUrl": "/e-codex/ecodex",
+                  "fileName": "differences_edelivery_ecodex",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "/e-codex/ecodex/wiki/ecodex/differences_edelivery_ecodex"
+                },
+                "description": "",
+                "title": "Attack scenarios on e-Codex",
+                "content": "<div id=\"preamble\">\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>Overview of the e-Codex Components<\/p>\n<\/div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Country A<\/p>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Gateway<\/p>\n<\/li>\n<li>\n<p>Connector<\/p>\n<\/li>\n<\/ul>\n<\/div>\n<\/li>\n<li>\n<p>Country B<\/p>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Gateway<\/p>\n<\/li>\n<li>\n<p>Connector<\/p>\n<\/li>\n<\/ul>\n<\/div>\n<\/li>\n<li>\n<p>CMT<\/p>\n<\/li>\n<li>\n<p>Certificate Authority<\/p>\n<\/li>\n<\/ul>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_security_features\">Security Features<\/h2>\n<div class=\"sectionbody\">\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Messages are only transported between 2 Domains<\/p>\n<\/li>\n<li>\n<p>Decentralized infrastructure - one compromised node only affects communication with this node<\/p>\n<\/li>\n<li>\n<p>Seperated infrastructures for certificate management and configuration management<\/p>\n<\/li>\n<li>\n<p>The IP-Addresses of the partners are known<\/p>\n<\/li>\n<\/ul>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_attacking_e_codex_e_delivery\">Attacking e-Codex / e-Delivery<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>The following text would give a brief overview of angle of attacks at the whole e-Codex infrastructure.<\/p>\n<\/div>\n<div class=\"sect2\">\n<h3 id=\"_scenario_1_hijacking_an_access_point\">Scenario 1 - Hijacking  an access point.<\/h3>\n<div class=\"paragraph\">\n<p>This is not really a design problem of e-Codex. Because the participants are\nresponsible for their own infrastructure and security. But the problem will only affect the communication\nfrom and to this member state.<\/p>\n<\/div>\n<\/div>\n<div class=\"sect2\">\n<h3 id=\"_scenario_2_hijacking_the_cmt\">Scenario 2 - Hijacking the CMT<\/h3>\n<div class=\"paragraph\">\n<p>The CMT is responsible for distributing the configuration. The configuration contains all the used\ncertificates and IP-Adresses. So an evil party would have the possibility to modify the p-Modes and\ncertificates of an access-point and this would enable the evil party to intercept the data traffic.<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>In this example the CMT distributes a configuration where Party A and Party B would get an P-Mode\nconfiguratoin and sets of certificates where a Party B' would act as an transparent proxy.<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>Party A &lt;&#8594; Party B' &lt;&#8594; Party B<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>This scenario is prevented by the usage of an 2nd party the Certificate Authority. All certificates\nwithin the e-Codex domain must be issued by this CA. So it would be very hard for Party B' to\nalso get an valid e-Codex Certificate.<\/p>\n<\/div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note<\/div>\n<\/td>\n<td class=\"content\">\nAn additional security feature would be if the configuration is signed by the party administrator\nbefore it is going to be uploaded to the CMT.\n<\/td>\n<\/tr>\n<\/table>\n<\/div>\n<\/div>\n<div class=\"sect2\">\n<h3 id=\"_scenario_3_hijacking_of_the_ca\">Scenario 3 - Hijacking of the CA<\/h3>\n<div class=\"paragraph\">\n<p>If the CA is hijacked it would be possible for the attackers to issue valid e-Codex certificates. But\nstill the certificates must also be part of the distributed configuration so also the evil issued\ncertificates must become part of the by the CMT distributed configuration. So also the CMT\nmust be compromised.<\/p>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_conclusion\">Conclusion<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>The effort to perform an man-in-the-middle attack would be high. Especially if the whole network should be\novertaken. In this case 2 seperate infrastructures must be captured. The CMT and the Certificate Authority.<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>Most likely is the sceneario that a single access point is attacked. To prevent this the access-points\nshould monitor the current by the CMT distributed configuration and check them against ther own current\nconfiguration. Also the public available lists of issued certificates should be checked on a regulary\nbasis by the access-point administrator.<\/p>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_attacking_an_single_access_point\">Attacking an single Access-Point<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>Not only attacks on the whole network are possible. Also the single access-points can be valuable targets.\nCurrently the e-Codex network is by design public available (through the internet). This gives\nthe network a lot of flexibility but also makes it vulnerable to all kind of security threats.<\/p>\n<\/div>\n<div class=\"sect2\">\n<h3 id=\"_ip_whitelist\">IP Whitelist<\/h3>\n<div class=\"paragraph\">\n<p>As a first layer of hindering unpleasent guests the CMT is also distributing with the configuration\na list of IP-Addresses. So it is very easy task to simple block the traffic from all IP-Addresses which\nare not within this Whitelist.<\/p>\n<\/div>\n<\/div>\n<div class=\"sect2\">\n<h3 id=\"_tls_client_authentication\">TLS Client authentication<\/h3>\n<div class=\"paragraph\">\n<p>The next level is the access to the gateway. The AS4 gateway is a simple Webservice. Within the e-Codex\nnetwork it is possible to enable certificate based TLS-Client authentication. So only clients which\ndo have a certificate signed by the RootCA and part of the distributed configuration are granted access\nto the webservice.<\/p>\n<\/div>\n<\/div>\n<div class=\"sect2\">\n<h3 id=\"_tls_encryption_server_authentication\">TLS Encryption / Server Authentication<\/h3>\n<div class=\"paragraph\">\n<p>As TLS Client authentication is used also the webserver must be authenticated to the client. For this purpose\nalso certificates are used. This certificates also has to be signed by the RootCA. (Currently the\ndomibus gateway does not support that the webserver certificate itself has to exists in the trusted\nwebservers store).\nThe whole communication between the gateway and the webserver is TLS encrypted!<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>(TODO: define TLS level + at least used Algorithms - TLS1.3)<\/p>\n<\/div>\n<\/div>\n<div class=\"sect2\">\n<h3 id=\"_as4_message_encryption\">AS4 Message encryption<\/h3>\n<div class=\"paragraph\">\n<p>The over the opened HTTPs channel transported message has been signed and encrpyted by the sending gateway.\nAlso the gateway is doing a sender and recipient certificate validation. So a corrupt webserver will not be\nsufficient to read the message content.<\/p>\n<\/div>\n<\/div>\n<div class=\"sect2\">\n<h3 id=\"_connector_message_signature\">Connector Message signature<\/h3>\n<div class=\"paragraph\">\n<p>The over e-Delivery transported e-Codex messages and evidences are signed by the connector. So any modification\non the gateway or between the two connectors would be detected by receiving connector.<\/p>\n<\/div>\n<\/div>\n<\/div>\n<\/div>"
+              }]
+            },
+            "example_deployment": {
+              "ownKey": "example_deployment",
+              "ownPages": [{
+                "reference": {
+                  "path": "wiki/ecodex",
+                  "baseUrl": "/e-codex/ecodex",
+                  "fileName": "example_deployment",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "/e-codex/ecodex/wiki/ecodex/example_deployment"
+                },
+                "next": {
+                  "path": "wiki/ecodex",
+                  "baseUrl": "/e-codex/ecodex",
+                  "fileName": "configuration_update",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "/e-codex/ecodex/wiki/ecodex/configuration_update"
+                },
+                "previous": {
+                  "path": "wiki/ecodex",
+                  "baseUrl": "/e-codex/ecodex",
+                  "fileName": "ecodex_protocol",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "/e-codex/ecodex/wiki/ecodex/ecodex_protocol"
+                },
+                "description": "",
+                "title": "Example Deployment",
+                "content": "<div id=\"preamble\">\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>The following setup describes an example setup of how the e-codex components can be installed.<\/p>\n<\/div>\n<div class=\"imageblock\">\n<div class=\"content\">\n<img src=\"../../../assets/media/images/ecodex_example_deployment.png\" alt=\"ecodex example deployment\">\n<\/div>\n<div class=\"title\">Figure 1. Deployment Graphics<\/div>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_components\">Components<\/h2>\n<div class=\"sectionbody\">\n<table class=\"tableblock frame-all grid-all stretch\">\n<caption class=\"title\">Table 1. Table Components<\/caption>\n<colgroup>\n<col style=\"width: 50%;\">\n<col style=\"width: 50%;\">\n<\/colgroup>\n<thead>\n<tr>\n<th class=\"tableblock halign-left valign-top\">Name<\/th>\n<th class=\"tableblock halign-left valign-top\">Description<\/th>\n<\/tr>\n<\/thead>\n<tbody>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Internet<\/p><\/td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Symbolizes the Internet, The connection between the Gateways is made through it<\/p><\/td>\n<\/tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Firewall, DDOS-Filter<\/p><\/td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">A Firewall which protects the internal network. The information distributed over the CMT can be used to reduce the range of IP-Addresses which can connect through this firewall to the Apache Web Server<\/p><\/td>\n<\/tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Apache Web Server<\/p><\/td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">The Apache Web Server in this Setup is responsible for terminating the TLS-Connection, Authenticating the connecting Web-Clients (the remote Gateway) by checking the client certificate<\/p><\/td>\n<\/tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Tomcat Web Application Server - Domibus Gateway<\/p><\/td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">The domibus Gateway is deployed on a Tomcat Web Application Server<\/p><\/td>\n<\/tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Tomcat Web Application Server - Domibus Connector<\/p><\/td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">The domibusConnector is deployed on a Tomcat Web Application Server<\/p><\/td>\n<\/tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Tomcat Web Application Server - Connector Client Application<\/p><\/td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">The Connector Client Application is deployed on a Tomcat Web Application Server. This can be a national solution of an eCodeX-UseCase or the ReferenceImplementation.<\/p><\/td>\n<\/tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Database<\/p><\/td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">The database (MYSQL) provides for each application a different database.<\/p><\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<div class=\"literalblock\">\n<div class=\"content\">\n<pre>**Note that each application is running on it's own tomcat application server in this example!**<\/pre>\n<\/div>\n<\/div>\n<div class=\"sect2\">\n<h3 id=\"_firewall_ddos_filter\">Firewall, DDOS-Filter<\/h3>\n<div class=\"paragraph\">\n<p>The firewall acts in this setup as simple IP-Filtering mechanism and ensures that only the partners of the ecodex-Network\ncan access the domibus gateway.<\/p>\n<\/div>\n<\/div>\n<div class=\"sect2\">\n<h3 id=\"_example_apache_setup_and_alternatives\">Example Apache Setup and alternatives<\/h3>\n<div class=\"paragraph\">\n<p>Possible alternatives for the apache in this use case can be:<\/p>\n<\/div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>NGINX<\/p>\n<\/li>\n<li>\n<p>IIS<\/p>\n<\/li>\n<li>\n<p>Apache<\/p>\n<\/li>\n<li>\n<p>Tomcat (using tomcat for TLS-terminiation)<\/p>\n<\/li>\n<li>\n<p>&#8230;&#8203;<\/p>\n<\/li>\n<\/ul>\n<\/div>\n<div class=\"paragraph\">\n<p>The most commonly used webserver is the apache webserver. <a href=\"http://httpd.apache.org/\" class=\"bare\">http://httpd.apache.org/<\/a>\nApache is well doucmented and there are a lot of examples. Important for the setup is that\nthe tls (at least TLS 1.2 better TLS 1.3) encryption is enabled on apache. For this purpose the\napache server needs a certificate. You can obtain this certificate also over letsencrypt.<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>As apache is the most used webserver over the whole internet the next paragraphs will cover the e-Codex\nspecifics of an apache setup.<\/p>\n<\/div>\n<div class=\"sect3\">\n<h4 id=\"_setting_up_apache\">Setting up Apache<\/h4>\n<div class=\"paragraph\">\n<p>The apache webserver project site offers a good tutorial for setting up apache with TLS-encryption.\n<a href=\"https://httpd.apache.org/docs/2.4/en/ssl/ssl_howto.html\" class=\"bare\">https://httpd.apache.org/docs/2.4/en/ssl/ssl_howto.html<\/a><\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>After the apache setup is complete make sure that your webserver is reachable over https from\nthe public internet. And also export the whole public certificate chain to the CMT to share\nyour public key information with your e-Codex network partners. This is very important if you\nare using a not well trusted certificate authority or a self signed certificate.<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>Your shared webserver certificate will become part of the trusted_webserver.jks keystore - and\nonly certificates within this store are considered trusted in the specific e-Codex Environment.<\/p>\n<\/div>\n<\/div>\n<div class=\"sect3\">\n<h4 id=\"_activating_tls_client_authentication2_way_ssl_on_apache\">Activating TLS-client-authentication/2-way-SSL on apache<\/h4>\n<div class=\"paragraph\">\n<p>Some e-Codex usecases may require also TLS-client authentication (aka 2-way-SSL). If the client authentication\nis used also the client is authenticated at the server on TLS level. For this purpose the client presents\na client certificate to the webserver when opening the connection.<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>For activating 2-way-ssl on apache the following example configuration can be used. For further details\nconsult the apache manual!<\/p>\n<\/div>\n<div class=\"listingblock\">\n<div class=\"content\">\n<pre class=\"highlight\"><code>&lt;VirtualHost _default_:443&gt;\n  SSLEngine on\n  ServerName localhost:443\n  SSLCertificateFile \"${SRVROOT}/conf/ssl/server.crt\"\n  SSLCertificateKeyFile \"${SRVROOT}/conf/ssl/server.key\"\n  # The following Parameter holds all trusted client certificates (2)\n  # (and thier parent certificates) in pem-format.\n  SSLCACertificateFile \"${SRVROOT}/conf/ssl/trusted_clients.pem\"\n  DocumentRoot \"${SRVROOT}/htdocs\"\n\n\tCustomLog \"${SRVROOT}/logs/ssl_request.log %t %h %{SSL_PROTOCOL}x %{SSL_CIPHER}x \\\"%r\\\" %b\"\n\t&lt;Directory \"${SRVROOT}/htdocs\"&gt;\n\t\tOptions Indexes Includes FollowSymLinks\n\t\tAllowOverride AuthConfig Limit FileInfo\n        Require all granted\n\t&lt;/Directory&gt;\n\n  #always protect the whole v-host to avoid post-handshake authentication!\n  SSLVerifyClient Require\n  SSLVerifyDepth 2 # clientcert(0)-&gt;intermediateCA(1)-&gt;RootCA(2)\n\n  &lt;Location \"/domibus/services/msh\" &gt;\n    ProxyPass &lt;gateway&gt;/domibus/services/msh\n    ProxyPassReverse &lt;gateway&gt;/domibus/services/msh\n  &lt;/Location&gt;\n\n&lt;/virtualhost&gt;<\/code><\/pre>\n<\/div>\n<\/div>\n<div class=\"paragraph\">\n<p>SSLVerifyDepth <a href=\"https://httpd.apache.org/docs/2.4/en/mod/mod_ssl.html#sslverifydepth\" class=\"bare\">https://httpd.apache.org/docs/2.4/en/mod/mod_ssl.html#sslverifydepth<\/a><\/p>\n<\/div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note<\/div>\n<\/td>\n<td class=\"content\">\nPut the SSLVerifyClient Require directive into the vhost directive to avoid SSL renegotiation. Though apache\nsupports the SSLVerifyClient also within a Location directive but this would force the client to renegotiate the\nTLS connection. This can lead to connection errors at the as webclient acting domibus gateway.\n<\/td>\n<\/tr>\n<\/table>\n<\/div>\n<\/div>\n<div class=\"sect3\">\n<h4 id=\"_additional_notes_on_webserver_setup\">Additional Notes on Webserver Setup<\/h4>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Ensure TLS 1.3 is activated and downgrading is not allowed!<\/p>\n<\/li>\n<li>\n<p>Ensure that if the usecase requires it TLS-client authentication is activated<\/p>\n<\/li>\n<\/ul>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect2\">\n<h3 id=\"_as4_gateway_domibus_gateway\">AS4 Gateway / Domibus Gateway<\/h3>\n<div class=\"paragraph\">\n<p>Most of the e-Codex installations are using the domibus gateway for fullfilling the AS4 interface. But there\nare also known installations which are using IBM axway.<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>The eDelivery site of CEF lists some more alternatives:\n<a href=\"https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eDelivery+AS4+conformant+solutions\" class=\"bare\">https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eDelivery+AS4+conformant+solutions<\/a><\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>Keep in mind that if you are using some of the alternatives you still have to fullfill the e-Codex protocol demands.\n(TODO: link to technical differences ecodex - eDelivery)<\/p>\n<\/div>\n<div class=\"sect3\">\n<h4 id=\"_example_setup\">Example Setup<\/h4>\n<div class=\"paragraph\">\n<p>For installing the domibus gateway the website provides a very good guide.\n<a href=\"https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Domibus\" class=\"bare\">https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Domibus<\/a><\/p>\n<\/div>\n<\/div>\n<div class=\"sect3\">\n<h4 id=\"_tls_client_authentication2_way_ssl_authentication\">TLS-client-authentication/2-way-SSL authentication<\/h4>\n<div class=\"paragraph\">\n<p>For clientauthentication the information is located under:<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>&lt;domibus_tomcat&gt;/conf/domibus/clientauthentication.xml<\/p>\n<\/div>\n<div class=\"listingblock\">\n<div class=\"content\">\n<pre class=\"highlight\"><code class=\"language-$xml\" data-lang=\"$xml\">&lt;http-conf:tlsClientParameters disableCNCheck=\"true\" secureSocketProtocol=\"TLSv1.2\"\n  xmlns:http-conf=\"http://cxf.apache.org/transports/http/configuration\"\n  xmlns:security=\"http://cxf.apache.org/configuration/security\"&gt;\n\n  &lt;security:trustManagers&gt;\n    &lt;!-- the following line contains the store which holds all trusted\n    webserver certificates (file (b)) and thier parent certificates --&gt;\n    &lt;security:keyStore type=\"JKS\"\n        password=\"changeit\"\n        file=\"${domibus.config.location}/keystores/trusted_https_servers.jks\"\n    /&gt;\n  &lt;/security:trustManagers&gt;\n  &lt;security:keyManagers keyPassword=\"12345\"&gt;\n  &lt;!-- this key store contains the web client private key,\n  the public certificate is distributed with\n  the trusted_https_clients store  --&gt;\n    &lt;security:keyStore\n        type=\"JKS\"\n        password=\"12345\"\n        file=\"${domibus.config.location}/keystores/https_client_keystore.jks\"\n    /&gt;\n  &lt;/security:keyManagers&gt;\n&lt;/http-conf:tlsClientParameters&gt;<\/code><\/pre>\n<\/div>\n<\/div>\n<div class=\"paragraph\">\n<p>The same file is also used to list the trusted webservers the domibus gateway is connecting to. The\ncertifcates (and thier intermediate and RootCAs) of the trusted webservers are listed within\nthe trusted_https_servers.jks truststore.<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>To activate clientauthentication the gateway must present the webserver a key. This key is\nstored in the https_client_keystore.jks. This key is private! The corresponding certificate is\ndistributed within the trusted_webclients.pem file and used at the webserver to allow the connection.<\/p>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect2\">\n<h3 id=\"_setting_up_connector\">Setting up Connector<\/h3>\n<div class=\"paragraph\">\n<p>The additional features of the e-Codex protocol like<\/p>\n<\/div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>evidence handling<\/p>\n<\/li>\n<li>\n<p>ASIC-S container building<\/p>\n<\/li>\n<li>\n<p>TrustOK Token generatation<\/p>\n<\/li>\n<\/ul>\n<\/div>\n<div class=\"paragraph\">\n<p>are provided by the domibusConnector. The domibus connector comes with an installation manual.<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>(TODO: set link to connector manual!)<\/p>\n<\/div>\n<\/div>\n<\/div>\n<\/div>"
+              }]
+            },
+            "differences_edelivery_ecodex": {
+              "ownKey": "differences_edelivery_ecodex",
+              "ownPages": [{
+                "reference": {
+                  "path": "wiki/ecodex",
+                  "baseUrl": "/e-codex/ecodex",
+                  "fileName": "differences_edelivery_ecodex",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "/e-codex/ecodex/wiki/ecodex/differences_edelivery_ecodex"
+                },
+                "next": {
+                  "path": "wiki/ecodex",
+                  "baseUrl": "/e-codex/ecodex",
+                  "fileName": "ecodex_attack_scenarios",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "/e-codex/ecodex/wiki/ecodex/ecodex_attack_scenarios"
+                },
+                "previous": {
+                  "path": "wiki/ecodex",
+                  "baseUrl": "/e-codex/ecodex",
+                  "fileName": "configuration_update",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "/e-codex/ecodex/wiki/ecodex/configuration_update"
+                },
+                "description": "",
+                "title": "Differences betweend e-Codex and e-Delivery",
+                "content": "<div id=\"preamble\">\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>To be disappointing at the first written line. There are no differences! E-delivery is a part of e-Codex. E-Codex is\nusing e-Delivery to transport the e-Codex messages between two access points.<\/p>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_the_features_of_e_delivery\">The features of e-Delivery<\/h2>\n<div class=\"sectionbody\">\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Utilizes AS4 messaging standard<\/p>\n<\/li>\n<li>\n<p>Ensures message transport between two access-points<\/p>\n<\/li>\n<li>\n<p>Validation and compression of the user message<\/p>\n<\/li>\n<li>\n<p>Signing of the compressed message<\/p>\n<\/li>\n<li>\n<p>Encryption of the signed compressed message<\/p>\n<\/li>\n<li>\n<p>validation of the origin user message<\/p>\n<\/li>\n<li>\n<p>sending back of acknowledgments<\/p>\n<\/li>\n<\/ul>\n<\/div>\n<div class=\"imageblock\">\n<div class=\"content\">\n<img src=\"../../../assets/media/images/e_delivery_flyer.png\" alt=\"e delivery flyer\">\n<\/div>\n<div class=\"title\">Figure 1. Excerpt of the e-Delivery Flyer<\/div>\n<\/div>\n<div class=\"paragraph\">\n<p><a href=\"https://ec.europa.eu/cefdigital/wiki/download/attachments/82773424/20180912_eDelivery_Flyer.pdf?version=1&amp;modificationDate=1537358787680&amp;api=v2\" class=\"bare\">https://ec.europa.eu/cefdigital/wiki/download/attachments/82773424/20180912_eDelivery_Flyer.pdf?version=1&amp;modificationDate=1537358787680&amp;api=v2<\/a><\/p>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_the_requirements_of_e_codex\">The requirements of e-Codex<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>E-Delivery does a lot of things and is put to good use in a lot of projects. But for e-Codex there have been additional\nrequirements.<\/p>\n<\/div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Proof of the location of the document<\/p>\n<\/li>\n<li>\n<p>Creating trust between different systems<\/p>\n<\/li>\n<\/ul>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_proof_of_the_location_of_the_document\">Proof of the location of the document<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>Within the e-Codex usescases there is always a urgent need to determine the current location of a sent\ndocument. Though the AS4 acknowledge tells us when the message has reached the other access-point, but for e-Codex\nthere is also the requirement to tell exactly when the message has reached the inbox of the final recipient or\nfor some usecaes when the final recipient has read/become aware of the message.<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>For this purpose e-Codex is generating ETSI-Rem evidences if messages have reached a specific point.<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>Usually within e-Codex the message is passed to an national system. Often this national systems have\nsimilar transport state messages. This transport state messages are mapped into ETSI-REM evidences\nand transported to the sending party. Back at the sending party this evidences can be ignored or\nmapped back to the national evidences.<\/p>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_creating_trust_between_different_systems\">Creating trust between different systems<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>E-Codex was build to connect different message transport systems. Within this transport systems there\nare also different ways to ensure the trust/origin of the document. Some of this systems are using\nan PKI approach were all generated documents are signed by the creator. Within other environments the\ndocument hashes are stored in a central database. The validity is checked by the database. Within other\nenvironments the necessary documents are not really created, they are just values and objects within\nan application.<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>All these examples combine the problem that documents which are exported from this environments cannot\nbe validated within an other environment.<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>To solve this problem within e-Codex the idea of the trust token was created. The basic concept is before\nany documents are sent to another domain the sending instance is creating an signed ASIC-S container.\nThis ASIC-S container also contains a token within this token the trust state of the sent document\nfor the current environment ist documented (as XML for automatic processing and as PDF for human readability).<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>After this steps the document is transported to the other domain. Before the document is importated in this\ndomain the receiving side is checking the ASIC-S container and the trust token. First of all the ASIC-S\ncontainer is validated. In any case the ASIC-S container has to be valid within the e-Codex environment.\nAfter that the trust ok token is being checked. And its completly the decision of the receiving domain\nif and how the document is imported into the receiving system.<\/p>\n<\/div>\n<\/div>\n<\/div>"
+              }]
+            }
+          },
+          "ownPages": [
+            {
+              "reference": {
+                "path": "wiki",
+                "baseUrl": "/e-codex/ecodex",
+                "fileName": "ecodex",
+                "extension": "html",
+                "usePrettyUrl": true,
+                "link": "/e-codex/ecodex/wiki/ecodex"
+              },
+              "description": "",
+              "title": "E Codex",
+              "content": "<html>\n <head><\/head>\n <body>\n  <ul> \n   <li><a href=\"/e-codex/ecodex/wiki/ecodex/ecodex_protocol\">e-Codex Protocol specification<\/a><\/li> \n   <li><a href=\"/e-codex/ecodex/wiki/ecodex/example_deployment\">Example Deployment<\/a><\/li> \n   <li><a href=\"/e-codex/ecodex/wiki/ecodex/configuration_update\">Configuration Update<\/a><\/li> \n   <li><a href=\"/e-codex/ecodex/wiki/ecodex/differences_edelivery_ecodex\">Differences betweend e-Codex and e-Delivery<\/a><\/li> \n   <li><a href=\"/e-codex/ecodex/wiki/ecodex/ecodex_attack_scenarios\">Attack scenarios on e-Codex<\/a><\/li> \n  <\/ul> \n <\/body>\n<\/html>\n"
+            },
+            {
+              "reference": {
+                "path": "wiki/ecodex",
+                "baseUrl": "/e-codex/ecodex",
+                "fileName": "book",
+                "extension": "pdf",
+                "usePrettyUrl": false,
+                "link": "/e-codex/ecodex/wiki/ecodex/book.pdf"
+              },
+              "description": "",
+              "title": "eCodex Book",
+              "content": ""
+            }
+          ]
+        }
+      },
+      "ownPages": [{
+        "reference": {
+          "path": "",
+          "baseUrl": "/e-codex/ecodex",
+          "fileName": "wiki",
+          "extension": "html",
+          "usePrettyUrl": true,
+          "link": "/e-codex/ecodex/wiki"
+        },
+        "description": "",
+        "title": "Wiki",
+        "content": ""
+      }]
+    },
+    "categories": {
+      "ownKey": "categories",
+      "childrenPages": {
+        "category2": {
+          "ownKey": "category2",
+          "ownPages": [{
+            "reference": {
+              "path": "categories/category2",
+              "baseUrl": "/e-codex/ecodex",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "/e-codex/ecodex/categories/category2",
+              "title": "Category 2"
+            },
+            "description": "",
+            "title": "Category 2",
+            "content": ""
+          }]
+        },
+        "category1": {
+          "ownKey": "category1",
+          "ownPages": [{
+            "reference": {
+              "path": "categories/category1",
+              "baseUrl": "/e-codex/ecodex",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "/e-codex/ecodex/categories/category1",
+              "title": "Category 1"
+            },
+            "description": "",
+            "title": "Category 1",
+            "content": ""
+          }]
+        }
+      },
+      "ownPages": [{
+        "reference": {
+          "path": "categories",
+          "baseUrl": "/e-codex/ecodex",
+          "fileName": "/",
+          "extension": "html",
+          "usePrettyUrl": true,
+          "link": "/e-codex/ecodex/categories",
+          "title": "Categories"
+        },
+        "description": "",
+        "title": "Categories",
+        "content": ""
+      }]
+    },
+    "authors": {
+      "ownKey": "authors",
+      "childrenPages": {
+        "author-one": {
+          "ownKey": "author-one",
+          "ownPages": [{
+            "reference": {
+              "path": "authors",
+              "baseUrl": "/e-codex/ecodex",
+              "fileName": "author-one/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "/e-codex/ecodex/authors/author-one"
+            },
+            "description": "",
+            "title": "Author One",
+            "content": ""
+          }]
+        },
+        "author-two": {
+          "ownKey": "author-two",
+          "ownPages": [{
+            "reference": {
+              "path": "authors",
+              "baseUrl": "/e-codex/ecodex",
+              "fileName": "author-two/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "/e-codex/ecodex/authors/author-two"
+            },
+            "description": "",
+            "title": "Author Two",
+            "content": ""
+          }]
+        }
+      }
+    },
+    "tags": {
+      "ownKey": "tags",
+      "childrenPages": {
+        "one": {
+          "ownKey": "one",
+          "ownPages": [{
+            "reference": {
+              "path": "tags/one",
+              "baseUrl": "/e-codex/ecodex",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "/e-codex/ecodex/tags/one",
+              "title": "One"
+            },
+            "description": "",
+            "title": "One",
+            "content": ""
+          }]
+        },
+        "three": {
+          "ownKey": "three",
+          "ownPages": [{
+            "reference": {
+              "path": "tags/three",
+              "baseUrl": "/e-codex/ecodex",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "/e-codex/ecodex/tags/three",
+              "title": "Three"
+            },
+            "description": "",
+            "title": "Three",
+            "content": ""
+          }]
+        },
+        "two": {
+          "ownKey": "two",
+          "ownPages": [{
+            "reference": {
+              "path": "tags/two",
+              "baseUrl": "/e-codex/ecodex",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "/e-codex/ecodex/tags/two",
+              "title": "Two"
+            },
+            "description": "",
+            "title": "Two",
+            "content": ""
+          }]
+        }
+      },
+      "ownPages": [{
+        "reference": {
+          "path": "tags",
+          "baseUrl": "/e-codex/ecodex",
+          "fileName": "/",
+          "extension": "html",
+          "usePrettyUrl": true,
+          "link": "/e-codex/ecodex/tags",
+          "title": "Tags"
+        },
+        "description": "",
+        "title": "Tags",
+        "content": ""
+      }]
+    }
+  },
+  "ownPages": [
+    {
+      "reference": {
+        "path": "",
+        "baseUrl": "/e-codex/ecodex",
+        "fileName": "",
+        "extension": "html",
+        "usePrettyUrl": true,
+        "link": "/e-codex/ecodex"
+      },
+      "description": "",
+      "title": "e-Codex",
+      "content": "<p>Technical documentation on e-Codex components.<\/p>\n<p>see Wiki for more details: <a href=\"wiki/\">Wiki<\/a><\/p>\n"
+    },
+    {
+      "reference": {
+        "path": "",
+        "baseUrl": "/e-codex/ecodex",
+        "fileName": "404",
+        "extension": "html",
+        "usePrettyUrl": false,
+        "link": "/e-codex/ecodex/404.html"
+      },
+      "description": "",
+      "title": "e-Codex",
+      "content": ""
+    }
+  ]
+}

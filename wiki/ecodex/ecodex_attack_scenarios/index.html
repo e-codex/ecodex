@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+
+<meta charset="utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+<meta name="generator" content="Orchid 0.17.5"/>
+<link rel="icon" href="/e-codex/ecodex/favicon.ico">
+
+
+<meta name="robots" content="index, follow">
+
+
+
+<title>Attack scenarios on e-Codex</title>
+
+
+<meta name="description" content="This site contains technical documentation of the e-Codex Components">
+
+
+
+<link rel="prev" href="/e-codex/ecodex/wiki/ecodex/differences_edelivery_ecodex">
+
+
+
+<script>
+    window.site = {"orchidVersion":"0.17.5","baseUrl":"/e-codex/ecodex","environment":"debug","version":"1.0-SNAPSHOT"};
+</script>
+
+
+
+
+
+<!-- start:debug info -->
+
+<!-- THEME -->
+<!-- Type: BsDoc -->
+<!-- Class: com.eden.orchid.bsdoc.BSDocTheme -->
+
+<!-- PAGE -->
+<!-- Type: wiki -->
+<!-- Class: com.eden.orchid.wiki.pages.WikiPage -->
+<!-- Layout: index -->
+<!-- Resolved Layout: templates/layouts/index.peb -->
+<!-- Page Template: wiki, page -->
+<!-- Resolved Page Template:  -->
+
+<!-- RESOURCE -->
+<!-- Class: com.eden.orchid.api.resources.resource.FileResource -->
+<!-- Source Filename: wiki/ecodex/ecodex_attack_scenarios.ad -->
+
+<!-- COMPLETE PAGE CONFIGURATION -->
+<script>
+    window.allData = {"reference":{"path":"wiki/ecodex","baseUrl":"/e-codex/ecodex","fileName":"ecodex_attack_scenarios","extension":"html","usePrettyUrl":true,"link":"/e-codex/ecodex/wiki/ecodex/ecodex_attack_scenarios"},"previous":{"path":"wiki/ecodex","baseUrl":"/e-codex/ecodex","fileName":"differences_edelivery_ecodex","extension":"html","usePrettyUrl":true,"link":"/e-codex/ecodex/wiki/ecodex/differences_edelivery_ecodex"},"description":"","title":"Attack scenarios on e-Codex"};
+</script>
+
+<!-- end:debug info -->
+
+
+
+<!-- start:inject styles -->
+<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.min.css"/>
+<link rel="stylesheet" type="text/css" href="/e-codex/ecodex/BsDoc/9e2fe29b/assets/css/bsdoc.css"/>
+<link rel="stylesheet" type="text/css" href="/e-codex/ecodex/BsDoc/9e2fe29b/assets/css/orchidSearch.css"/>
+<link rel="stylesheet" type="text/css" href="/e-codex/ecodex/assets/css/extraCss.css"/>
+<link rel="stylesheet" type="text/css" href="/e-codex/ecodex/assets/ecodex/css/ecodex.css"/>
+<link rel="stylesheet" type="text/css" href="/e-codex/ecodex/assets/css/pygments.css"/>
+<!-- end:inject styles -->
+
+
+</head>
+<body>
+
+
+
+
+
+<header class="navbar navbar-fixed-top bs-docs-nav">
+    <div class="container">
+        <div class="navbar-header" role="banner">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/e-codex/ecodex">e-Codex</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    
+                        <li><a href="/e-codex/ecodex">Home</a></li>
+                    
+                
+                    
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">connector<span class="caret"></span></a>
+                            <ul class="dropdown-menu scrollable-menu">
+                                
+                                    <li><a href="/e-codex/ecodex/wiki/connector/evidence">Evidence</a></li>
+                                
+                                    <li><a href="/e-codex/ecodex/wiki/connector/modules_description">Modules</a></li>
+                                
+                                    <li><a href="/e-codex/ecodex/wiki/connector/use_cases">Use Cases</a></li>
+                                
+                            </ul>
+                        </li>
+                    
+                
+                    
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">ecodex<span class="caret"></span></a>
+                            <ul class="dropdown-menu scrollable-menu">
+                                
+                                    <li><a href="/e-codex/ecodex/wiki/ecodex/ecodex_protocol">e-Codex Protocol specification</a></li>
+                                
+                                    <li><a href="/e-codex/ecodex/wiki/ecodex/example_deployment">Example Deployment</a></li>
+                                
+                                    <li><a href="/e-codex/ecodex/wiki/ecodex/configuration_update">Configuration Update</a></li>
+                                
+                                    <li><a href="/e-codex/ecodex/wiki/ecodex/differences_edelivery_ecodex">Differences betweend e-Codex and e-Delivery</a></li>
+                                
+                                    <li><a href="/e-codex/ecodex/wiki/ecodex/ecodex_attack_scenarios">Attack scenarios on e-Codex</a></li>
+                                
+                            </ul>
+                        </li>
+                    
+                
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+
+
+<div id="top"></div>
+
+
+
+    /e-codex/ecodex/assets/ecodex/media/e-CODEX_home_1500-2.jpg
+
+    <div class="bs-docs-masthead" id="jumbotron" style="background-image: url(&quot;/e-codex/ecodex/assets/ecodex/media/e-CODEX_home_1500-2.jpg&quot;);" >
+        <div class="container">
+            <h1 class="home-title">Attack scenarios on e-Codex</h1>
+        </div>
+    </div>
+
+
+<div class="container bs-docs-container">
+    <div class="row">
+        <div class="col-md-9" role="main">
+        <nav aria-label="breadcrumb">
+    <ul class="breadcrumb">
+    
+    
+        <li class="breadcrumb-item"><a href="/e-codex/ecodex/wiki">Wiki</a></li>
+    
+    
+    
+        <li class="breadcrumb-item"><a href="/e-codex/ecodex/wiki/ecodex">E Codex</a></li>
+    
+    
+    
+        <li class="breadcrumb-item active" aria-current="page">Attack scenarios on e-Codex</li>
+    
+    
+    </ul>
+</nav>
+        
+
+        
+        
+            
+    <!-- start:inject components -->
+    
+        
+            
+                
+                    
+                        <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Overview of the e-Codex Components</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Country A</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Gateway</p>
+</li>
+<li>
+<p>Connector</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Country B</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Gateway</p>
+</li>
+<li>
+<p>Connector</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>CMT</p>
+</li>
+<li>
+<p>Certificate Authority</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_security_features">Security Features</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Messages are only transported between 2 Domains</p>
+</li>
+<li>
+<p>Decentralized infrastructure - one compromised node only affects communication with this node</p>
+</li>
+<li>
+<p>Seperated infrastructures for certificate management and configuration management</p>
+</li>
+<li>
+<p>The IP-Addresses of the partners are known</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_attacking_e_codex_e_delivery">Attacking e-Codex / e-Delivery</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The following text would give a brief overview of angle of attacks at the whole e-Codex infrastructure.</p>
+</div>
+<div class="sect2">
+<h3 id="_scenario_1_hijacking_an_access_point">Scenario 1 - Hijacking  an access point.</h3>
+<div class="paragraph">
+<p>This is not really a design problem of e-Codex. Because the participants are
+responsible for their own infrastructure and security. But the problem will only affect the communication
+from and to this member state.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_scenario_2_hijacking_the_cmt">Scenario 2 - Hijacking the CMT</h3>
+<div class="paragraph">
+<p>The CMT is responsible for distributing the configuration. The configuration contains all the used
+certificates and IP-Adresses. So an evil party would have the possibility to modify the p-Modes and
+certificates of an access-point and this would enable the evil party to intercept the data traffic.</p>
+</div>
+<div class="paragraph">
+<p>In this example the CMT distributes a configuration where Party A and Party B would get an P-Mode
+configuratoin and sets of certificates where a Party B' would act as an transparent proxy.</p>
+</div>
+<div class="paragraph">
+<p>Party A &lt;&#8594; Party B' &lt;&#8594; Party B</p>
+</div>
+<div class="paragraph">
+<p>This scenario is prevented by the usage of an 2nd party the Certificate Authority. All certificates
+within the e-Codex domain must be issued by this CA. So it would be very hard for Party B' to
+also get an valid e-Codex Certificate.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+An additional security feature would be if the configuration is signed by the party administrator
+before it is going to be uploaded to the CMT.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_scenario_3_hijacking_of_the_ca">Scenario 3 - Hijacking of the CA</h3>
+<div class="paragraph">
+<p>If the CA is hijacked it would be possible for the attackers to issue valid e-Codex certificates. But
+still the certificates must also be part of the distributed configuration so also the evil issued
+certificates must become part of the by the CMT distributed configuration. So also the CMT
+must be compromised.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_conclusion">Conclusion</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The effort to perform an man-in-the-middle attack would be high. Especially if the whole network should be
+overtaken. In this case 2 seperate infrastructures must be captured. The CMT and the Certificate Authority.</p>
+</div>
+<div class="paragraph">
+<p>Most likely is the sceneario that a single access point is attacked. To prevent this the access-points
+should monitor the current by the CMT distributed configuration and check them against ther own current
+configuration. Also the public available lists of issued certificates should be checked on a regulary
+basis by the access-point administrator.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_attacking_an_single_access_point">Attacking an single Access-Point</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Not only attacks on the whole network are possible. Also the single access-points can be valuable targets.
+Currently the e-Codex network is by design public available (through the internet). This gives
+the network a lot of flexibility but also makes it vulnerable to all kind of security threats.</p>
+</div>
+<div class="sect2">
+<h3 id="_ip_whitelist">IP Whitelist</h3>
+<div class="paragraph">
+<p>As a first layer of hindering unpleasent guests the CMT is also distributing with the configuration
+a list of IP-Addresses. So it is very easy task to simple block the traffic from all IP-Addresses which
+are not within this Whitelist.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_tls_client_authentication">TLS Client authentication</h3>
+<div class="paragraph">
+<p>The next level is the access to the gateway. The AS4 gateway is a simple Webservice. Within the e-Codex
+network it is possible to enable certificate based TLS-Client authentication. So only clients which
+do have a certificate signed by the RootCA and part of the distributed configuration are granted access
+to the webservice.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_tls_encryption_server_authentication">TLS Encryption / Server Authentication</h3>
+<div class="paragraph">
+<p>As TLS Client authentication is used also the webserver must be authenticated to the client. For this purpose
+also certificates are used. This certificates also has to be signed by the RootCA. (Currently the
+domibus gateway does not support that the webserver certificate itself has to exists in the trusted
+webservers store).
+The whole communication between the gateway and the webserver is TLS encrypted!</p>
+</div>
+<div class="paragraph">
+<p>(TODO: define TLS level + at least used Algorithms - TLS1.3)</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_as4_message_encryption">AS4 Message encryption</h3>
+<div class="paragraph">
+<p>The over the opened HTTPs channel transported message has been signed and encrpyted by the sending gateway.
+Also the gateway is doing a sender and recipient certificate validation. So a corrupt webserver will not be
+sufficient to read the message content.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_connector_message_signature">Connector Message signature</h3>
+<div class="paragraph">
+<p>The over e-Delivery transported e-Codex messages and evidences are signed by the connector. So any modification
+on the gateway or between the two connectors would be detected by receiving connector.</p>
+</div>
+</div>
+</div>
+</div>
+                    
+                
+            
+        
+    
+    <!-- end:inject components -->
+
+
+        
+        </div>
+
+        <!-- Page navigation
+        =========================================== -->
+        <div class="col-md-3" role="complementary">
+        <div class="bs-docs-sidebar hidden-print" id="bs-docs-sidebar">
+    
+        <section id="search" >
+            <form data-orchid-search="">
+                <div class="input-group">
+                    <input type="text" name="query" id="query" class="form-control" placeholder="Search&hellip;">
+                    <span class="input-group-btn"><button type="submit" class="btn btn-default">Go</button></span>
+                </div>
+            </form>
+            <div id="search-results" data-orchid-search-results style="display: none;">
+                <b>Search Results</b>
+                <ul></ul>
+            </div>
+            <div id="search-progress" data-orchid-search-progress style="display: none;">
+                <div class="loader">Loading...</div>
+            </div>
+        </section>
+    
+
+    <ul class="nav bs-docs-sidenav">
+        
+    </ul>
+
+    
+    <!-- start:inject components -->
+    
+    <!-- end:inject components -->
+
+
+
+    <a class="back-to-top" href="#top">
+        <i class="glyphicon glyphicon-chevron-up"></i> Back to top
+    </a>
+</div>
+
+        </div>
+    </div>
+</div>
+
+
+<div id="footer">
+    <div class="container bs-docs-container">
+    <footer class="bs-docs-footer" role="contentinfo">
+    <div class="row">
+        <div class="col-xs-12">
+            <nav aria-label="navigateClasses">
+                <ul class="pager">
+                    
+                        <li class="previous">
+                            <a href="/e-codex/ecodex/wiki/ecodex/differences_edelivery_ecodex">
+                                <span aria-hidden="true">&larr;</span>
+                                <span>Differences betweend e-Codex and e-Delivery</span>
+                            </a>
+                        </li>
+                    
+
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="icons">
+    
+    
+    
+    </div>
+    <br>
+    <p>
+    Documentation template based on the
+    <a href="https://github.com/mistic100/jekyll-bootstrap-doc">Jekyll Bootstrap Doc</a>
+    Jekyll theme by the <a href="https://getbootstrap.com">Bootstrap team</a>. Site created with
+    <a href="https://orchid.netlify.com">Orchid</a>.
+</p>
+
+<ul class="bs-docs-footer-links muted">
+    <li>Currently 1.0-SNAPSHOT</li>
+</ul>
+
+</footer>
+    </div>
+</div>
+
+
+<!-- start:inject scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.3.0/bootbox.min.js"></script>
+<script src="/e-codex/ecodex/BsDoc/9e2fe29b/assets/js/bsdoc.js"></script>
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script src="/e-codex/ecodex/BsDoc/9e2fe29b/assets/js/orchidSearch.js"></script>
+<script src="/e-codex/ecodex/assets/js/extraJs.js"></script>
+<!-- end:inject scripts -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
+    
+
+<script>
+    $(function () {
+        window.colors = ['#4C376C', '#000000'];
+                  
+        buildNav();
+    });
+</script>
+
+</body>
+</html>

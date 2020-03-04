@@ -1,0 +1,14 @@
+{
+  "reference": {
+    "path": "wiki",
+    "baseUrl": "/e-codex/ecodex",
+    "fileName": "connector",
+    "extension": "html",
+    "usePrettyUrl": true,
+    "link": "/e-codex/ecodex/wiki/connector"
+  },
+  "data": {},
+  "description": "",
+  "title": "Domibus   Connector",
+  "content": "<html>\n <head><\/head>\n <body>\n  <ul> \n   <li><a href=\"/e-codex/ecodex/wiki/connector/evidence\">Evidence<\/a><\/li> \n   <li><a href=\"/e-codex/ecodex/wiki/connector/modules_description\">Modules<\/a><\/li> \n   <li><a href=\"/e-codex/ecodex/wiki/connector/use_cases\">Use Cases<\/a><\/li> \n  <\/ul> \n <\/body>\n<\/html>\n"
+}

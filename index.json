@@ -1,0 +1,14 @@
+{
+  "reference": {
+    "path": "",
+    "baseUrl": "/e-codex/ecodex",
+    "fileName": "",
+    "extension": "html",
+    "usePrettyUrl": true,
+    "link": "/e-codex/ecodex"
+  },
+  "data": {"layout": "index"},
+  "description": "",
+  "title": "e-Codex",
+  "content": "<p>Technical documentation on e-Codex components.<\/p>\n<p>see Wiki for more details: <a href=\"wiki/\">Wiki<\/a><\/p>\n"
+}

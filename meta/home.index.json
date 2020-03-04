@@ -1,0 +1,31 @@
+{
+  "ownKey": "home",
+  "ownPages": [
+    {
+      "reference": {
+        "path": "",
+        "baseUrl": "/e-codex/ecodex",
+        "fileName": "",
+        "extension": "html",
+        "usePrettyUrl": true,
+        "link": "/e-codex/ecodex"
+      },
+      "description": "",
+      "title": "e-Codex",
+      "content": "<p>Technical documentation on e-Codex components.<\/p>\n<p>see Wiki for more details: <a href=\"wiki/\">Wiki<\/a><\/p>\n"
+    },
+    {
+      "reference": {
+        "path": "",
+        "baseUrl": "/e-codex/ecodex",
+        "fileName": "404",
+        "extension": "html",
+        "usePrettyUrl": false,
+        "link": "/e-codex/ecodex/404.html"
+      },
+      "description": "",
+      "title": "e-Codex",
+      "content": ""
+    }
+  ]
+}

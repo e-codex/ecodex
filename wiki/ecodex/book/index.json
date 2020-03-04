@@ -1,0 +1,14 @@
+{
+  "reference": {
+    "path": "wiki/ecodex",
+    "baseUrl": "/e-codex/ecodex",
+    "fileName": "book",
+    "extension": "pdf",
+    "usePrettyUrl": false,
+    "link": "/e-codex/ecodex/wiki/ecodex/book.pdf"
+  },
+  "data": {},
+  "description": "",
+  "title": "eCodex Book",
+  "content": ""
+}

@@ -1,0 +1,30 @@
+{
+  "reference": {
+    "path": "wiki/connector",
+    "baseUrl": "/e-codex/ecodex",
+    "fileName": "modules_description",
+    "extension": "html",
+    "usePrettyUrl": true,
+    "link": "/e-codex/ecodex/wiki/connector/modules_description"
+  },
+  "next": {
+    "path": "wiki/connector",
+    "baseUrl": "/e-codex/ecodex",
+    "fileName": "use_cases",
+    "extension": "html",
+    "usePrettyUrl": true,
+    "link": "/e-codex/ecodex/wiki/connector/use_cases"
+  },
+  "previous": {
+    "path": "wiki/connector",
+    "baseUrl": "/e-codex/ecodex",
+    "fileName": "evidence",
+    "extension": "html",
+    "usePrettyUrl": true,
+    "link": "/e-codex/ecodex/wiki/connector/evidence"
+  },
+  "data": {},
+  "description": "",
+  "title": "Modules",
+  "content": "<h1 id=\"domibus-web-connector-40\">Domibus Web Connector 4.0<\/h1>\n<h2 id=\"module-description\">Module description<\/h2>\n<p>The project contains multiple maven modules. The following list gives a short introduction about these modules.<\/p>\n<table>\n<thead>\n<tr><th>Module<\/th><th>Description<\/th><\/tr>\n<\/thead>\n<tbody>\n<tr><td>domibusConnectorTest<\/td><td>Contains multiple child modules related to testing<\/td><\/tr>\n<tr><td>domibusConnectorTest/domibusConnectorStarter<\/td><td>Contains multiple child modules with different starting configurations<\/td><\/tr>\n<tr><td>domibusConnectorTest/domibusConnectorStarter/domibusConnectorOnlyStarter<\/td><td>Starts only the connector without webAppModule, also packaged als spring boot .jar application. Starts its own tomcat and embedded database. Also uses coded reload and is used for development. Also used to have a environment for client development<\/td><\/tr>\n<\/tbody>\n<\/table>\n"
+}

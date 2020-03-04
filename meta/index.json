@@ -1,0 +1,80 @@
+{
+  "ownKey": "index",
+  "childrenPages": {"meta": {
+    "ownKey": "meta",
+    "ownPages": [
+      {
+        "reference": {
+          "path": "meta",
+          "baseUrl": "/e-codex/ecodex",
+          "fileName": "home.index",
+          "extension": "json",
+          "usePrettyUrl": false,
+          "link": "/e-codex/ecodex/meta/home.index.json"
+        },
+        "description": "",
+        "title": "Home . Index"
+      },
+      {
+        "reference": {
+          "path": "meta",
+          "baseUrl": "/e-codex/ecodex",
+          "fileName": "pages.index",
+          "extension": "json",
+          "usePrettyUrl": false,
+          "link": "/e-codex/ecodex/meta/pages.index.json"
+        },
+        "description": "",
+        "title": "Pages . Index"
+      },
+      {
+        "reference": {
+          "path": "meta",
+          "baseUrl": "/e-codex/ecodex",
+          "fileName": "posts.index",
+          "extension": "json",
+          "usePrettyUrl": false,
+          "link": "/e-codex/ecodex/meta/posts.index.json"
+        },
+        "description": "",
+        "title": "Posts . Index"
+      },
+      {
+        "reference": {
+          "path": "meta",
+          "baseUrl": "/e-codex/ecodex",
+          "fileName": "wiki.index",
+          "extension": "json",
+          "usePrettyUrl": false,
+          "link": "/e-codex/ecodex/meta/wiki.index.json"
+        },
+        "description": "",
+        "title": "Wiki . Index"
+      },
+      {
+        "reference": {
+          "path": "meta",
+          "baseUrl": "/e-codex/ecodex",
+          "fileName": "taxonomies.index",
+          "extension": "json",
+          "usePrettyUrl": false,
+          "link": "/e-codex/ecodex/meta/taxonomies.index.json"
+        },
+        "description": "",
+        "title": "Taxonomies . Index"
+      },
+      {
+        "reference": {
+          "path": "meta",
+          "baseUrl": "/e-codex/ecodex",
+          "fileName": "all.index",
+          "extension": "json",
+          "usePrettyUrl": false,
+          "link": "/e-codex/ecodex/meta/all.index.json"
+        },
+        "description": "",
+        "title": "All . Index"
+      }
+    ]
+  }}
+}

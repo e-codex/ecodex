@@ -1,0 +1,30 @@
+{
+  "reference": {
+    "path": "wiki/ecodex",
+    "baseUrl": "/e-codex/ecodex",
+    "fileName": "differences_edelivery_ecodex",
+    "extension": "html",
+    "usePrettyUrl": true,
+    "link": "/e-codex/ecodex/wiki/ecodex/differences_edelivery_ecodex"
+  },
+  "next": {
+    "path": "wiki/ecodex",
+    "baseUrl": "/e-codex/ecodex",
+    "fileName": "ecodex_attack_scenarios",
+    "extension": "html",
+    "usePrettyUrl": true,
+    "link": "/e-codex/ecodex/wiki/ecodex/ecodex_attack_scenarios"
+  },
+  "previous": {
+    "path": "wiki/ecodex",
+    "baseUrl": "/e-codex/ecodex",
+    "fileName": "configuration_update",
+    "extension": "html",
+    "usePrettyUrl": true,
+    "link": "/e-codex/ecodex/wiki/ecodex/configuration_update"
+  },
+  "data": {},
+  "description": "",
+  "title": "Differences betweend e-Codex and e-Delivery",
+  "content": "<div id=\"preamble\">\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>To be disappointing at the first written line. There are no differences! E-delivery is a part of e-Codex. E-Codex is\nusing e-Delivery to transport the e-Codex messages between two access points.<\/p>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_the_features_of_e_delivery\">The features of e-Delivery<\/h2>\n<div class=\"sectionbody\">\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Utilizes AS4 messaging standard<\/p>\n<\/li>\n<li>\n<p>Ensures message transport between two access-points<\/p>\n<\/li>\n<li>\n<p>Validation and compression of the user message<\/p>\n<\/li>\n<li>\n<p>Signing of the compressed message<\/p>\n<\/li>\n<li>\n<p>Encryption of the signed compressed message<\/p>\n<\/li>\n<li>\n<p>validation of the origin user message<\/p>\n<\/li>\n<li>\n<p>sending back of acknowledgments<\/p>\n<\/li>\n<\/ul>\n<\/div>\n<div class=\"imageblock\">\n<div class=\"content\">\n<img src=\"../../../assets/media/images/e_delivery_flyer.png\" alt=\"e delivery flyer\">\n<\/div>\n<div class=\"title\">Figure 1. Excerpt of the e-Delivery Flyer<\/div>\n<\/div>\n<div class=\"paragraph\">\n<p><a href=\"https://ec.europa.eu/cefdigital/wiki/download/attachments/82773424/20180912_eDelivery_Flyer.pdf?version=1&amp;modificationDate=1537358787680&amp;api=v2\" class=\"bare\">https://ec.europa.eu/cefdigital/wiki/download/attachments/82773424/20180912_eDelivery_Flyer.pdf?version=1&amp;modificationDate=1537358787680&amp;api=v2<\/a><\/p>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_the_requirements_of_e_codex\">The requirements of e-Codex<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>E-Delivery does a lot of things and is put to good use in a lot of projects. But for e-Codex there have been additional\nrequirements.<\/p>\n<\/div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Proof of the location of the document<\/p>\n<\/li>\n<li>\n<p>Creating trust between different systems<\/p>\n<\/li>\n<\/ul>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_proof_of_the_location_of_the_document\">Proof of the location of the document<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>Within the e-Codex usescases there is always a urgent need to determine the current location of a sent\ndocument. Though the AS4 acknowledge tells us when the message has reached the other access-point, but for e-Codex\nthere is also the requirement to tell exactly when the message has reached the inbox of the final recipient or\nfor some usecaes when the final recipient has read/become aware of the message.<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>For this purpose e-Codex is generating ETSI-Rem evidences if messages have reached a specific point.<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>Usually within e-Codex the message is passed to an national system. Often this national systems have\nsimilar transport state messages. This transport state messages are mapped into ETSI-REM evidences\nand transported to the sending party. Back at the sending party this evidences can be ignored or\nmapped back to the national evidences.<\/p>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_creating_trust_between_different_systems\">Creating trust between different systems<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>E-Codex was build to connect different message transport systems. Within this transport systems there\nare also different ways to ensure the trust/origin of the document. Some of this systems are using\nan PKI approach were all generated documents are signed by the creator. Within other environments the\ndocument hashes are stored in a central database. The validity is checked by the database. Within other\nenvironments the necessary documents are not really created, they are just values and objects within\nan application.<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>All these examples combine the problem that documents which are exported from this environments cannot\nbe validated within an other environment.<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>To solve this problem within e-Codex the idea of the trust token was created. The basic concept is before\nany documents are sent to another domain the sending instance is creating an signed ASIC-S container.\nThis ASIC-S container also contains a token within this token the trust state of the sent document\nfor the current environment ist documented (as XML for automatic processing and as PDF for human readability).<\/p>\n<\/div>\n<div class=\"paragraph\">\n<p>After this steps the document is transported to the other domain. Before the document is importated in this\ndomain the receiving side is checking the ASIC-S container and the trust token. First of all the ASIC-S\ncontainer is validated. In any case the ASIC-S container has to be valid within the e-Codex environment.\nAfter that the trust ok token is being checked. And its completly the decision of the receiving domain\nif and how the document is imported into the receiving system.<\/p>\n<\/div>\n<\/div>\n<\/div>"
+}

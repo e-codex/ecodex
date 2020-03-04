@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+
+<meta charset="utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+<meta name="generator" content="Orchid 0.17.5"/>
+<link rel="icon" href="/e-codex/ecodex/favicon.ico">
+
+
+<meta name="robots" content="index, follow">
+
+
+
+<title>e-Codex Protocol specification</title>
+
+
+<meta name="description" content="This site contains technical documentation of the e-Codex Components">
+
+
+
+
+<link rel="next" href="/e-codex/ecodex/wiki/ecodex/example_deployment">
+
+
+<script>
+    window.site = {"orchidVersion":"0.17.5","baseUrl":"/e-codex/ecodex","environment":"debug","version":"1.0-SNAPSHOT"};
+</script>
+
+
+
+
+
+<!-- start:debug info -->
+
+<!-- THEME -->
+<!-- Type: BsDoc -->
+<!-- Class: com.eden.orchid.bsdoc.BSDocTheme -->
+
+<!-- PAGE -->
+<!-- Type: wiki -->
+<!-- Class: com.eden.orchid.wiki.pages.WikiPage -->
+<!-- Layout: index -->
+<!-- Resolved Layout: templates/layouts/index.peb -->
+<!-- Page Template: wiki, page -->
+<!-- Resolved Page Template:  -->
+
+<!-- RESOURCE -->
+<!-- Class: com.eden.orchid.api.resources.resource.FileResource -->
+<!-- Source Filename: wiki/ecodex/ecodex_protocol.ad -->
+
+<!-- COMPLETE PAGE CONFIGURATION -->
+<script>
+    window.allData = {"reference":{"path":"wiki/ecodex","baseUrl":"/e-codex/ecodex","fileName":"ecodex_protocol","extension":"html","usePrettyUrl":true,"link":"/e-codex/ecodex/wiki/ecodex/ecodex_protocol"},"next":{"path":"wiki/ecodex","baseUrl":"/e-codex/ecodex","fileName":"example_deployment","extension":"html","usePrettyUrl":true,"link":"/e-codex/ecodex/wiki/ecodex/example_deployment"},"description":"","title":"e-Codex Protocol specification"};
+</script>
+
+<!-- end:debug info -->
+
+
+
+<!-- start:inject styles -->
+<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.min.css"/>
+<link rel="stylesheet" type="text/css" href="/e-codex/ecodex/BsDoc/9e2fe29b/assets/css/bsdoc.css"/>
+<link rel="stylesheet" type="text/css" href="/e-codex/ecodex/BsDoc/9e2fe29b/assets/css/orchidSearch.css"/>
+<link rel="stylesheet" type="text/css" href="/e-codex/ecodex/assets/css/extraCss.css"/>
+<link rel="stylesheet" type="text/css" href="/e-codex/ecodex/assets/ecodex/css/ecodex.css"/>
+<link rel="stylesheet" type="text/css" href="/e-codex/ecodex/assets/css/pygments.css"/>
+<!-- end:inject styles -->
+
+
+</head>
+<body>
+
+
+
+
+
+<header class="navbar navbar-fixed-top bs-docs-nav">
+    <div class="container">
+        <div class="navbar-header" role="banner">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/e-codex/ecodex">e-Codex</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    
+                        <li><a href="/e-codex/ecodex">Home</a></li>
+                    
+                
+                    
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">connector<span class="caret"></span></a>
+                            <ul class="dropdown-menu scrollable-menu">
+                                
+                                    <li><a href="/e-codex/ecodex/wiki/connector/evidence">Evidence</a></li>
+                                
+                                    <li><a href="/e-codex/ecodex/wiki/connector/modules_description">Modules</a></li>
+                                
+                                    <li><a href="/e-codex/ecodex/wiki/connector/use_cases">Use Cases</a></li>
+                                
+                            </ul>
+                        </li>
+                    
+                
+                    
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">ecodex<span class="caret"></span></a>
+                            <ul class="dropdown-menu scrollable-menu">
+                                
+                                    <li><a href="/e-codex/ecodex/wiki/ecodex/ecodex_protocol">e-Codex Protocol specification</a></li>
+                                
+                                    <li><a href="/e-codex/ecodex/wiki/ecodex/example_deployment">Example Deployment</a></li>
+                                
+                                    <li><a href="/e-codex/ecodex/wiki/ecodex/configuration_update">Configuration Update</a></li>
+                                
+                                    <li><a href="/e-codex/ecodex/wiki/ecodex/differences_edelivery_ecodex">Differences betweend e-Codex and e-Delivery</a></li>
+                                
+                                    <li><a href="/e-codex/ecodex/wiki/ecodex/ecodex_attack_scenarios">Attack scenarios on e-Codex</a></li>
+                                
+                            </ul>
+                        </li>
+                    
+                
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+
+
+<div id="top"></div>
+
+
+
+    /e-codex/ecodex/assets/ecodex/media/e-CODEX_home_1500-2.jpg
+
+    <div class="bs-docs-masthead" id="jumbotron" style="background-image: url(&quot;/e-codex/ecodex/assets/ecodex/media/e-CODEX_home_1500-2.jpg&quot;);" >
+        <div class="container">
+            <h1 class="home-title">e-Codex Protocol specification</h1>
+        </div>
+    </div>
+
+
+<div class="container bs-docs-container">
+    <div class="row">
+        <div class="col-md-9" role="main">
+        <nav aria-label="breadcrumb">
+    <ul class="breadcrumb">
+    
+    
+        <li class="breadcrumb-item"><a href="/e-codex/ecodex/wiki">Wiki</a></li>
+    
+    
+    
+        <li class="breadcrumb-item"><a href="/e-codex/ecodex/wiki/ecodex">E Codex</a></li>
+    
+    
+    
+        <li class="breadcrumb-item active" aria-current="page">e-Codex Protocol specification</li>
+    
+    
+    </ul>
+</nav>
+        
+
+        
+        
+            
+    <!-- start:inject components -->
+    
+        
+            
+                
+                    
+                        <div class="sect1">
+<h2 id="_abstract">Abstract</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>e-Codex is a collection of different protocols and standards and is tying them together.
+One of the main goals of e-Codex is the secure and and traceable transport of digital documents.
+For this purpose e-Codex is built on top of AS4.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_specifications_of_requirements">Specifications of Requirements</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
+"SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
+document are to be interpreted as described in [RFC2119].</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_status_of_this_document">Status of this document</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This document is currently work in progress and should describe e-Codex in a detailed fashion to
+help other developers to implement it.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_copyright_notice">Copyright Notice</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This document is released under the EUPL license, but only the e-Codex consortium is allowed to
+publish new releases of the e-Codex standard! So any modifications must change the document title so
+it&#8217;s clear that it is not an official version.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_introduction">Introduction</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Within the judicial domain it becomes more likely that cases are international. A lot of countries
+already have national systems to manage and trace digital received documents. But this systems
+are unable to communicate with each other in a cross border manner. E-Codex is offering an approach
+to address the technical problems which are occuring in transporting documents digitally between
+different systems.</p>
+</div>
+<div class="paragraph">
+<p>The judicially domain as an urgent need to always proove the authenticity of a document and
+also proove when the document has entered the disposal area of a specific authority.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_message_flow">Message Flow</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The e-Codex message flow is business case driven. Multiple business messages related to each other
+should grouped by the usage of the same conversationId. The conversationId must be a generic key
+and must not contain any sensible information.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>sending system</p>
+<div class="ulist">
+<ul>
+<li>
+<p>SUBMISSION_ACCEPTANCE should be created if the message is considered valid</p>
+</li>
+<li>
+<p>SUBMISSION_REJECTION should be created if the message is not a valid e-Codex or contains any information which makes it obvious for
+the sending system that this message will not be accepted by the receiving system.</p>
+</li>
+<li>
+<p>RELAY_REMMD_FAILURE should be created if the configured timeout was reached and no evidence of the type RELAY_REMMD_ACCEPTANCE,
+DELIVERY_ACCEPTANCE, DELIVERY_REJECTION, RETRIEVAL_ACCEPTANCE, RETRIEVAL_REJECTION has been received.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>receiving system</p>
+<div class="ulist">
+<ul>
+<li>
+<p>RELAY_REMMD_ACCEPTANCE should be created if the message is received at the new domain and can be processed and passed to the
+next relaying system or target system.</p>
+</li>
+<li>
+<p>RELAY_REMMD_REJECTION should be created if the message cannot be processed or passed to the next relaying system or target system.</p>
+</li>
+<li>
+<p>DELIVERY should be created if the message was successfully passed to the target system. The DELIVERY_ACCEPTANCE should
+be generated accordingly to the national law when the message has been legally passed to the receiving authority.
+The usage and meaning of the DELIVERY should be defined within the business case.</p>
+</li>
+<li>
+<p>NON_DELIVERY should be created if the message cannot be passed to the target system, authority, or even when the
+acceptance of the message is denied due formal reasons. The usage and meaning of the NON_DELIVERY should be
+defined within the business case.</p>
+</li>
+<li>
+<p>RETRIEVAL may be created if the message has been seen by the processing system, user, human, The usage and meaning of the RETRIEVAL
+should be defined within the business case.</p>
+</li>
+<li>
+<p>NON_RETRIEVAL may be created if the message has not been seen by the processing system, user human within a given time period.
+The usage and meaning of the NON_RETRIEVAL should be defined within the business case.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_asic_s_container_format">Asic-S Container Format</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>As the content is packaged into the ASIC-S container. The ASIC-S container format itself is described
+at <a href="http://www.etsi.org/deliver/etsi_ts/103100_103199/103174/02.02.01_60/ts_103174v020201p.pdf" class="bare">http://www.etsi.org/deliver/etsi_ts/103100_103199/103174/02.02.01_60/ts_103174v020201p.pdf</a></p>
+</div>
+<div class="paragraph">
+<p>The following documents are part of the ASIC-S container:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>A business document of any name.</p>
+</li>
+<li>
+<p>Attachments</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_token_xml_format">Token.xml format</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The token must be generated by the sending e-Codex system. It must be signed with a certificate which
+is valid in the e-codex environment.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_evidences">Evidences</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>To track the message during the way through the different systems the message processing points
+must generate ETSI-REM evidences. The evidences are always generated and processed in the xml-format.</p>
+</div>
+<div class="paragraph">
+<p>TODO: describe evidences in more detail, link the ETSI document.</p>
+</div>
+<div class="paragraph">
+<p>The following evidences must be supported by an e-Codex system. The messages are
+distinguished in the good case and the error or fault case. For the different cases
+the evidences are named differently in UPPER-CASE letters according to the following list:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>SubmissionAcceptanceRejection</p>
+<div class="ulist">
+<ul>
+<li>
+<p>SUBMISSION_ACCEPTANCE</p>
+</li>
+<li>
+<p>SUBMISSION_REJECTION</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>RelayToREMMDAcceptanceRejection</p>
+<div class="ulist">
+<ul>
+<li>
+<p>RELAY_REMMD_ACCEPTANCE</p>
+</li>
+<li>
+<p>RELAY_REMMD_REJECTION</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>RelayToREMMDFailure</p>
+<div class="ulist">
+<ul>
+<li>
+<p>RELAY_REMMD_FAILURE</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>DeliveryNonDeliveryToRecipient</p>
+<div class="ulist">
+<ul>
+<li>
+<p>DELIVERY</p>
+</li>
+<li>
+<p>NON_DELIVERY</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>RetrievalNonRetrievalByRecipient</p>
+<div class="ulist">
+<ul>
+<li>
+<p>RETRIEVAL</p>
+</li>
+<li>
+<p>NON_RETRIEVAL</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_evidences_handling">Evidences handling</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>A message with an SUBMISSION_REJECTION should not leave the sending system. If a message with an SUBMISSION_REJECTION
+is received by an receiving system the system must ignore it. Any following messages or
+evidences to this message must be ignored.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+This means that the receiving system must track at least the message metadata and evidences itself to be able to track the assocation between the messages.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_as4_message_formatstructure">AS4 Message Format/Structure</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Within e-Codex the messages are exchanged over AS4. The e-Codex messages are transported
+with the e-SENS AS4 profile. <a href="https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/e-SENS+AS4+-+1.12" class="bare">https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/e-SENS+AS4+-+1.12</a></p>
+</div>
+<div class="paragraph">
+<p>The exchanged messages must have additionally to the e-SENS profile attributes the following structure:</p>
+</div>
+<div class="paragraph">
+<p>The message properties finalRecipient and originalSender must be set.</p>
+</div>
+<div class="paragraph">
+<p>There are 2 types of messages. The evidence messages and the business message.</p>
+</div>
+<div class="paragraph">
+<p>The business message must follow the following rules:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The message must have a payload with the name <em>messageContent</em> this content is the business xml and must
+have the mimeType <em>text/xml</em></p>
+</li>
+<li>
+<p>The message must have a payload with the name <em>container-signed-xades-baseline-b.asics</em> this content is the
+ASIC-S container it must have the mimeType <em>application/vnd.etsi.asic-s+zip</em> and it must be a valid ASIC-S
+e-Codex container.</p>
+</li>
+<li>
+<p>The message must have a payload with the name <em>Token.xml</em> this content must be a valid e-Codex Token.xml
+and must have the mimeType <em>text/xml</em></p>
+</li>
+<li>
+<p>The message should have a payload with the name SUBMISSION_ACCEPTANCE this content
+is a evidence of the type SUBMISSION_ACCEPTANCE with the mimeType <em>text/xml</em>.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The confirmationMessage must follow the following rules:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The message must have a payload with the name of the evidence [see evidence chapter]</p>
+</li>
+<li>
+<p>The AS4 property refToMessageId must be set to the business message ebmsId the evidence was generated for.</p>
+</li>
+<li>
+<p>The confirmation message must contain only one evidence</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_certificates">Certificates</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Within an e-Codex environment multiple certificates are used. For a valid e-Certificate in an e-Codex environment
+the certificate must comply to following rules. Any references to CRL or OCSP protocol links or future
+X509 protocols must be reachable within the e-Codex environment. So is the e-Codex system running over a public
+network then the references must also be resolvable over this network.</p>
+</div>
+</div>
+</div>
+                    
+                
+            
+        
+    
+    <!-- end:inject components -->
+
+
+        
+        </div>
+
+        <!-- Page navigation
+        =========================================== -->
+        <div class="col-md-3" role="complementary">
+        <div class="bs-docs-sidebar hidden-print" id="bs-docs-sidebar">
+    
+        <section id="search" >
+            <form data-orchid-search="">
+                <div class="input-group">
+                    <input type="text" name="query" id="query" class="form-control" placeholder="Search&hellip;">
+                    <span class="input-group-btn"><button type="submit" class="btn btn-default">Go</button></span>
+                </div>
+            </form>
+            <div id="search-results" data-orchid-search-results style="display: none;">
+                <b>Search Results</b>
+                <ul></ul>
+            </div>
+            <div id="search-progress" data-orchid-search-progress style="display: none;">
+                <div class="loader">Loading...</div>
+            </div>
+        </section>
+    
+
+    <ul class="nav bs-docs-sidenav">
+        
+    </ul>
+
+    
+    <!-- start:inject components -->
+    
+    <!-- end:inject components -->
+
+
+
+    <a class="back-to-top" href="#top">
+        <i class="glyphicon glyphicon-chevron-up"></i> Back to top
+    </a>
+</div>
+
+        </div>
+    </div>
+</div>
+
+
+<div id="footer">
+    <div class="container bs-docs-container">
+    <footer class="bs-docs-footer" role="contentinfo">
+    <div class="row">
+        <div class="col-xs-12">
+            <nav aria-label="navigateClasses">
+                <ul class="pager">
+                    
+
+                    
+                        <li class="next">
+                            <a href="/e-codex/ecodex/wiki/ecodex/example_deployment">
+                                <span>Example Deployment</span>
+                                <span aria-hidden="true">&rarr;</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="icons">
+    
+    
+    
+    </div>
+    <br>
+    <p>
+    Documentation template based on the
+    <a href="https://github.com/mistic100/jekyll-bootstrap-doc">Jekyll Bootstrap Doc</a>
+    Jekyll theme by the <a href="https://getbootstrap.com">Bootstrap team</a>. Site created with
+    <a href="https://orchid.netlify.com">Orchid</a>.
+</p>
+
+<ul class="bs-docs-footer-links muted">
+    <li>Currently 1.0-SNAPSHOT</li>
+</ul>
+
+</footer>
+    </div>
+</div>
+
+
+<!-- start:inject scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.3.0/bootbox.min.js"></script>
+<script src="/e-codex/ecodex/BsDoc/9e2fe29b/assets/js/bsdoc.js"></script>
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script src="/e-codex/ecodex/BsDoc/9e2fe29b/assets/js/orchidSearch.js"></script>
+<script src="/e-codex/ecodex/assets/js/extraJs.js"></script>
+<!-- end:inject scripts -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
+    
+
+<script>
+    $(function () {
+        window.colors = ['#4C376C', '#000000'];
+                  
+        buildNav();
+    });
+</script>
+
+</body>
+</html>

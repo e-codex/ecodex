@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <id>/e-codex/ecodex</id>
+        <title>e-Codex</title>
+        <link>/e-codex/ecodex</link>
+        <atom:link href="/e-codex/ecodex/rss.xml" rel="self" type="application/rss+xml"/>
+        <description>This site contains technical documentation of the e-Codex Components</description>
+        <item>
+            <title>Example Post Category 1</title>
+            <guid>/e-codex/ecodex/category1/2018/1/3/example-post-3</guid>
+            <link>/e-codex/ecodex/category1/2018/1/3/example-post-3</link>
+            <description></description>
+        </item>
+        <item>
+            <title>Example Post Category 1</title>
+            <guid>/e-codex/ecodex/category1/2018/1/2/example-post-2</guid>
+            <link>/e-codex/ecodex/category1/2018/1/2/example-post-2</link>
+            <description></description>
+        </item>
+        <item>
+            <title>Example Post Category 1</title>
+            <guid>/e-codex/ecodex/category1/2018/1/1/example-post</guid>
+            <link>/e-codex/ecodex/category1/2018/1/1/example-post</link>
+            <description></description>
+        </item>
+        <item>
+            <title>Example Post Category 2</title>
+            <guid>/e-codex/ecodex/category2/2018/1/3/example-post-3</guid>
+            <link>/e-codex/ecodex/category2/2018/1/3/example-post-3</link>
+            <description></description>
+        </item>
+        <item>
+            <title>Example Post Category 2</title>
+            <guid>/e-codex/ecodex/category2/2018/1/2/example-post-2</guid>
+            <link>/e-codex/ecodex/category2/2018/1/2/example-post-2</link>
+            <description></description>
+        </item>
+        <item>
+            <title>Example Post Category 2</title>
+            <guid>/e-codex/ecodex/category2/2018/1/1/example-post</guid>
+            <link>/e-codex/ecodex/category2/2018/1/1/example-post</link>
+            <description></description>
+        </item>
+        <item>
+            <title>Author Two</title>
+            <guid>/e-codex/ecodex/authors/author-two</guid>
+            <link>/e-codex/ecodex/authors/author-two</link>
+            <description></description>
+        </item>
+        <item>
+            <title>Author One</title>
+            <guid>/e-codex/ecodex/authors/author-one</guid>
+            <link>/e-codex/ecodex/authors/author-one</link>
+            <description></description>
+        </item>
+        
+    </channel>
+</rss>
