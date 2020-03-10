@@ -5,13 +5,13 @@
     <link href="/ecodex"/>
     <link href="/ecodex/atom.xml" rel="self" type="application/rss+xml"/>
     <id>/ecodex</id>
-    <updated>2020-03-10T15:49:02.289323200T00:00:00Z</updated>
+    <updated>2020-03-10T15:52:40.417614300T00:00:00Z</updated>
     <entry>
         <id>/ecodex/category1/2018/1/3/example-post-3</id>
         <link href="/ecodex/category1/2018/1/3/example-post-3"/>
         <title>Example Post Category 1</title>
         <summary></summary>
-        <updated>2020-03-10T15:49:02.289323200T00:00:00Z</updated>
+        <updated>2020-03-10T15:52:40.417614300T00:00:00Z</updated>
         <published>2018-01-03T00:00T00:00:00Z</published>
     </entry>
     <entry>
@@ -19,7 +19,7 @@
         <link href="/ecodex/category1/2018/1/2/example-post-2"/>
         <title>Example Post Category 1</title>
         <summary></summary>
-        <updated>2020-03-10T15:49:02.288322700T00:00:00Z</updated>
+        <updated>2020-03-10T15:52:40.415613800T00:00:00Z</updated>
         <published>2018-01-02T00:00T00:00:00Z</published>
     </entry>
     <entry>
@@ -27,7 +27,7 @@
         <link href="/ecodex/category1/2018/1/1/example-post"/>
         <title>Example Post Category 1</title>
         <summary></summary>
-        <updated>2020-03-10T15:49:02.286323400T00:00:00Z</updated>
+        <updated>2020-03-10T15:52:40.413613900T00:00:00Z</updated>
         <published>2018-01-01T00:00T00:00:00Z</published>
     </entry>
     <entry>
@@ -35,7 +35,7 @@
         <link href="/ecodex/category2/2018/1/3/example-post-3"/>
         <title>Example Post Category 2</title>
         <summary></summary>
-        <updated>2020-03-10T15:49:02.283322900T00:00:00Z</updated>
+        <updated>2020-03-10T15:52:40.411613900T00:00:00Z</updated>
         <published>2018-01-03T00:00T00:00:00Z</published>
     </entry>
     <entry>
@@ -43,7 +43,7 @@
         <link href="/ecodex/category2/2018/1/2/example-post-2"/>
         <title>Example Post Category 2</title>
         <summary></summary>
-        <updated>2020-03-10T15:49:02.282322800T00:00:00Z</updated>
+        <updated>2020-03-10T15:52:40.409613900T00:00:00Z</updated>
         <published>2018-01-02T00:00T00:00:00Z</published>
     </entry>
     <entry>
@@ -51,7 +51,7 @@
         <link href="/ecodex/category2/2018/1/1/example-post"/>
         <title>Example Post Category 2</title>
         <summary></summary>
-        <updated>2020-03-10T15:49:02.279322800T00:00:00Z</updated>
+        <updated>2020-03-10T15:52:40.406613900T00:00:00Z</updated>
         <published>2018-01-01T00:00T00:00:00Z</published>
     </entry>
     <entry>
@@ -59,16 +59,16 @@
         <link href="/ecodex/authors/author-two"/>
         <title>Author Two</title>
         <summary></summary>
-        <updated>2020-03-10T15:49:02.270323400T00:00:00Z</updated>
-        <published>2020-03-10T15:49:02.270323400T00:00:00Z</published>
+        <updated>2020-03-10T15:52:40.397614T00:00:00Z</updated>
+        <published>2020-03-10T15:52:40.397614T00:00:00Z</published>
     </entry>
     <entry>
         <id>/ecodex/authors/author-one</id>
         <link href="/ecodex/authors/author-one"/>
         <title>Author One</title>
         <summary></summary>
-        <updated>2020-03-10T15:49:02.269325900T00:00:00Z</updated>
-        <published>2020-03-10T15:49:02.269325900T00:00:00Z</published>
+        <updated>2020-03-10T15:52:40.396614200T00:00:00Z</updated>
+        <published>2020-03-10T15:52:40.396614200T00:00:00Z</published>
     </entry>
     
 </feed>
