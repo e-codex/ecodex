@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>eu.ecodex.connector</groupId>
-    <artifactId>domibus-connector-page</artifactId>
+    <groupId>eu.ecodex.protocol</groupId>
+    <artifactId>ecodex-page</artifactId>
     <version>1.0-SNAPSHOT</version>
 
 
@@ -132,7 +132,7 @@
                             </execution>
                         </executions>
                         <configuration>
-                            <baseUrl>/e-codex/ecodex/</baseUrl>
+                            <baseUrl>/ecodex/</baseUrl>
                         </configuration>
                     </plugin>
 
@@ -144,6 +144,7 @@
                             <content>${project.build.directory}/docs/orchid/</content><!-- mono-module doesn't require site:stage -->
                             <pubScmUrl>scm:git:https://github.com/e-codex/ecodex.git</pubScmUrl>
                             <scmBranch>gh-pages</scmBranch>
+                            <serverId>github_ecodex</serverId>
                         </configuration>
                         <executions>
                             <execution>
@@ -155,9 +156,6 @@
                             </execution>
                         </executions>
                     </plugin>
-
-
-
                 </plugins>
             </build>
         </profile>
