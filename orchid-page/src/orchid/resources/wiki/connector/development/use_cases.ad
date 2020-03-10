@@ -1,0 +1,17 @@
+Use Cases
+=========
+
+:description: The connector use-cases diagram
+:library: Asciidoctor
+:stylesheet: asciidoc.css
+:imagesdir: ../../../assets/media/images/
+
+== Use Cases
+ 
+The main responsibiliy of the connector is:
+ 
+  * Taking messages from Gateway and submitting it to the correct backend client.
+  * Generating the evidences
+  * Handling of the asic-s Container (Extracting, Constructing, Validating)
+
+image:domibusConnector-use-cases.gif[]
