@@ -1,6 +1,5 @@
 # Domibus Web Connector 4.0
 
-TODO: automaticall import from maven pom!
 
 ## Module description
 

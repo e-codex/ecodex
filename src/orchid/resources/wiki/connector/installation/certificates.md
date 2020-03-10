@@ -1,11 +1,4 @@
-Certificate Configurations
-==========================
-
-
-:description: The connector architecture overview
-:library: Asciidoctor
-:stylesheet: asciidoc.css
-:imagesdir: ../../../assets/media/images/
+# Certificate Configurations
 
 The connector uses multiple certificates for different purposes.
 
@@ -22,9 +15,9 @@ The connector uses multiple certificates for different purposes.
 For each of this use cases you have to use at least one private-public key pair. As an example at 
 the backend connection you have to generate for each client a private-public key pair.
 
-image:KeyTrustStores.gif
+![alt text](/assets/media/images/KeyTrustStores.gif)
 
-== Connector Backend Key Store
+## Connector Backend Key Store
 
 The connector backend key store holds the private key of the connector which is used to decrypt and sign
 the messages which are sent to the connector clients.
@@ -44,7 +37,7 @@ The configuration properties are:
 
 
     
-== Evidence Builder Key Store (Connector Key Store)
+## Evidence Builder Key Store (Connector Key Store)
 
 The evidence builder key store holds the private key for signing the generated evidences.
 This private key and key store can be the same for signing the ASIC-S container.
@@ -61,7 +54,7 @@ The configuration properties are:
     connector.evidences.key.password=
     
     
-== Security Lib Key Store (Connector Key Store)
+## Security Lib Key Store (Connector Key Store)
 
 The security lib key store holds the private key for signing the ASIC-S container.
 The private key and key store can be the same as the for signing the evidences.
@@ -75,7 +68,7 @@ The private key and key store can be the same as the for signing the evidences.
     #defines the key password
     connector.security.key.password=
     
-== Security Lib Trust Store (Connector Trust Store)  
+## Security Lib Trust Store (Connector Trust Store)  
 
 The security lib trust store also known as connector trust store contains the public certificates of 
 the partner countries to verify the ASIC-S container signature.
@@ -88,7 +81,7 @@ documents.
     #defines the store password
     connector.security.ojstore.password=
     
-== TLS Key Store (System Key Store)
+## TLS Key Store (System Key Store)
 
 The TLS Key Store is used to establish a trust if the connector has to make a TLS/SSL encrypted
 connection to the GW(plugin) or connectorClient. For this purpose the connector uses
