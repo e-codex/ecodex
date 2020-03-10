@@ -4,42 +4,6 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>/ecodex/wiki</loc>
-        <lastmod>2020-03-10</lastmod>
-        <priority>0.0</priority>
-        
-    </url>
-    <url>
-        <loc>/ecodex/wiki/connector</loc>
-        <lastmod>2020-03-10</lastmod>
-        <priority>0.0</priority>
-        
-    </url>
-    <url>
-        <loc>/ecodex/wiki/connector/book.pdf</loc>
-        <lastmod>2020-03-10</lastmod>
-        <priority>0.0</priority>
-        
-    </url>
-    <url>
-        <loc>/ecodex/wiki/connector/evidence</loc>
-        <lastmod>2020-03-10</lastmod>
-        <priority>0.0</priority>
-        
-    </url>
-    <url>
-        <loc>/ecodex/wiki/connector/modules_description</loc>
-        <lastmod>2020-03-10</lastmod>
-        <priority>0.0</priority>
-        
-    </url>
-    <url>
-        <loc>/ecodex/wiki/connector/use_cases</loc>
-        <lastmod>2020-03-10</lastmod>
-        <priority>0.0</priority>
-        
-    </url>
-    <url>
         <loc>/ecodex/wiki/ecodex</loc>
         <lastmod>2020-03-10</lastmod>
         <priority>0.0</priority>
@@ -71,12 +35,6 @@
     </url>
     <url>
         <loc>/ecodex/wiki/ecodex/differences_edelivery_ecodex</loc>
-        <lastmod>2020-03-10</lastmod>
-        <priority>0.0</priority>
-        
-    </url>
-    <url>
-        <loc>/ecodex/wiki/ecodex/ecodex_attack_scenarios</loc>
         <lastmod>2020-03-10</lastmod>
         <priority>0.0</priority>
         
