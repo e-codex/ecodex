@@ -13,8 +13,5 @@ sections:
       title: 'eCodex'
       createPdf: true
 
-  'connector':
-      key: 'connector'
-      title: 'Domibus Connector'
 
 
