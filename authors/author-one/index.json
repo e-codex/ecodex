@@ -1,11 +1,11 @@
 {
   "reference": {
     "path": "authors",
-    "baseUrl": "/e-codex/ecodex",
+    "baseUrl": "/ecodex",
     "fileName": "author-one/",
     "extension": "html",
     "usePrettyUrl": true,
-    "link": "/e-codex/ecodex/authors/author-one"
+    "link": "/ecodex/authors/author-one"
   },
   "data": {
     "name": "Author One",

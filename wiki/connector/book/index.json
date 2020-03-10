@@ -1,11 +1,11 @@
 {
   "reference": {
     "path": "wiki/connector",
-    "baseUrl": "/e-codex/ecodex",
+    "baseUrl": "/ecodex",
     "fileName": "book",
     "extension": "pdf",
     "usePrettyUrl": false,
-    "link": "/e-codex/ecodex/wiki/connector/book.pdf"
+    "link": "/ecodex/wiki/connector/book.pdf"
   },
   "data": {},
   "description": "",

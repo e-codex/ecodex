@@ -4,44 +4,44 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>/e-codex/ecodex/categories</loc>
-        <lastmod>2020-03-04</lastmod>
+        <loc>/ecodex/categories</loc>
+        <lastmod>2020-03-10</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/e-codex/ecodex/categories/category2</loc>
-        <lastmod>2020-03-04</lastmod>
+        <loc>/ecodex/categories/category2</loc>
+        <lastmod>2020-03-10</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/e-codex/ecodex/categories/category1</loc>
-        <lastmod>2020-03-04</lastmod>
+        <loc>/ecodex/categories/category1</loc>
+        <lastmod>2020-03-10</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/e-codex/ecodex/tags</loc>
-        <lastmod>2020-03-04</lastmod>
+        <loc>/ecodex/tags</loc>
+        <lastmod>2020-03-10</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/e-codex/ecodex/tags/one</loc>
-        <lastmod>2020-03-04</lastmod>
+        <loc>/ecodex/tags/one</loc>
+        <lastmod>2020-03-10</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/e-codex/ecodex/tags/three</loc>
-        <lastmod>2020-03-04</lastmod>
+        <loc>/ecodex/tags/three</loc>
+        <lastmod>2020-03-10</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/e-codex/ecodex/tags/two</loc>
-        <lastmod>2020-03-04</lastmod>
+        <loc>/ecodex/tags/two</loc>
+        <lastmod>2020-03-10</lastmod>
         <priority>0.0</priority>
         
     </url>

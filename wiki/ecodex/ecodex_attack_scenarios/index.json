@@ -1,19 +1,19 @@
 {
   "reference": {
     "path": "wiki/ecodex",
-    "baseUrl": "/e-codex/ecodex",
+    "baseUrl": "/ecodex",
     "fileName": "ecodex_attack_scenarios",
     "extension": "html",
     "usePrettyUrl": true,
-    "link": "/e-codex/ecodex/wiki/ecodex/ecodex_attack_scenarios"
+    "link": "/ecodex/wiki/ecodex/ecodex_attack_scenarios"
   },
   "previous": {
     "path": "wiki/ecodex",
-    "baseUrl": "/e-codex/ecodex",
+    "baseUrl": "/ecodex",
     "fileName": "differences_edelivery_ecodex",
     "extension": "html",
     "usePrettyUrl": true,
-    "link": "/e-codex/ecodex/wiki/ecodex/differences_edelivery_ecodex"
+    "link": "/ecodex/wiki/ecodex/differences_edelivery_ecodex"
   },
   "data": {},
   "description": "",

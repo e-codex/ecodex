@@ -1,19 +1,19 @@
 {
   "reference": {
     "path": "wiki/connector",
-    "baseUrl": "/e-codex/ecodex",
+    "baseUrl": "/ecodex",
     "fileName": "use_cases",
     "extension": "html",
     "usePrettyUrl": true,
-    "link": "/e-codex/ecodex/wiki/connector/use_cases"
+    "link": "/ecodex/wiki/connector/use_cases"
   },
   "previous": {
     "path": "wiki/connector",
-    "baseUrl": "/e-codex/ecodex",
+    "baseUrl": "/ecodex",
     "fileName": "modules_description",
     "extension": "html",
     "usePrettyUrl": true,
-    "link": "/e-codex/ecodex/wiki/connector/modules_description"
+    "link": "/ecodex/wiki/connector/modules_description"
   },
   "data": {},
   "description": "",

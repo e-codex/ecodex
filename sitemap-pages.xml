@@ -4,14 +4,14 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>/e-codex/ecodex/custom-examples</loc>
-        <lastmod>2020-03-04</lastmod>
+        <loc>/ecodex/custom-examples</loc>
+        <lastmod>2020-03-10</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/e-codex/ecodex/programming-examples</loc>
-        <lastmod>2020-03-04</lastmod>
+        <loc>/ecodex/programming-examples</loc>
+        <lastmod>2020-03-10</lastmod>
         <priority>0.0</priority>
         
     </url>

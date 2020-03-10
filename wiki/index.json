@@ -1,11 +1,11 @@
 {
   "reference": {
     "path": "",
-    "baseUrl": "/e-codex/ecodex",
+    "baseUrl": "/ecodex",
     "fileName": "wiki",
     "extension": "html",
     "usePrettyUrl": true,
-    "link": "/e-codex/ecodex/wiki"
+    "link": "/ecodex/wiki"
   },
   "data": {},
   "description": "",

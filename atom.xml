@@ -2,73 +2,73 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>e-Codex</title>
-    <link href="/e-codex/ecodex"/>
-    <link href="/e-codex/ecodex/atom.xml" rel="self" type="application/rss+xml"/>
-    <id>/e-codex/ecodex</id>
-    <updated>2020-03-04T22:00:02.835833300T00:00:00Z</updated>
+    <link href="/ecodex"/>
+    <link href="/ecodex/atom.xml" rel="self" type="application/rss+xml"/>
+    <id>/ecodex</id>
+    <updated>2020-03-10T15:00:47.946362500T00:00:00Z</updated>
     <entry>
-        <id>/e-codex/ecodex/category1/2018/1/3/example-post-3</id>
-        <link href="/e-codex/ecodex/category1/2018/1/3/example-post-3"/>
+        <id>/ecodex/category1/2018/1/3/example-post-3</id>
+        <link href="/ecodex/category1/2018/1/3/example-post-3"/>
         <title>Example Post Category 1</title>
         <summary></summary>
-        <updated>2020-03-04T22:00:02.835833300T00:00:00Z</updated>
+        <updated>2020-03-10T15:00:47.946362500T00:00:00Z</updated>
         <published>2018-01-03T00:00T00:00:00Z</published>
     </entry>
     <entry>
-        <id>/e-codex/ecodex/category1/2018/1/2/example-post-2</id>
-        <link href="/e-codex/ecodex/category1/2018/1/2/example-post-2"/>
+        <id>/ecodex/category1/2018/1/2/example-post-2</id>
+        <link href="/ecodex/category1/2018/1/2/example-post-2"/>
         <title>Example Post Category 1</title>
         <summary></summary>
-        <updated>2020-03-04T22:00:02.834833700T00:00:00Z</updated>
+        <updated>2020-03-10T15:00:47.940361800T00:00:00Z</updated>
         <published>2018-01-02T00:00T00:00:00Z</published>
     </entry>
     <entry>
-        <id>/e-codex/ecodex/category1/2018/1/1/example-post</id>
-        <link href="/e-codex/ecodex/category1/2018/1/1/example-post"/>
+        <id>/ecodex/category1/2018/1/1/example-post</id>
+        <link href="/ecodex/category1/2018/1/1/example-post"/>
         <title>Example Post Category 1</title>
         <summary></summary>
-        <updated>2020-03-04T22:00:02.833833600T00:00:00Z</updated>
+        <updated>2020-03-10T15:00:47.933358700T00:00:00Z</updated>
         <published>2018-01-01T00:00T00:00:00Z</published>
     </entry>
     <entry>
-        <id>/e-codex/ecodex/category2/2018/1/3/example-post-3</id>
-        <link href="/e-codex/ecodex/category2/2018/1/3/example-post-3"/>
+        <id>/ecodex/category2/2018/1/3/example-post-3</id>
+        <link href="/ecodex/category2/2018/1/3/example-post-3"/>
         <title>Example Post Category 2</title>
         <summary></summary>
-        <updated>2020-03-04T22:00:02.830833900T00:00:00Z</updated>
+        <updated>2020-03-10T15:00:47.925361700T00:00:00Z</updated>
         <published>2018-01-03T00:00T00:00:00Z</published>
     </entry>
     <entry>
-        <id>/e-codex/ecodex/category2/2018/1/2/example-post-2</id>
-        <link href="/e-codex/ecodex/category2/2018/1/2/example-post-2"/>
+        <id>/ecodex/category2/2018/1/2/example-post-2</id>
+        <link href="/ecodex/category2/2018/1/2/example-post-2"/>
         <title>Example Post Category 2</title>
         <summary></summary>
-        <updated>2020-03-04T22:00:02.829834200T00:00:00Z</updated>
+        <updated>2020-03-10T15:00:47.919354400T00:00:00Z</updated>
         <published>2018-01-02T00:00T00:00:00Z</published>
     </entry>
     <entry>
-        <id>/e-codex/ecodex/category2/2018/1/1/example-post</id>
-        <link href="/e-codex/ecodex/category2/2018/1/1/example-post"/>
+        <id>/ecodex/category2/2018/1/1/example-post</id>
+        <link href="/ecodex/category2/2018/1/1/example-post"/>
         <title>Example Post Category 2</title>
         <summary></summary>
-        <updated>2020-03-04T22:00:02.826837T00:00:00Z</updated>
+        <updated>2020-03-10T15:00:47.910354500T00:00:00Z</updated>
         <published>2018-01-01T00:00T00:00:00Z</published>
     </entry>
     <entry>
-        <id>/e-codex/ecodex/authors/author-two</id>
-        <link href="/e-codex/ecodex/authors/author-two"/>
+        <id>/ecodex/authors/author-two</id>
+        <link href="/ecodex/authors/author-two"/>
         <title>Author Two</title>
         <summary></summary>
-        <updated>2020-03-04T22:00:02.816836500T00:00:00Z</updated>
-        <published>2020-03-04T22:00:02.815837400T00:00:00Z</published>
+        <updated>2020-03-10T15:00:47.895362900T00:00:00Z</updated>
+        <published>2020-03-10T15:00:47.895362900T00:00:00Z</published>
     </entry>
     <entry>
-        <id>/e-codex/ecodex/authors/author-one</id>
-        <link href="/e-codex/ecodex/authors/author-one"/>
+        <id>/ecodex/authors/author-one</id>
+        <link href="/ecodex/authors/author-one"/>
         <title>Author One</title>
         <summary></summary>
-        <updated>2020-03-04T22:00:02.814836300T00:00:00Z</updated>
-        <published>2020-03-04T22:00:02.814836300T00:00:00Z</published>
+        <updated>2020-03-10T15:00:47.894364700T00:00:00Z</updated>
+        <published>2020-03-10T15:00:47.893363T00:00:00Z</published>
     </entry>
     
 </feed>

@@ -1,11 +1,11 @@
 {
   "reference": {
     "path": "tags/three",
-    "baseUrl": "/e-codex/ecodex",
+    "baseUrl": "/ecodex",
     "fileName": "/",
     "extension": "html",
     "usePrettyUrl": true,
-    "link": "/e-codex/ecodex/tags/three",
+    "link": "/ecodex/tags/three",
     "title": "Three"
   },
   "data": {},

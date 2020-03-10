@@ -4,5 +4,5 @@ Disallow: /
 
 
 
-Sitemap: /e-codex/ecodex/sitemap.xml
+Sitemap: /ecodex/sitemap.xml
 

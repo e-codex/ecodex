@@ -1,11 +1,11 @@
 {
   "reference": {
     "path": "",
-    "baseUrl": "/e-codex/ecodex",
+    "baseUrl": "/ecodex",
     "fileName": "custom-examples",
     "extension": "html",
     "usePrettyUrl": true,
-    "link": "/e-codex/ecodex/custom-examples"
+    "link": "/ecodex/custom-examples"
   },
   "data": {"title": "Examples - Custom"},
   "description": "",

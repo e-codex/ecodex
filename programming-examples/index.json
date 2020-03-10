@@ -1,11 +1,11 @@
 {
   "reference": {
     "path": "",
-    "baseUrl": "/e-codex/ecodex",
+    "baseUrl": "/ecodex",
     "fileName": "programming-examples",
     "extension": "html",
     "usePrettyUrl": true,
-    "link": "/e-codex/ecodex/programming-examples"
+    "link": "/ecodex/programming-examples"
   },
   "data": {"title": "Examples - Programming"},
   "description": "",

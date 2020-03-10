@@ -1,19 +1,19 @@
 {
   "reference": {
     "path": "category2/2018/1/3",
-    "baseUrl": "/e-codex/ecodex",
+    "baseUrl": "/ecodex",
     "fileName": "example-post-3/",
     "extension": "html",
     "usePrettyUrl": true,
-    "link": "/e-codex/ecodex/category2/2018/1/3/example-post-3"
+    "link": "/ecodex/category2/2018/1/3/example-post-3"
   },
   "previous": {
     "path": "category2/2018/1/2",
-    "baseUrl": "/e-codex/ecodex",
+    "baseUrl": "/ecodex",
     "fileName": "example-post-2/",
     "extension": "html",
     "usePrettyUrl": true,
-    "link": "/e-codex/ecodex/category2/2018/1/2/example-post-2"
+    "link": "/ecodex/category2/2018/1/2/example-post-2"
   },
   "data": {
     "title": "Example Post Category 2",

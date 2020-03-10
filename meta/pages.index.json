@@ -6,11 +6,11 @@
       "ownPages": [{
         "reference": {
           "path": "",
-          "baseUrl": "/e-codex/ecodex",
+          "baseUrl": "/ecodex",
           "fileName": "custom-examples",
           "extension": "html",
           "usePrettyUrl": true,
-          "link": "/e-codex/ecodex/custom-examples"
+          "link": "/ecodex/custom-examples"
         },
         "description": "",
         "title": "Examples - Custom",
@@ -22,11 +22,11 @@
       "ownPages": [{
         "reference": {
           "path": "",
-          "baseUrl": "/e-codex/ecodex",
+          "baseUrl": "/ecodex",
           "fileName": "programming-examples",
           "extension": "html",
           "usePrettyUrl": true,
-          "link": "/e-codex/ecodex/programming-examples"
+          "link": "/ecodex/programming-examples"
         },
         "description": "",
         "title": "Examples - Programming",

@@ -11,19 +11,19 @@
             "ownPages": [{
               "reference": {
                 "path": "wiki/connector",
-                "baseUrl": "/e-codex/ecodex",
+                "baseUrl": "/ecodex",
                 "fileName": "evidence",
                 "extension": "html",
                 "usePrettyUrl": true,
-                "link": "/e-codex/ecodex/wiki/connector/evidence"
+                "link": "/ecodex/wiki/connector/evidence"
               },
               "next": {
                 "path": "wiki/connector",
-                "baseUrl": "/e-codex/ecodex",
+                "baseUrl": "/ecodex",
                 "fileName": "modules_description",
                 "extension": "html",
                 "usePrettyUrl": true,
-                "link": "/e-codex/ecodex/wiki/connector/modules_description"
+                "link": "/ecodex/wiki/connector/modules_description"
               },
               "description": "",
               "title": "Evidence",
@@ -35,27 +35,27 @@
             "ownPages": [{
               "reference": {
                 "path": "wiki/connector",
-                "baseUrl": "/e-codex/ecodex",
+                "baseUrl": "/ecodex",
                 "fileName": "modules_description",
                 "extension": "html",
                 "usePrettyUrl": true,
-                "link": "/e-codex/ecodex/wiki/connector/modules_description"
+                "link": "/ecodex/wiki/connector/modules_description"
               },
               "next": {
                 "path": "wiki/connector",
-                "baseUrl": "/e-codex/ecodex",
+                "baseUrl": "/ecodex",
                 "fileName": "use_cases",
                 "extension": "html",
                 "usePrettyUrl": true,
-                "link": "/e-codex/ecodex/wiki/connector/use_cases"
+                "link": "/ecodex/wiki/connector/use_cases"
               },
               "previous": {
                 "path": "wiki/connector",
-                "baseUrl": "/e-codex/ecodex",
+                "baseUrl": "/ecodex",
                 "fileName": "evidence",
                 "extension": "html",
                 "usePrettyUrl": true,
-                "link": "/e-codex/ecodex/wiki/connector/evidence"
+                "link": "/ecodex/wiki/connector/evidence"
               },
               "description": "",
               "title": "Modules",
@@ -67,19 +67,19 @@
             "ownPages": [{
               "reference": {
                 "path": "wiki/connector",
-                "baseUrl": "/e-codex/ecodex",
+                "baseUrl": "/ecodex",
                 "fileName": "use_cases",
                 "extension": "html",
                 "usePrettyUrl": true,
-                "link": "/e-codex/ecodex/wiki/connector/use_cases"
+                "link": "/ecodex/wiki/connector/use_cases"
               },
               "previous": {
                 "path": "wiki/connector",
-                "baseUrl": "/e-codex/ecodex",
+                "baseUrl": "/ecodex",
                 "fileName": "modules_description",
                 "extension": "html",
                 "usePrettyUrl": true,
-                "link": "/e-codex/ecodex/wiki/connector/modules_description"
+                "link": "/ecodex/wiki/connector/modules_description"
               },
               "description": "",
               "title": "Use Cases",
@@ -91,24 +91,24 @@
           {
             "reference": {
               "path": "wiki",
-              "baseUrl": "/e-codex/ecodex",
+              "baseUrl": "/ecodex",
               "fileName": "connector",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "/e-codex/ecodex/wiki/connector"
+              "link": "/ecodex/wiki/connector"
             },
             "description": "",
             "title": "Domibus   Connector",
-            "content": "<html>\n <head><\/head>\n <body>\n  <ul> \n   <li><a href=\"/e-codex/ecodex/wiki/connector/evidence\">Evidence<\/a><\/li> \n   <li><a href=\"/e-codex/ecodex/wiki/connector/modules_description\">Modules<\/a><\/li> \n   <li><a href=\"/e-codex/ecodex/wiki/connector/use_cases\">Use Cases<\/a><\/li> \n  <\/ul> \n <\/body>\n<\/html>\n"
+            "content": "<html>\n <head><\/head>\n <body>\n  <ul> \n   <li><a href=\"/ecodex/wiki/connector/evidence\">Evidence<\/a><\/li> \n   <li><a href=\"/ecodex/wiki/connector/modules_description\">Modules<\/a><\/li> \n   <li><a href=\"/ecodex/wiki/connector/use_cases\">Use Cases<\/a><\/li> \n  <\/ul> \n <\/body>\n<\/html>\n"
           },
           {
             "reference": {
               "path": "wiki/connector",
-              "baseUrl": "/e-codex/ecodex",
+              "baseUrl": "/ecodex",
               "fileName": "book",
               "extension": "pdf",
               "usePrettyUrl": false,
-              "link": "/e-codex/ecodex/wiki/connector/book.pdf"
+              "link": "/ecodex/wiki/connector/book.pdf"
             },
             "description": "",
             "title": "Domibus Connector Book",
@@ -124,19 +124,19 @@
             "ownPages": [{
               "reference": {
                 "path": "wiki/ecodex",
-                "baseUrl": "/e-codex/ecodex",
+                "baseUrl": "/ecodex",
                 "fileName": "ecodex_protocol",
                 "extension": "html",
                 "usePrettyUrl": true,
-                "link": "/e-codex/ecodex/wiki/ecodex/ecodex_protocol"
+                "link": "/ecodex/wiki/ecodex/ecodex_protocol"
               },
               "next": {
                 "path": "wiki/ecodex",
-                "baseUrl": "/e-codex/ecodex",
+                "baseUrl": "/ecodex",
                 "fileName": "example_deployment",
                 "extension": "html",
                 "usePrettyUrl": true,
-                "link": "/e-codex/ecodex/wiki/ecodex/example_deployment"
+                "link": "/ecodex/wiki/ecodex/example_deployment"
               },
               "description": "",
               "title": "e-Codex Protocol specification",
@@ -148,27 +148,27 @@
             "ownPages": [{
               "reference": {
                 "path": "wiki/ecodex",
-                "baseUrl": "/e-codex/ecodex",
+                "baseUrl": "/ecodex",
                 "fileName": "configuration_update",
                 "extension": "html",
                 "usePrettyUrl": true,
-                "link": "/e-codex/ecodex/wiki/ecodex/configuration_update"
+                "link": "/ecodex/wiki/ecodex/configuration_update"
               },
               "next": {
                 "path": "wiki/ecodex",
-                "baseUrl": "/e-codex/ecodex",
+                "baseUrl": "/ecodex",
                 "fileName": "differences_edelivery_ecodex",
                 "extension": "html",
                 "usePrettyUrl": true,
-                "link": "/e-codex/ecodex/wiki/ecodex/differences_edelivery_ecodex"
+                "link": "/ecodex/wiki/ecodex/differences_edelivery_ecodex"
               },
               "previous": {
                 "path": "wiki/ecodex",
-                "baseUrl": "/e-codex/ecodex",
+                "baseUrl": "/ecodex",
                 "fileName": "example_deployment",
                 "extension": "html",
                 "usePrettyUrl": true,
-                "link": "/e-codex/ecodex/wiki/ecodex/example_deployment"
+                "link": "/ecodex/wiki/ecodex/example_deployment"
               },
               "description": "",
               "title": "Configuration Update",
@@ -180,19 +180,19 @@
             "ownPages": [{
               "reference": {
                 "path": "wiki/ecodex",
-                "baseUrl": "/e-codex/ecodex",
+                "baseUrl": "/ecodex",
                 "fileName": "ecodex_attack_scenarios",
                 "extension": "html",
                 "usePrettyUrl": true,
-                "link": "/e-codex/ecodex/wiki/ecodex/ecodex_attack_scenarios"
+                "link": "/ecodex/wiki/ecodex/ecodex_attack_scenarios"
               },
               "previous": {
                 "path": "wiki/ecodex",
-                "baseUrl": "/e-codex/ecodex",
+                "baseUrl": "/ecodex",
                 "fileName": "differences_edelivery_ecodex",
                 "extension": "html",
                 "usePrettyUrl": true,
-                "link": "/e-codex/ecodex/wiki/ecodex/differences_edelivery_ecodex"
+                "link": "/ecodex/wiki/ecodex/differences_edelivery_ecodex"
               },
               "description": "",
               "title": "Attack scenarios on e-Codex",
@@ -204,27 +204,27 @@
             "ownPages": [{
               "reference": {
                 "path": "wiki/ecodex",
-                "baseUrl": "/e-codex/ecodex",
+                "baseUrl": "/ecodex",
                 "fileName": "example_deployment",
                 "extension": "html",
                 "usePrettyUrl": true,
-                "link": "/e-codex/ecodex/wiki/ecodex/example_deployment"
+                "link": "/ecodex/wiki/ecodex/example_deployment"
               },
               "next": {
                 "path": "wiki/ecodex",
-                "baseUrl": "/e-codex/ecodex",
+                "baseUrl": "/ecodex",
                 "fileName": "configuration_update",
                 "extension": "html",
                 "usePrettyUrl": true,
-                "link": "/e-codex/ecodex/wiki/ecodex/configuration_update"
+                "link": "/ecodex/wiki/ecodex/configuration_update"
               },
               "previous": {
                 "path": "wiki/ecodex",
-                "baseUrl": "/e-codex/ecodex",
+                "baseUrl": "/ecodex",
                 "fileName": "ecodex_protocol",
                 "extension": "html",
                 "usePrettyUrl": true,
-                "link": "/e-codex/ecodex/wiki/ecodex/ecodex_protocol"
+                "link": "/ecodex/wiki/ecodex/ecodex_protocol"
               },
               "description": "",
               "title": "Example Deployment",
@@ -236,27 +236,27 @@
             "ownPages": [{
               "reference": {
                 "path": "wiki/ecodex",
-                "baseUrl": "/e-codex/ecodex",
+                "baseUrl": "/ecodex",
                 "fileName": "differences_edelivery_ecodex",
                 "extension": "html",
                 "usePrettyUrl": true,
-                "link": "/e-codex/ecodex/wiki/ecodex/differences_edelivery_ecodex"
+                "link": "/ecodex/wiki/ecodex/differences_edelivery_ecodex"
               },
               "next": {
                 "path": "wiki/ecodex",
-                "baseUrl": "/e-codex/ecodex",
+                "baseUrl": "/ecodex",
                 "fileName": "ecodex_attack_scenarios",
                 "extension": "html",
                 "usePrettyUrl": true,
-                "link": "/e-codex/ecodex/wiki/ecodex/ecodex_attack_scenarios"
+                "link": "/ecodex/wiki/ecodex/ecodex_attack_scenarios"
               },
               "previous": {
                 "path": "wiki/ecodex",
-                "baseUrl": "/e-codex/ecodex",
+                "baseUrl": "/ecodex",
                 "fileName": "configuration_update",
                 "extension": "html",
                 "usePrettyUrl": true,
-                "link": "/e-codex/ecodex/wiki/ecodex/configuration_update"
+                "link": "/ecodex/wiki/ecodex/configuration_update"
               },
               "description": "",
               "title": "Differences betweend e-Codex and e-Delivery",
@@ -268,24 +268,24 @@
           {
             "reference": {
               "path": "wiki",
-              "baseUrl": "/e-codex/ecodex",
+              "baseUrl": "/ecodex",
               "fileName": "ecodex",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "/e-codex/ecodex/wiki/ecodex"
+              "link": "/ecodex/wiki/ecodex"
             },
             "description": "",
             "title": "E Codex",
-            "content": "<html>\n <head><\/head>\n <body>\n  <ul> \n   <li><a href=\"/e-codex/ecodex/wiki/ecodex/ecodex_protocol\">e-Codex Protocol specification<\/a><\/li> \n   <li><a href=\"/e-codex/ecodex/wiki/ecodex/example_deployment\">Example Deployment<\/a><\/li> \n   <li><a href=\"/e-codex/ecodex/wiki/ecodex/configuration_update\">Configuration Update<\/a><\/li> \n   <li><a href=\"/e-codex/ecodex/wiki/ecodex/differences_edelivery_ecodex\">Differences betweend e-Codex and e-Delivery<\/a><\/li> \n   <li><a href=\"/e-codex/ecodex/wiki/ecodex/ecodex_attack_scenarios\">Attack scenarios on e-Codex<\/a><\/li> \n  <\/ul> \n <\/body>\n<\/html>\n"
+            "content": "<html>\n <head><\/head>\n <body>\n  <ul> \n   <li><a href=\"/ecodex/wiki/ecodex/ecodex_protocol\">e-Codex Protocol specification<\/a><\/li> \n   <li><a href=\"/ecodex/wiki/ecodex/example_deployment\">Example Deployment<\/a><\/li> \n   <li><a href=\"/ecodex/wiki/ecodex/configuration_update\">Configuration Update<\/a><\/li> \n   <li><a href=\"/ecodex/wiki/ecodex/differences_edelivery_ecodex\">Differences betweend e-Codex and e-Delivery<\/a><\/li> \n   <li><a href=\"/ecodex/wiki/ecodex/ecodex_attack_scenarios\">Attack scenarios on e-Codex<\/a><\/li> \n  <\/ul> \n <\/body>\n<\/html>\n"
           },
           {
             "reference": {
               "path": "wiki/ecodex",
-              "baseUrl": "/e-codex/ecodex",
+              "baseUrl": "/ecodex",
               "fileName": "book",
               "extension": "pdf",
               "usePrettyUrl": false,
-              "link": "/e-codex/ecodex/wiki/ecodex/book.pdf"
+              "link": "/ecodex/wiki/ecodex/book.pdf"
             },
             "description": "",
             "title": "eCodex Book",
@@ -297,11 +297,11 @@
     "ownPages": [{
       "reference": {
         "path": "",
-        "baseUrl": "/e-codex/ecodex",
+        "baseUrl": "/ecodex",
         "fileName": "wiki",
         "extension": "html",
         "usePrettyUrl": true,
-        "link": "/e-codex/ecodex/wiki"
+        "link": "/ecodex/wiki"
       },
       "description": "",
       "title": "Wiki",

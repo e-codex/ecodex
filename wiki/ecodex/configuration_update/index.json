@@ -1,27 +1,27 @@
 {
   "reference": {
     "path": "wiki/ecodex",
-    "baseUrl": "/e-codex/ecodex",
+    "baseUrl": "/ecodex",
     "fileName": "configuration_update",
     "extension": "html",
     "usePrettyUrl": true,
-    "link": "/e-codex/ecodex/wiki/ecodex/configuration_update"
+    "link": "/ecodex/wiki/ecodex/configuration_update"
   },
   "next": {
     "path": "wiki/ecodex",
-    "baseUrl": "/e-codex/ecodex",
+    "baseUrl": "/ecodex",
     "fileName": "differences_edelivery_ecodex",
     "extension": "html",
     "usePrettyUrl": true,
-    "link": "/e-codex/ecodex/wiki/ecodex/differences_edelivery_ecodex"
+    "link": "/ecodex/wiki/ecodex/differences_edelivery_ecodex"
   },
   "previous": {
     "path": "wiki/ecodex",
-    "baseUrl": "/e-codex/ecodex",
+    "baseUrl": "/ecodex",
     "fileName": "example_deployment",
     "extension": "html",
     "usePrettyUrl": true,
-    "link": "/e-codex/ecodex/wiki/ecodex/example_deployment"
+    "link": "/ecodex/wiki/ecodex/example_deployment"
   },
   "data": {},
   "description": "",

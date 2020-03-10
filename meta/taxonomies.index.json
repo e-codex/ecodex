@@ -9,11 +9,11 @@
           "ownPages": [{
             "reference": {
               "path": "categories/category2",
-              "baseUrl": "/e-codex/ecodex",
+              "baseUrl": "/ecodex",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "/e-codex/ecodex/categories/category2",
+              "link": "/ecodex/categories/category2",
               "title": "Category 2"
             },
             "description": "",
@@ -26,11 +26,11 @@
           "ownPages": [{
             "reference": {
               "path": "categories/category1",
-              "baseUrl": "/e-codex/ecodex",
+              "baseUrl": "/ecodex",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "/e-codex/ecodex/categories/category1",
+              "link": "/ecodex/categories/category1",
               "title": "Category 1"
             },
             "description": "",
@@ -42,11 +42,11 @@
       "ownPages": [{
         "reference": {
           "path": "categories",
-          "baseUrl": "/e-codex/ecodex",
+          "baseUrl": "/ecodex",
           "fileName": "/",
           "extension": "html",
           "usePrettyUrl": true,
-          "link": "/e-codex/ecodex/categories",
+          "link": "/ecodex/categories",
           "title": "Categories"
         },
         "description": "",
@@ -62,11 +62,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/one",
-              "baseUrl": "/e-codex/ecodex",
+              "baseUrl": "/ecodex",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "/e-codex/ecodex/tags/one",
+              "link": "/ecodex/tags/one",
               "title": "One"
             },
             "description": "",
@@ -79,11 +79,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/three",
-              "baseUrl": "/e-codex/ecodex",
+              "baseUrl": "/ecodex",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "/e-codex/ecodex/tags/three",
+              "link": "/ecodex/tags/three",
               "title": "Three"
             },
             "description": "",
@@ -96,11 +96,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/two",
-              "baseUrl": "/e-codex/ecodex",
+              "baseUrl": "/ecodex",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "/e-codex/ecodex/tags/two",
+              "link": "/ecodex/tags/two",
               "title": "Two"
             },
             "description": "",
@@ -112,11 +112,11 @@
       "ownPages": [{
         "reference": {
           "path": "tags",
-          "baseUrl": "/e-codex/ecodex",
+          "baseUrl": "/ecodex",
           "fileName": "/",
           "extension": "html",
           "usePrettyUrl": true,
-          "link": "/e-codex/ecodex/tags",
+          "link": "/ecodex/tags",
           "title": "Tags"
         },
         "description": "",

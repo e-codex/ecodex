@@ -4,11 +4,11 @@
     {
       "reference": {
         "path": "",
-        "baseUrl": "/e-codex/ecodex",
+        "baseUrl": "/ecodex",
         "fileName": "",
         "extension": "html",
         "usePrettyUrl": true,
-        "link": "/e-codex/ecodex"
+        "link": "/ecodex"
       },
       "description": "",
       "title": "e-Codex",
@@ -17,11 +17,11 @@
     {
       "reference": {
         "path": "",
-        "baseUrl": "/e-codex/ecodex",
+        "baseUrl": "/ecodex",
         "fileName": "404",
         "extension": "html",
         "usePrettyUrl": false,
-        "link": "/e-codex/ecodex/404.html"
+        "link": "/ecodex/404.html"
       },
       "description": "",
       "title": "e-Codex",

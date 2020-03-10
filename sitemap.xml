@@ -4,24 +4,24 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd"
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <sitemap>
-        <loc>/e-codex/ecodex/sitemap-home.xml</loc>
-        <lastmod>2020-03-04</lastmod>
+        <loc>/ecodex/sitemap-home.xml</loc>
+        <lastmod>2020-03-10</lastmod>
     </sitemap>
     <sitemap>
-        <loc>/e-codex/ecodex/sitemap-pages.xml</loc>
-        <lastmod>2020-03-04</lastmod>
+        <loc>/ecodex/sitemap-pages.xml</loc>
+        <lastmod>2020-03-10</lastmod>
     </sitemap>
     <sitemap>
-        <loc>/e-codex/ecodex/sitemap-posts.xml</loc>
-        <lastmod>2020-03-04</lastmod>
+        <loc>/ecodex/sitemap-posts.xml</loc>
+        <lastmod>2020-03-10</lastmod>
     </sitemap>
     <sitemap>
-        <loc>/e-codex/ecodex/sitemap-wiki.xml</loc>
-        <lastmod>2020-03-04</lastmod>
+        <loc>/ecodex/sitemap-wiki.xml</loc>
+        <lastmod>2020-03-10</lastmod>
     </sitemap>
     <sitemap>
-        <loc>/e-codex/ecodex/sitemap-taxonomies.xml</loc>
-        <lastmod>2020-03-04</lastmod>
+        <loc>/ecodex/sitemap-taxonomies.xml</loc>
+        <lastmod>2020-03-10</lastmod>
     </sitemap>
     
 </sitemapindex>

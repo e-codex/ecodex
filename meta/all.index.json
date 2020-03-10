@@ -6,11 +6,11 @@
       "ownPages": [{
         "reference": {
           "path": "",
-          "baseUrl": "/e-codex/ecodex",
+          "baseUrl": "/ecodex",
           "fileName": "custom-examples",
           "extension": "html",
           "usePrettyUrl": true,
-          "link": "/e-codex/ecodex/custom-examples"
+          "link": "/ecodex/custom-examples"
         },
         "description": "",
         "title": "Examples - Custom",
@@ -31,19 +31,19 @@
                 "ownPages": [{
                   "reference": {
                     "path": "category2/2018/1/1",
-                    "baseUrl": "/e-codex/ecodex",
+                    "baseUrl": "/ecodex",
                     "fileName": "example-post/",
                     "extension": "html",
                     "usePrettyUrl": true,
-                    "link": "/e-codex/ecodex/category2/2018/1/1/example-post"
+                    "link": "/ecodex/category2/2018/1/1/example-post"
                   },
                   "next": {
                     "path": "category2/2018/1/2",
-                    "baseUrl": "/e-codex/ecodex",
+                    "baseUrl": "/ecodex",
                     "fileName": "example-post-2/",
                     "extension": "html",
                     "usePrettyUrl": true,
-                    "link": "/e-codex/ecodex/category2/2018/1/2/example-post-2"
+                    "link": "/ecodex/category2/2018/1/2/example-post-2"
                   },
                   "description": "",
                   "title": "Example Post Category 2",
@@ -58,27 +58,27 @@
                 "ownPages": [{
                   "reference": {
                     "path": "category2/2018/1/2",
-                    "baseUrl": "/e-codex/ecodex",
+                    "baseUrl": "/ecodex",
                     "fileName": "example-post-2/",
                     "extension": "html",
                     "usePrettyUrl": true,
-                    "link": "/e-codex/ecodex/category2/2018/1/2/example-post-2"
+                    "link": "/ecodex/category2/2018/1/2/example-post-2"
                   },
                   "next": {
                     "path": "category2/2018/1/3",
-                    "baseUrl": "/e-codex/ecodex",
+                    "baseUrl": "/ecodex",
                     "fileName": "example-post-3/",
                     "extension": "html",
                     "usePrettyUrl": true,
-                    "link": "/e-codex/ecodex/category2/2018/1/3/example-post-3"
+                    "link": "/ecodex/category2/2018/1/3/example-post-3"
                   },
                   "previous": {
                     "path": "category2/2018/1/1",
-                    "baseUrl": "/e-codex/ecodex",
+                    "baseUrl": "/ecodex",
                     "fileName": "example-post/",
                     "extension": "html",
                     "usePrettyUrl": true,
-                    "link": "/e-codex/ecodex/category2/2018/1/1/example-post"
+                    "link": "/ecodex/category2/2018/1/1/example-post"
                   },
                   "description": "",
                   "title": "Example Post Category 2",
@@ -93,19 +93,19 @@
                 "ownPages": [{
                   "reference": {
                     "path": "category2/2018/1/3",
-                    "baseUrl": "/e-codex/ecodex",
+                    "baseUrl": "/ecodex",
                     "fileName": "example-post-3/",
                     "extension": "html",
                     "usePrettyUrl": true,
-                    "link": "/e-codex/ecodex/category2/2018/1/3/example-post-3"
+                    "link": "/ecodex/category2/2018/1/3/example-post-3"
                   },
                   "previous": {
                     "path": "category2/2018/1/2",
-                    "baseUrl": "/e-codex/ecodex",
+                    "baseUrl": "/ecodex",
                     "fileName": "example-post-2/",
                     "extension": "html",
                     "usePrettyUrl": true,
-                    "link": "/e-codex/ecodex/category2/2018/1/2/example-post-2"
+                    "link": "/ecodex/category2/2018/1/2/example-post-2"
                   },
                   "description": "",
                   "title": "Example Post Category 2",
@@ -122,11 +122,11 @@
       "ownPages": [{
         "reference": {
           "path": "",
-          "baseUrl": "/e-codex/ecodex",
+          "baseUrl": "/ecodex",
           "fileName": "programming-examples",
           "extension": "html",
           "usePrettyUrl": true,
-          "link": "/e-codex/ecodex/programming-examples"
+          "link": "/ecodex/programming-examples"
         },
         "description": "",
         "title": "Examples - Programming",
@@ -147,19 +147,19 @@
                 "ownPages": [{
                   "reference": {
                     "path": "category1/2018/1/1",
-                    "baseUrl": "/e-codex/ecodex",
+                    "baseUrl": "/ecodex",
                     "fileName": "example-post/",
                     "extension": "html",
                     "usePrettyUrl": true,
-                    "link": "/e-codex/ecodex/category1/2018/1/1/example-post"
+                    "link": "/ecodex/category1/2018/1/1/example-post"
                   },
                   "next": {
                     "path": "category1/2018/1/2",
-                    "baseUrl": "/e-codex/ecodex",
+                    "baseUrl": "/ecodex",
                     "fileName": "example-post-2/",
                     "extension": "html",
                     "usePrettyUrl": true,
-                    "link": "/e-codex/ecodex/category1/2018/1/2/example-post-2"
+                    "link": "/ecodex/category1/2018/1/2/example-post-2"
                   },
                   "description": "",
                   "title": "Example Post Category 1",
@@ -174,27 +174,27 @@
                 "ownPages": [{
                   "reference": {
                     "path": "category1/2018/1/2",
-                    "baseUrl": "/e-codex/ecodex",
+                    "baseUrl": "/ecodex",
                     "fileName": "example-post-2/",
                     "extension": "html",
                     "usePrettyUrl": true,
-                    "link": "/e-codex/ecodex/category1/2018/1/2/example-post-2"
+                    "link": "/ecodex/category1/2018/1/2/example-post-2"
                   },
                   "next": {
                     "path": "category1/2018/1/3",
-                    "baseUrl": "/e-codex/ecodex",
+                    "baseUrl": "/ecodex",
                     "fileName": "example-post-3/",
                     "extension": "html",
                     "usePrettyUrl": true,
-                    "link": "/e-codex/ecodex/category1/2018/1/3/example-post-3"
+                    "link": "/ecodex/category1/2018/1/3/example-post-3"
                   },
                   "previous": {
                     "path": "category1/2018/1/1",
-                    "baseUrl": "/e-codex/ecodex",
+                    "baseUrl": "/ecodex",
                     "fileName": "example-post/",
                     "extension": "html",
                     "usePrettyUrl": true,
-                    "link": "/e-codex/ecodex/category1/2018/1/1/example-post"
+                    "link": "/ecodex/category1/2018/1/1/example-post"
                   },
                   "description": "",
                   "title": "Example Post Category 1",
@@ -209,19 +209,19 @@
                 "ownPages": [{
                   "reference": {
                     "path": "category1/2018/1/3",
-                    "baseUrl": "/e-codex/ecodex",
+                    "baseUrl": "/ecodex",
                     "fileName": "example-post-3/",
                     "extension": "html",
                     "usePrettyUrl": true,
-                    "link": "/e-codex/ecodex/category1/2018/1/3/example-post-3"
+                    "link": "/ecodex/category1/2018/1/3/example-post-3"
                   },
                   "previous": {
                     "path": "category1/2018/1/2",
-                    "baseUrl": "/e-codex/ecodex",
+                    "baseUrl": "/ecodex",
                     "fileName": "example-post-2/",
                     "extension": "html",
                     "usePrettyUrl": true,
-                    "link": "/e-codex/ecodex/category1/2018/1/2/example-post-2"
+                    "link": "/ecodex/category1/2018/1/2/example-post-2"
                   },
                   "description": "",
                   "title": "Example Post Category 1",
@@ -244,19 +244,19 @@
               "ownPages": [{
                 "reference": {
                   "path": "wiki/connector",
-                  "baseUrl": "/e-codex/ecodex",
+                  "baseUrl": "/ecodex",
                   "fileName": "evidence",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "/e-codex/ecodex/wiki/connector/evidence"
+                  "link": "/ecodex/wiki/connector/evidence"
                 },
                 "next": {
                   "path": "wiki/connector",
-                  "baseUrl": "/e-codex/ecodex",
+                  "baseUrl": "/ecodex",
                   "fileName": "modules_description",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "/e-codex/ecodex/wiki/connector/modules_description"
+                  "link": "/ecodex/wiki/connector/modules_description"
                 },
                 "description": "",
                 "title": "Evidence",
@@ -268,27 +268,27 @@
               "ownPages": [{
                 "reference": {
                   "path": "wiki/connector",
-                  "baseUrl": "/e-codex/ecodex",
+                  "baseUrl": "/ecodex",
                   "fileName": "modules_description",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "/e-codex/ecodex/wiki/connector/modules_description"
+                  "link": "/ecodex/wiki/connector/modules_description"
                 },
                 "next": {
                   "path": "wiki/connector",
-                  "baseUrl": "/e-codex/ecodex",
+                  "baseUrl": "/ecodex",
                   "fileName": "use_cases",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "/e-codex/ecodex/wiki/connector/use_cases"
+                  "link": "/ecodex/wiki/connector/use_cases"
                 },
                 "previous": {
                   "path": "wiki/connector",
-                  "baseUrl": "/e-codex/ecodex",
+                  "baseUrl": "/ecodex",
                   "fileName": "evidence",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "/e-codex/ecodex/wiki/connector/evidence"
+                  "link": "/ecodex/wiki/connector/evidence"
                 },
                 "description": "",
                 "title": "Modules",
@@ -300,19 +300,19 @@
               "ownPages": [{
                 "reference": {
                   "path": "wiki/connector",
-                  "baseUrl": "/e-codex/ecodex",
+                  "baseUrl": "/ecodex",
                   "fileName": "use_cases",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "/e-codex/ecodex/wiki/connector/use_cases"
+                  "link": "/ecodex/wiki/connector/use_cases"
                 },
                 "previous": {
                   "path": "wiki/connector",
-                  "baseUrl": "/e-codex/ecodex",
+                  "baseUrl": "/ecodex",
                   "fileName": "modules_description",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "/e-codex/ecodex/wiki/connector/modules_description"
+                  "link": "/ecodex/wiki/connector/modules_description"
                 },
                 "description": "",
                 "title": "Use Cases",
@@ -324,24 +324,24 @@
             {
               "reference": {
                 "path": "wiki",
-                "baseUrl": "/e-codex/ecodex",
+                "baseUrl": "/ecodex",
                 "fileName": "connector",
                 "extension": "html",
                 "usePrettyUrl": true,
-                "link": "/e-codex/ecodex/wiki/connector"
+                "link": "/ecodex/wiki/connector"
               },
               "description": "",
               "title": "Domibus   Connector",
-              "content": "<html>\n <head><\/head>\n <body>\n  <ul> \n   <li><a href=\"/e-codex/ecodex/wiki/connector/evidence\">Evidence<\/a><\/li> \n   <li><a href=\"/e-codex/ecodex/wiki/connector/modules_description\">Modules<\/a><\/li> \n   <li><a href=\"/e-codex/ecodex/wiki/connector/use_cases\">Use Cases<\/a><\/li> \n  <\/ul> \n <\/body>\n<\/html>\n"
+              "content": "<html>\n <head><\/head>\n <body>\n  <ul> \n   <li><a href=\"/ecodex/wiki/connector/evidence\">Evidence<\/a><\/li> \n   <li><a href=\"/ecodex/wiki/connector/modules_description\">Modules<\/a><\/li> \n   <li><a href=\"/ecodex/wiki/connector/use_cases\">Use Cases<\/a><\/li> \n  <\/ul> \n <\/body>\n<\/html>\n"
             },
             {
               "reference": {
                 "path": "wiki/connector",
-                "baseUrl": "/e-codex/ecodex",
+                "baseUrl": "/ecodex",
                 "fileName": "book",
                 "extension": "pdf",
                 "usePrettyUrl": false,
-                "link": "/e-codex/ecodex/wiki/connector/book.pdf"
+                "link": "/ecodex/wiki/connector/book.pdf"
               },
               "description": "",
               "title": "Domibus Connector Book",
@@ -357,19 +357,19 @@
               "ownPages": [{
                 "reference": {
                   "path": "wiki/ecodex",
-                  "baseUrl": "/e-codex/ecodex",
+                  "baseUrl": "/ecodex",
                   "fileName": "ecodex_protocol",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "/e-codex/ecodex/wiki/ecodex/ecodex_protocol"
+                  "link": "/ecodex/wiki/ecodex/ecodex_protocol"
                 },
                 "next": {
                   "path": "wiki/ecodex",
-                  "baseUrl": "/e-codex/ecodex",
+                  "baseUrl": "/ecodex",
                   "fileName": "example_deployment",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "/e-codex/ecodex/wiki/ecodex/example_deployment"
+                  "link": "/ecodex/wiki/ecodex/example_deployment"
                 },
                 "description": "",
                 "title": "e-Codex Protocol specification",
@@ -381,27 +381,27 @@
               "ownPages": [{
                 "reference": {
                   "path": "wiki/ecodex",
-                  "baseUrl": "/e-codex/ecodex",
+                  "baseUrl": "/ecodex",
                   "fileName": "configuration_update",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "/e-codex/ecodex/wiki/ecodex/configuration_update"
+                  "link": "/ecodex/wiki/ecodex/configuration_update"
                 },
                 "next": {
                   "path": "wiki/ecodex",
-                  "baseUrl": "/e-codex/ecodex",
+                  "baseUrl": "/ecodex",
                   "fileName": "differences_edelivery_ecodex",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "/e-codex/ecodex/wiki/ecodex/differences_edelivery_ecodex"
+                  "link": "/ecodex/wiki/ecodex/differences_edelivery_ecodex"
                 },
                 "previous": {
                   "path": "wiki/ecodex",
-                  "baseUrl": "/e-codex/ecodex",
+                  "baseUrl": "/ecodex",
                   "fileName": "example_deployment",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "/e-codex/ecodex/wiki/ecodex/example_deployment"
+                  "link": "/ecodex/wiki/ecodex/example_deployment"
                 },
                 "description": "",
                 "title": "Configuration Update",
@@ -413,19 +413,19 @@
               "ownPages": [{
                 "reference": {
                   "path": "wiki/ecodex",
-                  "baseUrl": "/e-codex/ecodex",
+                  "baseUrl": "/ecodex",
                   "fileName": "ecodex_attack_scenarios",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "/e-codex/ecodex/wiki/ecodex/ecodex_attack_scenarios"
+                  "link": "/ecodex/wiki/ecodex/ecodex_attack_scenarios"
                 },
                 "previous": {
                   "path": "wiki/ecodex",
-                  "baseUrl": "/e-codex/ecodex",
+                  "baseUrl": "/ecodex",
                   "fileName": "differences_edelivery_ecodex",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "/e-codex/ecodex/wiki/ecodex/differences_edelivery_ecodex"
+                  "link": "/ecodex/wiki/ecodex/differences_edelivery_ecodex"
                 },
                 "description": "",
                 "title": "Attack scenarios on e-Codex",
@@ -437,27 +437,27 @@
               "ownPages": [{
                 "reference": {
                   "path": "wiki/ecodex",
-                  "baseUrl": "/e-codex/ecodex",
+                  "baseUrl": "/ecodex",
                   "fileName": "example_deployment",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "/e-codex/ecodex/wiki/ecodex/example_deployment"
+                  "link": "/ecodex/wiki/ecodex/example_deployment"
                 },
                 "next": {
                   "path": "wiki/ecodex",
-                  "baseUrl": "/e-codex/ecodex",
+                  "baseUrl": "/ecodex",
                   "fileName": "configuration_update",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "/e-codex/ecodex/wiki/ecodex/configuration_update"
+                  "link": "/ecodex/wiki/ecodex/configuration_update"
                 },
                 "previous": {
                   "path": "wiki/ecodex",
-                  "baseUrl": "/e-codex/ecodex",
+                  "baseUrl": "/ecodex",
                   "fileName": "ecodex_protocol",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "/e-codex/ecodex/wiki/ecodex/ecodex_protocol"
+                  "link": "/ecodex/wiki/ecodex/ecodex_protocol"
                 },
                 "description": "",
                 "title": "Example Deployment",
@@ -469,27 +469,27 @@
               "ownPages": [{
                 "reference": {
                   "path": "wiki/ecodex",
-                  "baseUrl": "/e-codex/ecodex",
+                  "baseUrl": "/ecodex",
                   "fileName": "differences_edelivery_ecodex",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "/e-codex/ecodex/wiki/ecodex/differences_edelivery_ecodex"
+                  "link": "/ecodex/wiki/ecodex/differences_edelivery_ecodex"
                 },
                 "next": {
                   "path": "wiki/ecodex",
-                  "baseUrl": "/e-codex/ecodex",
+                  "baseUrl": "/ecodex",
                   "fileName": "ecodex_attack_scenarios",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "/e-codex/ecodex/wiki/ecodex/ecodex_attack_scenarios"
+                  "link": "/ecodex/wiki/ecodex/ecodex_attack_scenarios"
                 },
                 "previous": {
                   "path": "wiki/ecodex",
-                  "baseUrl": "/e-codex/ecodex",
+                  "baseUrl": "/ecodex",
                   "fileName": "configuration_update",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "/e-codex/ecodex/wiki/ecodex/configuration_update"
+                  "link": "/ecodex/wiki/ecodex/configuration_update"
                 },
                 "description": "",
                 "title": "Differences betweend e-Codex and e-Delivery",
@@ -501,24 +501,24 @@
             {
               "reference": {
                 "path": "wiki",
-                "baseUrl": "/e-codex/ecodex",
+                "baseUrl": "/ecodex",
                 "fileName": "ecodex",
                 "extension": "html",
                 "usePrettyUrl": true,
-                "link": "/e-codex/ecodex/wiki/ecodex"
+                "link": "/ecodex/wiki/ecodex"
               },
               "description": "",
               "title": "E Codex",
-              "content": "<html>\n <head><\/head>\n <body>\n  <ul> \n   <li><a href=\"/e-codex/ecodex/wiki/ecodex/ecodex_protocol\">e-Codex Protocol specification<\/a><\/li> \n   <li><a href=\"/e-codex/ecodex/wiki/ecodex/example_deployment\">Example Deployment<\/a><\/li> \n   <li><a href=\"/e-codex/ecodex/wiki/ecodex/configuration_update\">Configuration Update<\/a><\/li> \n   <li><a href=\"/e-codex/ecodex/wiki/ecodex/differences_edelivery_ecodex\">Differences betweend e-Codex and e-Delivery<\/a><\/li> \n   <li><a href=\"/e-codex/ecodex/wiki/ecodex/ecodex_attack_scenarios\">Attack scenarios on e-Codex<\/a><\/li> \n  <\/ul> \n <\/body>\n<\/html>\n"
+              "content": "<html>\n <head><\/head>\n <body>\n  <ul> \n   <li><a href=\"/ecodex/wiki/ecodex/ecodex_protocol\">e-Codex Protocol specification<\/a><\/li> \n   <li><a href=\"/ecodex/wiki/ecodex/example_deployment\">Example Deployment<\/a><\/li> \n   <li><a href=\"/ecodex/wiki/ecodex/configuration_update\">Configuration Update<\/a><\/li> \n   <li><a href=\"/ecodex/wiki/ecodex/differences_edelivery_ecodex\">Differences betweend e-Codex and e-Delivery<\/a><\/li> \n   <li><a href=\"/ecodex/wiki/ecodex/ecodex_attack_scenarios\">Attack scenarios on e-Codex<\/a><\/li> \n  <\/ul> \n <\/body>\n<\/html>\n"
             },
             {
               "reference": {
                 "path": "wiki/ecodex",
-                "baseUrl": "/e-codex/ecodex",
+                "baseUrl": "/ecodex",
                 "fileName": "book",
                 "extension": "pdf",
                 "usePrettyUrl": false,
-                "link": "/e-codex/ecodex/wiki/ecodex/book.pdf"
+                "link": "/ecodex/wiki/ecodex/book.pdf"
               },
               "description": "",
               "title": "eCodex Book",
@@ -530,11 +530,11 @@
       "ownPages": [{
         "reference": {
           "path": "",
-          "baseUrl": "/e-codex/ecodex",
+          "baseUrl": "/ecodex",
           "fileName": "wiki",
           "extension": "html",
           "usePrettyUrl": true,
-          "link": "/e-codex/ecodex/wiki"
+          "link": "/ecodex/wiki"
         },
         "description": "",
         "title": "Wiki",
@@ -549,11 +549,11 @@
           "ownPages": [{
             "reference": {
               "path": "categories/category2",
-              "baseUrl": "/e-codex/ecodex",
+              "baseUrl": "/ecodex",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "/e-codex/ecodex/categories/category2",
+              "link": "/ecodex/categories/category2",
               "title": "Category 2"
             },
             "description": "",
@@ -566,11 +566,11 @@
           "ownPages": [{
             "reference": {
               "path": "categories/category1",
-              "baseUrl": "/e-codex/ecodex",
+              "baseUrl": "/ecodex",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "/e-codex/ecodex/categories/category1",
+              "link": "/ecodex/categories/category1",
               "title": "Category 1"
             },
             "description": "",
@@ -582,11 +582,11 @@
       "ownPages": [{
         "reference": {
           "path": "categories",
-          "baseUrl": "/e-codex/ecodex",
+          "baseUrl": "/ecodex",
           "fileName": "/",
           "extension": "html",
           "usePrettyUrl": true,
-          "link": "/e-codex/ecodex/categories",
+          "link": "/ecodex/categories",
           "title": "Categories"
         },
         "description": "",
@@ -602,11 +602,11 @@
           "ownPages": [{
             "reference": {
               "path": "authors",
-              "baseUrl": "/e-codex/ecodex",
+              "baseUrl": "/ecodex",
               "fileName": "author-one/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "/e-codex/ecodex/authors/author-one"
+              "link": "/ecodex/authors/author-one"
             },
             "description": "",
             "title": "Author One",
@@ -618,11 +618,11 @@
           "ownPages": [{
             "reference": {
               "path": "authors",
-              "baseUrl": "/e-codex/ecodex",
+              "baseUrl": "/ecodex",
               "fileName": "author-two/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "/e-codex/ecodex/authors/author-two"
+              "link": "/ecodex/authors/author-two"
             },
             "description": "",
             "title": "Author Two",
@@ -639,11 +639,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/one",
-              "baseUrl": "/e-codex/ecodex",
+              "baseUrl": "/ecodex",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "/e-codex/ecodex/tags/one",
+              "link": "/ecodex/tags/one",
               "title": "One"
             },
             "description": "",
@@ -656,11 +656,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/three",
-              "baseUrl": "/e-codex/ecodex",
+              "baseUrl": "/ecodex",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "/e-codex/ecodex/tags/three",
+              "link": "/ecodex/tags/three",
               "title": "Three"
             },
             "description": "",
@@ -673,11 +673,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/two",
-              "baseUrl": "/e-codex/ecodex",
+              "baseUrl": "/ecodex",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "/e-codex/ecodex/tags/two",
+              "link": "/ecodex/tags/two",
               "title": "Two"
             },
             "description": "",
@@ -689,11 +689,11 @@
       "ownPages": [{
         "reference": {
           "path": "tags",
-          "baseUrl": "/e-codex/ecodex",
+          "baseUrl": "/ecodex",
           "fileName": "/",
           "extension": "html",
           "usePrettyUrl": true,
-          "link": "/e-codex/ecodex/tags",
+          "link": "/ecodex/tags",
           "title": "Tags"
         },
         "description": "",
@@ -706,11 +706,11 @@
     {
       "reference": {
         "path": "",
-        "baseUrl": "/e-codex/ecodex",
+        "baseUrl": "/ecodex",
         "fileName": "",
         "extension": "html",
         "usePrettyUrl": true,
-        "link": "/e-codex/ecodex"
+        "link": "/ecodex"
       },
       "description": "",
       "title": "e-Codex",
@@ -719,11 +719,11 @@
     {
       "reference": {
         "path": "",
-        "baseUrl": "/e-codex/ecodex",
+        "baseUrl": "/ecodex",
         "fileName": "404",
         "extension": "html",
         "usePrettyUrl": false,
-        "link": "/e-codex/ecodex/404.html"
+        "link": "/ecodex/404.html"
       },
       "description": "",
       "title": "e-Codex",

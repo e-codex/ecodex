@@ -4,80 +4,80 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>/e-codex/ecodex/wiki</loc>
-        <lastmod>2020-03-04</lastmod>
+        <loc>/ecodex/wiki</loc>
+        <lastmod>2020-03-10</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/e-codex/ecodex/wiki/connector</loc>
-        <lastmod>2020-03-04</lastmod>
+        <loc>/ecodex/wiki/connector</loc>
+        <lastmod>2020-03-10</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/e-codex/ecodex/wiki/connector/book.pdf</loc>
-        <lastmod>2020-03-04</lastmod>
+        <loc>/ecodex/wiki/connector/book.pdf</loc>
+        <lastmod>2020-03-10</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/e-codex/ecodex/wiki/connector/evidence</loc>
-        <lastmod>2020-03-04</lastmod>
+        <loc>/ecodex/wiki/connector/evidence</loc>
+        <lastmod>2020-03-10</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/e-codex/ecodex/wiki/connector/modules_description</loc>
-        <lastmod>2020-03-04</lastmod>
+        <loc>/ecodex/wiki/connector/modules_description</loc>
+        <lastmod>2020-03-10</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/e-codex/ecodex/wiki/connector/use_cases</loc>
-        <lastmod>2020-03-04</lastmod>
+        <loc>/ecodex/wiki/connector/use_cases</loc>
+        <lastmod>2020-03-10</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/e-codex/ecodex/wiki/ecodex</loc>
-        <lastmod>2020-03-04</lastmod>
+        <loc>/ecodex/wiki/ecodex</loc>
+        <lastmod>2020-03-10</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/e-codex/ecodex/wiki/ecodex/book.pdf</loc>
-        <lastmod>2020-03-04</lastmod>
+        <loc>/ecodex/wiki/ecodex/book.pdf</loc>
+        <lastmod>2020-03-10</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/e-codex/ecodex/wiki/ecodex/ecodex_protocol</loc>
-        <lastmod>2020-03-04</lastmod>
+        <loc>/ecodex/wiki/ecodex/ecodex_protocol</loc>
+        <lastmod>2020-03-10</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/e-codex/ecodex/wiki/ecodex/example_deployment</loc>
-        <lastmod>2020-03-04</lastmod>
+        <loc>/ecodex/wiki/ecodex/example_deployment</loc>
+        <lastmod>2020-03-10</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/e-codex/ecodex/wiki/ecodex/configuration_update</loc>
-        <lastmod>2020-03-04</lastmod>
+        <loc>/ecodex/wiki/ecodex/configuration_update</loc>
+        <lastmod>2020-03-10</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/e-codex/ecodex/wiki/ecodex/differences_edelivery_ecodex</loc>
-        <lastmod>2020-03-04</lastmod>
+        <loc>/ecodex/wiki/ecodex/differences_edelivery_ecodex</loc>
+        <lastmod>2020-03-10</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/e-codex/ecodex/wiki/ecodex/ecodex_attack_scenarios</loc>
-        <lastmod>2020-03-04</lastmod>
+        <loc>/ecodex/wiki/ecodex/ecodex_attack_scenarios</loc>
+        <lastmod>2020-03-10</lastmod>
         <priority>0.0</priority>
         
     </url>
