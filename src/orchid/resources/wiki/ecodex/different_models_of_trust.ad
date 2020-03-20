@@ -1,0 +1,61 @@
+Different Models of Trust
+=========================
+
+////
+Work in Progress
+////
+:description: Some different models of trust
+:library: Asciidoctor
+:stylesheet: asciidoc.css
+:imagesdir: ../../../assets/media/images/
+
+== Introduction
+
+This text will give a brief overview of the different approaches to ensure trust
+on a document. This document will not take any considerations on the level
+of security provided by the described approaches. Especially since the approaches
+have been invented during different times and infrastructures.
+
+
+== Trust of a Document
+
+Since the written word has been invented the need of really identify the source of the document has become urgent.
+At the beginning link:https://en.wikipedia.org/wiki/Seal_(emblem)[seals] has been used for that purpose.
+Over the time different technologies envolved for sealing and signing paper based documents. Within
+different countries also different technologies has been developed for the the digital document.
+
+
+=== The closed system
+
+As long as documents are only used within the same system the owner of the creator of the document
+can be read out of the document metadata. Windows as an example is storing for each document,
+which user has accessed it. So as long as the integrity of the system itself (and of course the administrator)
+is not violated the information who has changed the document can be determined from the document metadata.
+For organisations of course the system is becoming a whole network with many servers including mainframes.
+The closed system approach usually applies for mainframes. Mainframe systems have a strong user seperation
+and multi user management. So any document changes can be logged into an audit database. Especially the
+action of "signing" a document.
+
+=== The PKI-System (PKI - Public Key Infrastructure)
+
+The PKI-System relies on asymmetric encryption. A document is signed by the private key of an key pair.
+The ownership of the keypair itself is prooved by an third party . This proove itself is also a signed
+document. This proove is also known as certificate.
+
+
+
+The different usages of link:https://en.wikipedia.org/wiki/Public_key_infrastructure[PKIs]
+
+* Certificate authorities
+* Web of trust
+* Blockchain-based PKI
+
+
+== Ways of signing a Document
+
+=== Embedded Signature
+
+=== Detached Signature
+
+=== Blockchain based Signature
+
