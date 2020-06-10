@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidAll:0.17.5" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidCore:0.17.5" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.31" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.3.31" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.31" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.31" level="project" />
+    <orderEntry type="library" name="Maven: com.google.inject:guice:4.2.2" level="project" />
+    <orderEntry type="library" name="Maven: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:25.1-android" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.checkerframework:checker-compat-qual:2.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.errorprone:error_prone_annotations:2.1.3" level="project" />
+    <orderEntry type="library" name="Maven: com.google.j2objc:j2objc-annotations:1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.mojo:animal-sniffer-annotations:1.14" level="project" />
+    <orderEntry type="library" name="Maven: io.github.classgraph:classgraph:4.8.37" level="project" />
+    <orderEntry type="library" name="Maven: com.eden:Common:1.11.4" level="project" />
+    <orderEntry type="library" name="Maven: com.eden:Clog:2.0.7" level="project" />
+    <orderEntry type="library" name="Maven: org.fusesource.jansi:jansi:1.14" level="project" />
+    <orderEntry type="library" name="Maven: com.eden:Clog4j:2.0.7" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.22" level="project" />
+    <orderEntry type="library" name="Maven: com.eden:krow:0.1.12" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:3.14.2" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.okio:okio:1.17.2" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.9" level="project" />
+    <orderEntry type="library" name="Maven: net.coobird:thumbnailator:0.4.8" level="project" />
+    <orderEntry type="library" name="Maven: javax.validation:validation-api:2.0.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.json:json:20180813" level="project" />
+    <orderEntry type="library" name="Maven: com.vladsch.flexmark:flexmark:0.42.12" level="project" />
+    <orderEntry type="library" name="Maven: com.vladsch.flexmark:flexmark-util:0.42.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.hibernate.validator:hibernate-validator:6.0.16.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jboss.logging:jboss-logging:3.3.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml:classmate:1.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.glassfish:javax.el:3.0.1-b11" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.yaml:snakeyaml:1.24" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.moandjiezana.toml:toml4j:0.7.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.code.gson:gson:2.8.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.pebbletemplates:pebble:3.0.10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.unbescape:unbescape:1.1.6.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.bit3:jsass:5.8.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.commons:commons-text:1.6" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.sharegov:mjson:1.4.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: junit:junit:4.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.univocity:univocity-parsers:2.8.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.vladsch.flexmark:flexmark-ext-aside:0.42.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.vladsch.flexmark:flexmark-jira-converter:0.42.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.vladsch.flexmark:flexmark-ext-gfm-strikethrough:0.42.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.vladsch.flexmark:flexmark-ext-tables:0.42.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.vladsch.flexmark:flexmark-ext-wikilink:0.42.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.vladsch.flexmark:flexmark-ext-ins:0.42.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.vladsch.flexmark:flexmark-ext-superscript:0.42.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.vladsch.flexmark:flexmark-formatter:0.42.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.vladsch.flexmark:flexmark-ext-attributes:0.42.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.vladsch.flexmark:flexmark-ext-enumerated-reference:0.42.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.vladsch.flexmark:flexmark-ext-gfm-tables:0.42.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.vladsch.flexmark:flexmark-ext-gfm-tasklist:0.42.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.vladsch.flexmark:flexmark-ext-toc:0.42.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.nanohttpd:nanohttpd:2.3.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.nanohttpd:nanohttpd-websocket:2.3.1" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidBsDoc:0.17.5" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidCopper:0.17.5" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidEditorial:0.17.5" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidFutureImperfect:0.17.5" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidAzure:0.17.5" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidBitbucket:0.17.5" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidGithub:0.17.5" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidGitlab:0.17.5" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidNetlify:0.17.5" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidAsciidoc:0.17.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.asciidoctor:asciidoctorj:2.0.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.asciidoctor:asciidoctorj-api:2.0.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jruby:jruby:9.2.7.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jruby:jruby-core:9.2.7.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.jnr:jnr-netdb:1.1.6" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.jnr:jnr-enxio:0.19" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.jnr:jnr-unixsocket:0.20" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.jnr:jnr-posix:3.0.49" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.jnr:jnr-constants:0.9.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.jnr:jffi:1.2.18" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.jnr:jffi:native:1.2.18" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jruby.joni:joni:2.1.26" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jruby.jcodings:jcodings:1.0.43" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jruby:dirgra:0.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.headius:invokebinder:1.11" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.headius:options:1.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.jcraft:jzlib:1.1.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.martiansoftware:nailgun-server:0.9.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: joda-time:joda-time:2.9.9" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.headius:backport9:1.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jruby:jruby-stdlib:9.2.7.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.beust:jcommander:1.35" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidBible:0.17.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.JavaEden:Eden:0.4.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.JavaEden:American-Bible-Society-Client:0.5.0" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidDiagrams:0.17.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: net.sourceforge.plantuml:plantuml:1.2019.6" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidSyntaxHighlighter:0.17.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.python:jython-standalone:2.7.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.pygments:pygments:2.4.2" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidWritersBlocks:0.17.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.atteo:evo-inflector:1.2.2" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidChangelog:0.17.5" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidForms:0.17.5" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidGroovydoc:0.17.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.eden:groovydoc-runner:0.2.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.eden:groovydoc-models:0.2.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jetbrains.kotlin:kotlin-reflect:1.3.21" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jetbrains.kotlinx:kotlinx-serialization-runtime:0.9.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jetbrains.kotlinx:kotlinx-serialization-runtime-common:0.9.1" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidJavadoc:0.17.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.eden:javadoc-runner:0.2.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.eden:javadoc-models:0.2.3" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidKotlindoc:0.17.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.eden:dokka-runner:0.2.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.eden:dokka-models:0.2.3" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidKSS:0.17.5" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidNetlifyCMS:0.17.5" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidPages:0.17.5" level="project" />
+    <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.12.1" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidPluginDocs:0.17.5" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidPosts:0.17.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: javax.xml.bind:jaxb-api:2.3.0" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidPresentations:0.17.5" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidSearch:0.17.5" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidSwagger:0.17.5" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidSwiftdoc:0.17.5" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidTaxonomies:0.17.5" level="project" />
+    <orderEntry type="library" name="Maven: io.github.javaeden.orchid:OrchidWiki:0.17.5" level="project" />
+    <orderEntry type="library" name="Maven: com.openhtmltopdf:openhtmltopdf-core:0.0.1-RC20" level="project" />
+    <orderEntry type="library" name="Maven: com.openhtmltopdf:openhtmltopdf-pdfbox:0.0.1-RC20" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.pdfbox:pdfbox:2.0.15" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.pdfbox:fontbox:2.0.15" level="project" />
+    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.pdfbox:xmpbox:2.0.15" level="project" />
+    <orderEntry type="library" name="Maven: de.rototor.pdfbox:graphics2d:0.22" level="project" />
+    <orderEntry type="library" name="Maven: com.openhtmltopdf:openhtmltopdf-jsoup-dom-converter:0.0.1-RC20" level="project" />
+    <orderEntry type="library" name="Maven: com.openhtmltopdf:openhtmltopdf-slf4j:0.0.1-RC20" level="project" />
+    <orderEntry type="library" name="Maven: com.openhtmltopdf:openhtmltopdf-svg-support:0.0.1-RC20" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.xmlgraphics:batik-transcoder:1.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.xmlgraphics:batik-anim:1.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.xmlgraphics:batik-css:1.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.xmlgraphics:batik-parser:1.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.xmlgraphics:batik-svg-dom:1.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.xmlgraphics:batik-awt-util:1.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.xmlgraphics:batik-bridge:1.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.xmlgraphics:batik-script:1.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.xmlgraphics:batik-dom:1.10" level="project" />
+    <orderEntry type="library" name="Maven: xalan:xalan:2.7.2" level="project" />
+    <orderEntry type="library" name="Maven: xalan:serializer:2.7.2" level="project" />
+    <orderEntry type="library" name="Maven: xml-apis:xml-apis:1.3.04" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.xmlgraphics:batik-gvt:1.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.xmlgraphics:batik-svggen:1.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.xmlgraphics:batik-util:1.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.xmlgraphics:batik-constants:1.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.xmlgraphics:batik-i18n:1.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.xmlgraphics:batik-xml:1.10" level="project" />
+    <orderEntry type="library" name="Maven: xml-apis:xml-apis-ext:1.3.04" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.xmlgraphics:batik-codec:1.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.xmlgraphics:batik-ext:1.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.xmlgraphics:xmlgraphics-commons:2.1" level="project" />
+  </component>
+</module>
